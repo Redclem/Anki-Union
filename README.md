@@ -1,3 +1,3 @@
 # Anki-Union
 
-Des decks anki sympas.
+Des paquets anki sympas.
