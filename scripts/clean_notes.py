@@ -14,7 +14,7 @@ for mod in mw.col.models.all_names_and_ids():
                 lim = 0
                 idx = text.find(fun, lim)
                 while idx != -1:
-                    if idx > 0 and text[idx-1] != '\\' and text[idx - 6:idx] != "\\text{" and (not text[idx-1].isalnum()):
+                    if idx > 0 and text[idx-1] != '\\' and text[idx - 6:idx] != "\\text{" and (not text[idx-1].isalpha()):
                         text = text[:idx] + "\\text{" + fun + "}" + text[idx+len(fun):]
                     lim = idx + 8 + len(fun)
                     idx = text.find(fun, lim)
