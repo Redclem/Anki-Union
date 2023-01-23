@@ -40,7 +40,8 @@ with MyCol("/home/redclem/.local/share/Anki2/Utilisateur 1/collection.anki2") as
         for tok in data.split(";"):
             if tok == "": continue
             spl = tok.split("|")
-            hashes_i[spl[0]] = spl[1]
+            if(len(spl) >= 2):
+                hashes_i[spl[0]] = spl[1]
     
     decks_n_i = col.decks.all_names_and_ids()
 
@@ -71,7 +72,7 @@ with MyCol("/home/redclem/.local/share/Anki2/Utilisateur 1/collection.anki2") as
             print("Skipping {}".format(filename))
         elif dname in hashes_c.keys():
             print("Exporting {}".format(filename))
-            #col.export_anki_package(out_path=path, limit=lim, with_scheduling=False, with_media=False, legacy_support=False)
+            col.export_anki_package(out_path=path, limit=lim, with_scheduling=False, with_media=False, legacy_support=False)
 
 
     with open("hashes.txt", "w") as f:
