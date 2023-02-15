@@ -16,7 +16,7 @@ class MyCol(Collection):
 
 
 
-with MyCol("/home/redclem/.local/share/Anki2/Utilisateur 1/collection.anki2") as col:
+with MyCol("/home/redclem/.local/share/Anki2/Redclem/collection.anki2") as col:
 
     hashes_c = {}
     
