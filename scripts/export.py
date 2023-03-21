@@ -19,10 +19,10 @@ class MyCol(Collection):
 with MyCol("/home/redclem/.local/share/Anki2/Redclem/collection.anki2") as col:
 
     hashes_c = {}
+    modified = {}
     
     for noteid in col.find_notes(""):
         note = col.get_note(noteid)
-        if len(note.cards()) == 0: continue
         did = note.cards()[0].current_deck_id()
         dname = col.decks.name(did)
 
@@ -40,14 +40,28 @@ with MyCol("/home/redclem/.local/share/Anki2/Redclem/collection.anki2") as col:
         for tok in data.split(";"):
             if tok == "": continue
             spl = tok.split("|")
-            if(len(spl) >= 2):
+            if len(spl) >= 2:
                 hashes_i[spl[0]] = spl[1]
     
     decks_n_i = col.decks.all_names_and_ids()
 
-    def exists_or_create(path):
-        if not isdir(path):
-            mkdir(path)
+    def exists_or_create(pth):
+        if not isdir(pth):
+            mkdir(pth)
+            
+    for deck in decks_n_i:
+        did = deck.id
+        dname = deck.name
+
+        if dname == "Default": continue
+
+        if not (dname in hashes_i.keys() and hashes_i[dname] == hashes_c[dname].hexdigest()) and dname in hashes_c.keys():
+            modified[did] = True
+            cdid = did
+            while len(col.decks.parents(cdid)):
+                cdid = col.decks.parents(cdid)[0].id
+                modified[cdid] = True
+
 
     for deck in decks_n_i:
         did = deck.id
@@ -68,11 +82,14 @@ with MyCol("/home/redclem/.local/share/Anki2/Redclem/collection.anki2") as col:
 
         lim = DeckIdLimit(did)
 
-        if dname in hashes_i.keys() and hashes_i[dname] == hashes_c[dname].hexdigest():
-            print("Skipping {}".format(filename))
-        elif dname in hashes_c.keys():
+        if did in modified.keys():
             print("Exporting {}".format(filename))
-            col.export_anki_package(out_path=path, limit=lim, with_scheduling=False, with_media=False, legacy_support=False)
+            col.export_anki_package(out_path=path, limit=lim, with_scheduling=False, with_media=False, legacy_support=True)
+        else:
+            print("Skipping {}".format(filename))
+            
+
+
 
 
     with open("hashes.txt", "w") as f:
