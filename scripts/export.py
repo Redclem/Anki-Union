@@ -59,7 +59,7 @@ with MyCol("/home/redclem/.local/share/Anki2/Redclem/collection.anki2") as col:
             modified[did] = True
             cdid = did
             while len(col.decks.parents(cdid)):
-                cdid = col.decks.parents(cdid)[0].id
+                cdid = col.decks.parents(cdid)[0]["id"]
                 modified[cdid] = True
 
 
