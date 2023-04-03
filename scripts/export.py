@@ -3,6 +3,13 @@ from os import mkdir, getcwd
 from os.path import isdir, isfile
 from anki.collection import DeckIdLimit
 from hashlib import sha256
+from sys import argv
+
+dry_run = False
+
+if "-d" in argv or "--dry-run" in argv:
+    dry_run = True
+
 
 class MyCol(Collection):
     def __init__(self, path):
@@ -15,83 +22,86 @@ class MyCol(Collection):
         self.close()
 
 
+def main():
+    with MyCol("/home/redclem/.local/share/Anki2/Redclem/collection.anki2") as col:
 
-with MyCol("/home/redclem/.local/share/Anki2/Redclem/collection.anki2") as col:
+        hashes_c = {}
+        modified = {}
 
-    hashes_c = {}
-    modified = {}
-    
-    for noteid in col.find_notes(""):
-        note = col.get_note(noteid)
-        did = note.cards()[0].current_deck_id()
-        dname = col.decks.name(did)
+        for noteid in col.find_notes(""):
+            note = col.get_note(noteid)
+            did = note.cards()[0].current_deck_id()
+            dname = col.decks.name(did)
 
-        if dname not in hashes_c.keys():
-            hashes_c[dname] = sha256()
+            if dname not in hashes_c.keys():
+                hashes_c[dname] = sha256()
 
-        for f in note.fields:
-            hashes_c[dname].update(f.encode())
+            for f in note.fields:
+                hashes_c[dname].update(f.encode())
 
-    hashes_i = {}
-    if isfile("hashes.txt"):
-        with open("hashes.txt", "r") as file:
-            data = file.read()
+        hashes_i = {}
+        if isfile("hashes.txt"):
+            with open("hashes.txt", "r") as file:
+                data = file.read()
 
-        for tok in data.split(";"):
-            if tok == "": continue
-            spl = tok.split("|")
-            if len(spl) >= 2:
-                hashes_i[spl[0]] = spl[1]
-    
-    decks_n_i = col.decks.all_names_and_ids()
+            for tok in data.split(";"):
+                if tok == "": continue
+                spl = tok.split("|")
+                if len(spl) >= 2:
+                    hashes_i[spl[0]] = spl[1]
 
-    def exists_or_create(pth):
-        if not isdir(pth):
-            mkdir(pth)
-            
-    for deck in decks_n_i:
-        did = deck.id
-        dname = deck.name
+        decks_n_i = col.decks.all_names_and_ids()
 
-        if dname == "Default": continue
+        def exists_or_create(pth):
+            if not isdir(pth):
+                mkdir(pth)
 
-        if not (dname in hashes_i.keys() and hashes_i[dname] == hashes_c[dname].hexdigest()) and dname in hashes_c.keys():
-            modified[did] = True
-            cdid = did
-            while len(col.decks.parents(cdid)):
-                cdid = col.decks.parents(cdid)[0]["id"]
-                modified[cdid] = True
+        for deck in decks_n_i:
+            did = deck.id
+            dname = deck.name
 
+            if dname == "Default":
+                continue
 
-    for deck in decks_n_i:
-        did = deck.id
-        dname = deck.name
+            if not (dname in hashes_i.keys() and
+                    hashes_i[dname] == hashes_c[dname].hexdigest()) and dname in hashes_c.keys():
+                modified[did] = True
+                cdid = did
+                for parent in col.decks.parents(cdid):
+                    cdid = parent["id"]
+                    modified[cdid] = True
 
-        tokens = dname.split("::")
-        filename = tokens.pop()
+        for deck in decks_n_i:
+            did = deck.id
+            dname = deck.name
 
-        path = getcwd()
-        exists_or_create(path)
+            tokens = dname.split("::")
+            filename = tokens.pop()
 
-        for i in tokens:
-            path += '/'
-            path += i
+            path = getcwd()
             exists_or_create(path)
 
-        path += '/' + filename + ".apkg"
+            for i in tokens:
+                path += '/'
+                path += i
+                exists_or_create(path)
 
-        lim = DeckIdLimit(did)
+            path += '/' + filename + ".apkg"
 
-        if did in modified.keys():
-            print("Exporting {}".format(filename))
-            col.export_anki_package(out_path=path, limit=lim, with_scheduling=False, with_media=False, legacy_support=True)
-        else:
-            print("Skipping {}".format(filename))
-            
+            lim = DeckIdLimit(did)
+
+            if did in modified.keys():
+                print("Exporting {}".format(filename))
+                if not dry_run:
+                    col.export_anki_package(out_path=path, limit=lim, with_scheduling=False, with_media=False,
+                                            legacy_support=True)
+            else:
+                print("Skipping {}".format(filename))
+
+        if not dry_run:
+            with open("hashes.txt", "w") as f:
+                for k, v in hashes_c.items():
+                    f.write(str(k) + '|' + v.hexdigest() + ';')
 
 
-
-
-    with open("hashes.txt", "w") as f:
-        for k,v in hashes_c.items():
-            f.write(str(k) + '|' + v.hexdigest() + ';')
+main()
