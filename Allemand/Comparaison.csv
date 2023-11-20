@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Q/R exemple	Allemand::Comparaison	Égalité	So/Ebenso/Genauso ... Wie	Er ist so alt wie ich.
+Q/R exemple	Allemand::Comparaison	Supériorité	Adjectif + -er Als	Er ist glücklich als sie.
+Q/R exemple	Allemand::Comparaison	Infériorité	Nicht so ... Wie, weniger ... Als	Er schwimmt nicht so schnell wie sie.
+Basique	Allemand::Comparaison	Terminaison avec e au superlatif	-d, -t, -s, -ß, -tz, -x, -z -sch (possible, sauf si la syllabe n'est pas accentuée)	
+Basique	Allemand::Comparaison	Terminaisons avec perte de e en déclinant et au comparatif	-er, -el (si précédé d'une voyelle)	

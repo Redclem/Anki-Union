@@ -1,0 +1,45 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basic	Première année::Physique::Régime sinusoidal forcé	\(\omega_0\) et \(Q\) RLC Série	\(\omega_0 = \frac{1}{\sqrt{LC}}, Q = \frac{L \omega_0}{R} = \frac {1}{RC\omega_0}\)
+Basic	Première année::Physique::Régime sinusoidal forcé	\(\omega_0\) et \(Q\) Système masse ressort	\(\omega_0 = \sqrt{\frac{k}{m}}, Q = \frac{m\omega_0}{h}\) Où \(h\) est le coefficient de frottement
+Basic	Première année::Physique::Régime sinusoidal forcé	Grandeurs dont dépend la réponse à un forçage sinusoïdal	\(\omega_0, Q, E, \omega, \varphi_E\)
+Basic	Première année::Physique::Régime sinusoidal forcé	Déphasage entre \(e(t)\) et \(s(t) = u_c(t)\) si \(\omega = \omega_0\) et amplitude du signal	\(\varphi_s = -\frac{\pi}{2}\) (Quadrature de phase), S = QE
+Basic	Première année::Physique::Régime sinusoidal forcé	Condition / Définition de résonnance	Résonnance si l'amplitude du signal atteint un maximum en une fréquence finie non nulle
+Basic	Première année::Physique::Régime sinusoidal forcé	Bande passante	Domaine de fréquence pour lequel \(S_\omega > \frac{S_{max}}{\sqrt{2}}\)
+Basic	Première année::Physique::Régime sinusoidal forcé	Condition de résonance au bornes de C sur Q	\(Q > \frac{1}{\sqrt{2}}\)
+Basic	Première année::Physique::Régime sinusoidal forcé	Résonnance en intensité \(\omega_r\) et \(I_{max}\)	\(\omega_r = \omega_0\) et \(I_{max} = \frac{E}{R}\)
+Basic	Première année::Physique::Régime sinusoidal forcé	Facteur de qualité et bande passante (résonnance en intensité)	\(\frac{\Delta f}{f_0} = \frac{1}{Q}\)
+Basic	Première année::Physique::Régime sinusoidal forcé	Impédance complexe en RSF	\(\underline Z = \frac{\underline U}{\underline I}\)
+Basic	Première année::Physique::Régime sinusoidal forcé	Loi d'Ohm complexe	\(U = ZI\) ou \(u = Zi\) (Amplitudes complexes et valeurs instantanées)
+Basique	Première année::Physique::Régime sinusoidal forcé	Impédance complexe L et C	\(Z_L = j\omega L, Z_C = \frac{1}{j\omega C}\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Composante continue et fondamental d'une décomposition de fourier	Valeur moyenne et composante de même fréquence que le signal, respectivement
+Basique	Première année::Physique::Régime sinusoidal forcé	Valeur efficace d'un signal \text{sin}usoïdal	\(\frac{S_{max}}{\sqrt 2}\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Valeur efficace d'un signal	\(S_{eff} = \sqrt{\langle s(t)^2 \rangle} = \sqrt{S^2_{moy}}\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Théorème de Parseval	Carré de la valeur efficace d'un signal périodique est la somme des carrés des valeurs efficaces de ses harmoniques
+Basique	Première année::Physique::Régime sinusoidal forcé	Définition / Conditions d'un système physique linéaire	Si le système transforme e(t) en s(t): - Il transforme \(k \times e(t)\) en \(k \times s(t)\) - Il transforme \(e_1(t) + e_2(t)\) en \(s_1(t) + s_2(t)\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Définition d'un filtre linéaire	Un système physique linéaire capable de transmettre sélectivement certaines composantes \text{sin}usoïdales d'un signal \text{sin}usoïdal
+Basique	Première année::Physique::Régime sinusoidal forcé	Filtre passif	Filtre non alimenté en énergie
+Basique	Première année::Physique::Régime sinusoidal forcé	Réponse fréquentielle	Lien entre une entrée \text{sin}usoïdale de fréquence f et la sortie (aussi de fréquence f)
+Basique	Première année::Physique::Régime sinusoidal forcé	Quadripôle	Portion de circuit à 4 bornes, deux pour l'entrée et deux pour la sortie
+Basique	Première année::Physique::Régime sinusoidal forcé	Ordre d'un système linéaire	Ordre de l'équation différentielle reliant l'entrée et la sortie
+Basique	Première année::Physique::Régime sinusoidal forcé	Fonction de transfert	\(\underline H(j\omega) = \frac{\underline s}{\underline e} = \frac{\underline S}{\underline E}\) Module : \(H(w) = |\underline H(jw)|\) Argument : \(\varphi(\omega) = Arg(\underline H(j\omega))\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Limites de la fonction de transfert	\(\omega \rightarrow 0\) : Comportement BF Limite de \(\underline H(j\omega)\) : Transfert statique \(H_0\) \(\omega \rightarrow  \infty\) : Comportement HF  Limite de \(\underline H(j\omega)\) : Régime très fortement variable
+Basique	Première année::Physique::Régime sinusoidal forcé	Amplification complexe en tension	\(\underline H(j\omega) = \frac{\underline U_s}{\underline U_e}\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Parties à étudier dans la réponse fréquentielle d'un filtre	Amplitude et déphasage
+Basique	Première année::Physique::Régime sinusoidal forcé	Une grandeur x suit une échelle logarithmique si	y = log x suit une échelle linéaire
+Basique	Première année::Physique::Régime sinusoidal forcé	Diagramme de Bode d'un filtre	L'ensemble des deux graphes représentant: - \(G_{dB}(\omega) = f(log(\omega))\), courbe du gain en dB tel que \(G_{dB} = 20log(|\underline H(j\omega)|) = 20log(\frac{U_s}{U_e})\) - \(\varphi(\omega) = g(log(w))\)   Aussi possible en fonction de f ou x
+Basique	Première année::Physique::Régime sinusoidal forcé	Pulsation de coupure	\(\omega_c\) Tel que: \(G(\omega_c) = \frac{G_{max}}{\sqrt 2}\) ou \(G_{dB} = G_{dB max} - 3 dB\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Bande passante	Ensemble des pulations pour lesquelles: \(G(\omega) \ge \frac{G_{max}}{\sqrt 2}\) ou \(G_{dB}(\omega) \ge G_{dBmax} - 3dB\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Diagramme de Bode asymptotique	Diagrame de Bode simplifié faisant apparaître: - Les asymptotes à basse et à haute fréquence ou pulsation - L'intersection exacte de ces asymptotes
+Basique	Première année::Physique::Régime sinusoidal forcé	Bande coupée	Intervalle de fréquences ou pulsations coupées
+Basique	Première année::Physique::Régime sinusoidal forcé	Composante filtrée	Composante dont l'amplitude en sortie est petite devant les amplitudes des autres composantes spectrales. \(S \lt \frac{S_{max}}{\sqrt 2}\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Filtre linéaire idéal	Filtre totalement les composantes souhaitées et restitue les autres sans les atténuer ni déphaser
+Basique	Première année::Physique::Régime sinusoidal forcé	Forme canonique filtre 1er ordre passe bas	\(H(j\omega) = H_0\frac{1}{1+jx}\) avec \(H_0\) le gain statique et \(x = \frac{\omega}{\omega_0} = \omega \tau\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Forme canonique filtre 1er ordre passe haut	\(H(j\omega) = H_\infty \frac{jx}{1+jx}\) avec \(H_\infty\) le gain en HF (\(\omega \rightarrow \infty\)) et \(x = \frac{\omega}{\omega_0} = \omega \tau\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Forme universelle du dénominateur du second ordre	\(\underline D(j\omega) = 1 - x^2 + j\frac{x}{Q}\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Filtre Passe bande et Q	Un filtre passe bande atténue les signaux \text{sin}usoïdaux en dehors de la bande passante. avec \([f_{min}, f_{max}]\) la bande passante: \(Q = \frac{f_0}{|f_{min} - f_{max}|}\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Grandeurs à étudier dans une étude asymptotique	\(\underline H, H, \varphi, G_{dB}\), pente et intersection des asymptotes
+Basique	Première année::Physique::Régime sinusoidal forcé	Ordonnée de l'intersection des asymptotes	\(G_{dBmax} - 20log(Q)\)
+Basique	Première année::Physique::Régime sinusoidal forcé	Hauteur de la résonance en dB	Q

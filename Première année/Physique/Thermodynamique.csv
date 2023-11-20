@@ -1,0 +1,242 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique	Première année::Physique::Thermodynamique	Corps pur	Constituant unique caractérisé par une formule \text{ch}imique définie
+Basique	Première année::Physique::Thermodynamique	Phase solide	Phase la plus compacte et ordonnée - Forme et volume propre - Ne peut s'écouler. Les particules ont des positions d'équilibre définies et régulièrement disposées - Distances inter-particulaires faibles : ordre moléculaire à longue portée
+Basique	Première année::Physique::Thermodynamique	Phase liquide	Phase compacte mais plus désordonnée - Pas de forme propre mais volume propre invariable. Peut s'écouler. - Les particules de la phase ont des positions aléatoires et peuvent se déplacer les unes par rapport aux autres. Ordre moléculaire à courte portée. - Distance moyenne entre les particules de l'ordre de la taille des particules
+Basique	Première année::Physique::Thermodynamique	Phase gazeuse	Phase dispersée et désordonnée - Ni forme propre ni volume propre. Peut s'écouler - Les particules occupent des positions d'équilibres bien définies et régulièrement disposées. - La distance entre les particules est bien plus grande que leur taille : pas d'ordre moléculaire. - Interaction entre particules faibles voire nulles
+Basique	Première année::Physique::Thermodynamique	Diffusion d'un gaz	Dans tout le volume offert, pas de forme propre
+Basique	Première année::Physique::Thermodynamique	Etat condensé	Etat solide ou liquide. Quasi incompressible (V quasi-constant)
+Basique	Première année::Physique::Thermodynamique	Ordre de grandeur masse volumique état condensé	\(\rho = 10^3 kg.m^{-3}\)
+Basique	Première année::Physique::Thermodynamique	Modèle de la phase condensée	Corps incompressible, indilatable (V = const)
+Basique	Première année::Physique::Thermodynamique	Etat fluide	Etat liquide ou gazeux
+Basique	Première année::Physique::Thermodynamique	Gaz	Fluides compressibles
+Basique	Première année::Physique::Thermodynamique	Densité des gaz	Par rapport à l'air : \(\rho = 1,3 kg.m^{-3}\)
+Basique	Première année::Physique::Thermodynamique	Liquides	Fluides quasi-incompressibles
+Basique	Première année::Physique::Thermodynamique	Volume molaire d'un gaz parfait (CNTP)	Loi d'avogadro-Ampère : \(V_m = 22.4 L.mol^{-1}\)
+Basique	Première année::Physique::Thermodynamique	Conditions normales de température et pression (C.N.T.P.)	t = 0°C = 273.15K et P = 1.013 bar (Pression atmos)
+Basique	Première année::Physique::Thermodynamique	Ordre de grandeur densité gaz par rapport à liquide	\(n_l^* \approx 10^3 n_g^*\), 1000 fois plus dense
+Basique	Première année::Physique::Thermodynamique	Echelle microscopique	Echelle d'une particule élémentaire de l'ordre de \(10^{-10} m\) - Matière discontinue, approche quantique nécéssaire - Chaque constituant se comporte individuellement comme un point matériel libre entre deux \text{ch}ocs
+Basique	Première année::Physique::Thermodynamique	Libre parcours moyen	Distance \(l_p\) moyenne du déplacement entre deux \text{ch}ocs successifs de particules
+Basique	Première année::Physique::Thermodynamique	Echelle macroscopique	Echelle correspondant à la taille L des objets du quotidien : \(L \approx 10^{-3}\) à 1m - Les propriétés à cette échelles sont des grandeurs mesurables (pression ou moles) ou repérables (températures)
+Basique	Première année::Physique::Thermodynamique	Nombre d'avogadro	\(N_A \approx 6.02 \times 10^{23}\)
+Basique	Première année::Physique::Thermodynamique	Ordre de grandeur du nombre de particules dans un conteneur à l'échelle macroscopique	Ordre du nombre d'Avogadro
+Basique	Première année::Physique::Thermodynamique	Echelle mésoscopique	Echelle intermédiaire entre macroscopique et mésoscopique - La matière est encore continue: grandeurs définies, considérées comme uniformes - Dimension de l'ordre du micromètre
+Basique	Première année::Physique::Thermodynamique	Pression p(M)	Grandeur scalaire intensive définie en M telle que \(d\vec F = p(M)d\vec S\) La pression p est la force par unité de surface exercée par un système sur une paroi. Unité : Pascal Pa
+Basique	Première année::Physique::Thermodynamique	Température	En K, Mesure macroscopique du degré d'agitation microscopique moyenne des particules du système, nulle quand \text{ch}aque particule est immobile
+Basique	Première année::Physique::Thermodynamique	Système \text{th}ermodynamique macroscopique	"Ensemble de corps macroscopiques contenant un très grand nombre de particules séparé du milieu extérieur (""reste de l'univers"") par une surface frontière ""de contrôle"". Cette surface est réelle ou fictive."
+Basique	Première année::Physique::Thermodynamique	Paroi diathermane	Paroi qui permet une transfert \text{th}ermique entre le système et l'extérieur
+Basique	Première année::Physique::Thermodynamique	Transformation d'un système	Evolution du système dans le temps
+Basique	Première année::Physique::Thermodynamique	Système ouvert	Système avec transfert de matière et d'énergie avec l'extérieur.
+Basique	Première année::Physique::Thermodynamique	Système fermé	Système sans tranfert de matière, nombre de particules fixe. Seuls les transferts d'énergie sont possibles.
+Basique	Première année::Physique::Thermodynamique	Système isolé	Système sans tranfert de matière ou d'énergie.
+Basique	Première année::Physique::Thermodynamique	Etat d'un système	Ensemble de caractéristiques microscopiques traduites par des grandeurs d'état, à un instant t, qui définit les conditions dans lequel se trouve le système.
+Basique	Première année::Physique::Thermodynamique	Grandeur d'état	Grandeur physique macroscopique mesurable associée au système, définie expérimentalement.
+Basique	Première année::Physique::Thermodynamique	Grandeur d'état extensive	Grandeur additive, liée à la dimension du système et proportionnelle à la quantité de matière.
+Basique	Première année::Physique::Thermodynamique	Grandeur d'état intensive	Grandeur d'état définie localement en \text{ch}aque point du système, non additive et indépendante de la quantité de matière.
+Basique	Première année::Physique::Thermodynamique	Grandeur intensive uniforme	Grandeur intensive ne dépendant pas de la position
+Basique	Première année::Physique::Thermodynamique	Milieu homogène	Milieu où les grandeurs intensives sont uniformes.
+Basique	Première année::Physique::Thermodynamique	Notation grandeur molaire	Majuscule, avec m en indice : \(X_m = \frac{X}{n}\)
+Basique	Première année::Physique::Thermodynamique	Notation grandeur massique	Minuscule sans indice : \(x = \frac{X}{m}\)
+Basique	Première année::Physique::Thermodynamique	Variance \(v\) d'un système	nombre de paramètres intensifs et indépendants caractérisant un état d'équilibre.
+Basique	Première année::Physique::Thermodynamique	Variance d'un fluide	En général, \(v = 2\) grandeurs d'état : Pression p en Pa et température T en K.
+Basique	Première année::Physique::Thermodynamique	Donner une représentation d'un système	Choisir des paramètres d'états bien adaptés à la situation et en nombre suffisant.
+Basique	Première année::Physique::Thermodynamique	Etat d'équilibre macroscopique d'un système	Pas de variation des paramètres d'état dans le temps et absence de transfert avec l'extérieur
+Basique	Première année::Physique::Thermodynamique	Paramètres d'équilibres	Paramètres intensifs caractérisant l'équilibre. Rupture d'équilibre s'ils varient.
+Basique	Première année::Physique::Thermodynamique	Equilibre \text{th}ermique	Température uniforme et n'évolue pas.
+Basique	Première année::Physique::Thermodynamique	Conditions équilibre mécanique	Les résultantes des forces sur les parties mobiles du systèmes sont nulles, pression uniforme et n'évolue pas. Equilibre des pressions de part et d'autre de (S)
+Basique	Première année::Physique::Thermodynamique	Equilibre \text{ch}imique	Le système tend vers une composition uniforme des constituants.
+Basique	Première année::Physique::Thermodynamique	Temps équilibre mécanique	Quasi instantané
+Basique	Première année::Physique::Thermodynamique	Temps équilibre \text{th}ermique	Très long devant l'équilibre mécanique
+Basique	Première année::Physique::Thermodynamique	Etat stationnaire	Etat où les paramètres d'état restent constants, avec transferts possibles.
+Basique	Première année::Physique::Thermodynamique	Propriété de la température	Propriété commune à tous les corps en équilibre quelque soit leur nature, grandeur intensive repérable
+Basique	Première année::Physique::Thermodynamique	Principe 0 de la \text{th}ermodynamique	Deux corps mis en contact tendent à acquérir un état d'équilibre \text{th}ermodynamique : ils sont alors à la même température. Deux corps en équilibre avec un troisième sont en équilibre entre eux
+Basique	Première année::Physique::Thermodynamique	Représentation vectorielle d'un élément de surface	Vecteur \(\overrightarrow {dS} \) porté par la normale à la surface, du fluide vers le solide, de norme \(dS\)
+Basique	Première année::Physique::Thermodynamique	Résultante des forces pressantes \(\overrightarrow {dF}\)	Moyenne des actions des particules sur la paroi pendant dt
+Basique	Première année::Physique::Thermodynamique	Définition Bar	1 Bar = \(10^5\) Pa
+Basique	Première année::Physique::Thermodynamique	Pression en tout point d'une paroi	Identique
+Basique	Première année::Physique::Thermodynamique	Définition pression cinétique \(p_c\)	Chocs des particules sur les parois du récipient
+Basique	Première année::Physique::Thermodynamique	Phase	Partie d'un système dont les paramètres intensifs varient continuellement en fonction de la position
+Basique	Première année::Physique::Thermodynamique	Phase uniforme	Partie d'un système dont les grandeurs intensives sont uniformes
+Basique	Première année::Physique::Thermodynamique	Système à une phase	Système homogène monophasé
+Basique	Première année::Physique::Thermodynamique	Système à deux phases	système hétérogène diphasé
+Basique	Première année::Physique::Thermodynamique	Système à plusieurs phases	Système hétérogène polyphasé
+Basique	Première année::Physique::Thermodynamique	Équation d'état	Relation mathématique de dépendance entre les différentes variables d'état décrivant un système en équilibre macroscopique
+Basique	Première année::Physique::Thermodynamique	Équation d'état modèle GP	\(pV = nRT\) avec R la constante des gaz parfaits
+Basique	Première année::Physique::Thermodynamique	Constante des gaz parfaits	\(R = 8.314 J.K^{-1}.mol^{-1}\)
+Basique	Première année::Physique::Thermodynamique	Fonction d'état	Fonction qui ne dépend que des grandeurs d'état du système (souvent à plusieurs variables)
+Basique	Première année::Physique::Thermodynamique	Modèle du GP et rôle	Modèle \text{th}ermodynamique décrivant le comportement de tous les gaz réels aux très faibles pressions. Le gaz parfait est un gaz idéal.
+Basique	Première année::Physique::Thermodynamique	Modèle du gaz parfait monoatomique (GPM)	On suppose le gaz constitué de N particules ponctuelles et sans interactions entre elles, seuls restent les interactions avec les parois du récipient.
+Basique	Première année::Physique::Thermodynamique	Pression cinétique d'un GPM	\(p(M) = \frac{1}{3}n^*mv^{*2}\) Où \(n^*\) est la densité de particules et \(v^*\) la vitesse quadratique moyenne
+Basique	Première année::Physique::Thermodynamique	Energie cinétique moyenne par particule	\(\langle E_c \rangle = \frac{1}{2}mv^{*2} = \frac{3}{2} k_B T\)
+Basique	Première année::Physique::Thermodynamique	Température cinétique	Mesure macroscopique de l'agitation \text{th}ermique des particules
+Basique	Première année::Physique::Thermodynamique	Température cinétique pour un GPM	\(T_c = \frac{mv^{*2}}{3k_B}\)
+Basique	Première année::Physique::Thermodynamique	Diagramme de Clapeyron	Diagramme pression en fonction du volume ou du volume massique
+Basique	Première année::Physique::Thermodynamique	Diagramme d'Amagat	Diagramme de \(pV\) ou \(pV_m\) en fonction de la pression p.
+Basique	Première année::Physique::Thermodynamique	Masse molaire de l'air	\(M_{air} = 29g.mol^{-1}\)
+Basique	Première année::Physique::Thermodynamique	Équation d'état modèle condensé	\(V = nV_m = const\)
+Basique	Première année::Physique::Thermodynamique	Energie interne	U mesurée en Joules J Énergie des particules microscopiques du système Σ, c'est à dire: - L'énergie cinétique de ces particules - L'énergie potentielle d'interaction de ces particules \(U = E_{c, micro} + E_{p, micro}\)
+Basique	Première année::Physique::Thermodynamique	Capacité \text{th}ermique à volume constant	Grandeur extensive mesurée en Joules par Kelvin \(J.K^{-1}\) pour un système \text{th}ermodynamique fermé Σ. Définie à volume constant par: \(dU = C_VdT\) ou \(C_V = \frac{dU}{dT}\) On peut aussi l'écrire en dérivée partielle
+Basique	Première année::Physique::Thermodynamique	Variation globale d'énergie interne avec la capacité \text{th}ermique à volume constant 	\(U_f - U_i = \int_{U_i}^{U_f}dU = \int_{U_i}^{U_f}C_V(T)dT\)
+Basique	Première année::Physique::Thermodynamique	Capacité \text{th}ermique molaire à volume constant 	\(C_{Vm}=\frac{C_V}{m}\) en \(J.K^{-1}.mol^{-1}\)
+Basique	Première année::Physique::Thermodynamique	Capacité \text{th}ermique massique à volume constant 	\(c_V = \frac{C_V}{m}\) en \(J.kg^{-1}.K^{-1}\)
+Basique	Première année::Physique::Thermodynamique	Constante de Boltzmann	\(k_B = \frac{R}{N_A} = 1.38 \times 10^{-23} J.K^{-1}\)
+Basique	Première année::Physique::Thermodynamique	Energie interne d'un GPM	\(U_{GPM} = \frac{3}{2}nRT = \frac{3}{2}Nk_bT\) Somme des énergies cinétiques des particules le constituant.
+Basique	Première année::Physique::Thermodynamique	Capacité \text{th}ermique molaire valeur numérique et totale GPM à volume constant selon R	\(C_V = \frac{3}{2}nR\) \(C_Vm = \frac{3}{2}R = 12.5 J.K^{-1}.mol^{-1}\)
+Basique	Première année::Physique::Thermodynamique	1ère loi de Joule / Energie interne d'un GP quelconque	L'énergie interne d'un GP quelconque ne dépend que de la température. \(U = U(T) = n * U_m(T)\) La capacité \text{th}ermique est donc: \(C_V = \frac{dU}{dT}\) et \(C_{Vm} = \frac{1}{n}\frac{dU}{dT} = \frac{dU_m}{dT}\) La capacité \text{th}ermique peut être considérée comme constante sur un gamme de température raisonnable
+Basique	Première année::Physique::Thermodynamique	Variation finie d'énergie interne d'un GP entre deux états	\(\Delta U = U_f - U_i = C_V(T_f - T_i) = C_V\Delta T = nC_{Vm}(T_f - T_i) = nC_{Vm}\Delta T\)
+Basique	Première année::Physique::Thermodynamique	Evolution de l'énergie interne d'un GP si T est constante	U constante
+Basique	Première année::Physique::Thermodynamique	Energie interne d'une phase condensée incompressible et indilatable	Ne dépend que de la température: \(U = U(T) = n \times U_m(T) = m\times u(T)\)  Donc à volume constant, \(C_V = \frac{dU}{dT}\)
+Basique	Première année::Physique::Thermodynamique	Variation d'énergie d'une phase condensée	\(\Delta U = U_f - U_i = C_V \times (T_f - T_i) = C_V\Delta T = nC_{Vm}\Delta T = mc_V\Delta T\)
+Basique	Première année::Physique::Thermodynamique	Définition transformation \text{th}ermodynamique	Processus au cours duquel un système \text{th}ermodynamique passe d'un état initial à un état final, sous l'action d'une perturbation. Une transformation peut être à la fois \text{th}ermique et mécanique
+Basique	Première année::Physique::Thermodynamique	Déclenchement d'une transformation \text{th}ermodynamique	Une transformation est déclenchée par une modification d'un contrainte extérieure entrainant une rupture d'équilibre.
+Basique	Première année::Physique::Thermodynamique	Conditions équilibre \text{th}ermique	Equilibre des températures
+Basique	Première année::Physique::Thermodynamique	"Transformation infiniement lente ""Quasi-statique"""	Transformation suffisament lentre pour que le système passe par une succession continue d'états d'équilibres infiniement voisins de (i) à (f). Les variables d'état sont à tous moments définies.
+Basique	Première année::Physique::Thermodynamique	Définition transformation réversible	Transformation infiniement lente, dont le sens d'évolution peut être inversé en modifiant de manière infinitésimale une contrainte extérieure. Pas de cause d'irréversibilité au cours de la transformation.
+Basique	Première année::Physique::Thermodynamique	Paramètres d'état dans une transformation réversible	Définis à \text{ch}aque instant et varient continûment.
+Basique	Première année::Physique::Thermodynamique	Réversibilité d'un transformation réelle / spontanée	Irréversible
+Basique	Première année::Physique::Thermodynamique	Transformation isotherme	Transformation où la température est définie et constante tout au long de la transformation: \(T_i = T_f = T\)
+Basique	Première année::Physique::Thermodynamique	Transformation isochore	Transformation où le volume est définie et constante tout au long de la transformation : \(V_i = V = V_f\) La surface (S) n'est pas déformée pendant l'évolution
+Basique	Première année::Physique::Thermodynamique	Transformation isobare	Transformation où la pression est définie et constante tout au long de la transformation: \(p_i = p_f = p\)
+Basique	Première année::Physique::Thermodynamique	Réversibilité d'une transformation isotherme	Réversible
+Basique	Première année::Physique::Thermodynamique	Transformation adiabatique	Transformation sans transfert \text{th}ermique avec l'extérieur. Température nécessairement non-constante.
+Basique	Première année::Physique::Thermodynamique	Transformation monobare	Transformation où la pression extérieure \(p_e\) est constante.
+Basique	Première année::Physique::Thermodynamique	Transformation monotherme	Transformation où la température extérieure \(T_e\) est constante. On a nécessairement \(T_f = T_e\)
+Basique	Première année::Physique::Thermodynamique	Transformation cyclique	Transformation telle que état initial = état final
+Basique	Première année::Physique::Thermodynamique	Signe d'un transfert d'énergie	Positif si le système reçoit de l'énergie, négatif s'il en fournit / cède.
+Basique	Première année::Physique::Thermodynamique	Expression courante du travail élémentaire de la pression extérieure sur un système à parois mobiles	\(\delta W = -p_edV\), avec \(dV\) la variation du volume du système.
+Basique	Première année::Physique::Thermodynamique	Expression du travail global des forces pressantes	\(W = \int_i^f\delta W = - \int_{Vi}^{Vf}p_edV\)
+Basique	Première année::Physique::Thermodynamique	Travail global lors d'une transformation isochore	Nul : \(W = 0\)
+Basique	Première année::Physique::Thermodynamique	Travail global lors d'une transformation isobare	\(W = -p\Delta V = -p_{sys}(V_f - V_i)\)
+Basique	Première année::Physique::Thermodynamique	Signification graphique de W	La valeur absolue de W est l'aire A comprise entre la courbe de la transformation et l'axe des abscisses sur le diagramme de Clapeyron
+Basique	Première année::Physique::Thermodynamique	Signification graphique de W pour une transformation cyclique	W négatif si le cycle est dans le sens horaire sur le diagramme de Clapeyron. La valeur absolue de W est l'aire du cycle.
+Basique	Première année::Physique::Thermodynamique	Cycle fournissant du travail	Cycle moteur
+Basique	Première année::Physique::Thermodynamique	Cycle recevant du travail	Cycle récépteur
+Basique	Première année::Physique::Thermodynamique	Méthode de calcul de W	- Déterminer l'état initial et final - Déterminer la pression extérieure - Déterminer si elle est identique à la pression du système (brutal / réversible?), utiliser l'équation du GP, déduire la nature de la transformation - Calculer \( W = \int -p_edV\)
+Basique	Première année::Physique::Thermodynamique	Définition transfert \text{th}ermique	Noté Q en joule, échange d'énergie d'agitation entre deux systèmes. Q > 0 si le système reçoit de l'énergie, Q < 0 s'il cède.
+Basique	Première année::Physique::Thermodynamique	Flux \text{th}ermique transfert par conduction régime stationnaire	\(\Phi_{1\rightarrow 2} = \frac{T_1 - T_2}{R_ {\text{th}}}\) où \(R_{\text{th}}\) est la résistance \text{th}ermique en \(K.W^{-1}\)
+Basique	Première année::Physique::Thermodynamique	Flux \text{th}ermique transfert \text{th}ermique conducto-convectif (fluide-solide)	\(\Phi_{s\rightarrow f} = h(T_s - T_f)S\) avec S la surface et h le coefficient de transfert \text{th}ermique en \(W.K^{-1}.m^{-2}\)
+Basique	Première année::Physique::Thermodynamique	Transfert \text{th}ermique pendant une transformation adiabatique	\(Q = 0\)
+Basique	Première année::Physique::Thermodynamique	Paroi calorifugée / athermane et équilibre \text{th}ermique	Paroi bloquant les transferts \text{th}ermiques. Pas d'établissement de l'équilibre \text{th}ermique. \(T_f \ne T_i\)
+Basique	Première année::Physique::Thermodynamique	Thermostat	Corps capable de transfert \text{th}ermique conservant une température constante \(T_0\)
+Basique	Première année::Physique::Thermodynamique	Condition transformation monotherme thermostat	Une transformation est monotherme si le système échange de l'énergie avec un et un seul \text{th}ermostat.
+Basique	Première année::Physique::Thermodynamique	Energie totale	En J : \(E = E_{c, micro} + E_{p, micro} + E_{c, macro} + E_{p, macro}\)
+Basique	Première année::Physique::Thermodynamique	Principe de conservation	L'énergie totale de tout système isolé est conservative
+Basique	Première année::Physique::Thermodynamique	Premier principe de la \text{th}ermodynamique	Entre deux états (i) et (f): \(\Delta E_c + \Delta U = W + Q\)
+Basique	Première année::Physique::Thermodynamique	Cas particulier usuel premier principe : système au repos sans variation d'énergie potentielle de pesanteur	\(\Delta E_m = \Delta E_c + \Delta E_p = 0 \Rightarrow \Delta U = W_{nc} + Q\)
+Basique	Première année::Physique::Thermodynamique	Détente de Joule Gay Lussac	Dédente adiabatique brutale dans le vide : \(W = 0, Q = 0\) Aussi iso-énergétique : \(\Delta U = 0\) et irréversible
+Basique	Première année::Physique::Thermodynamique	Corps incompressible	Corps insensible à un effet de p sur son volume
+Basique	Première année::Physique::Thermodynamique	Corps indilatable	Corps insensible à un effet de T sur son volume
+Basique	Première année::Physique::Thermodynamique	Transformation ouverte	Transformation ayant un début et une fin
+Basic	Première année::Physique::Thermodynamique	Expression fonction enthalpie et unité	\(H = U + pV\) en Joules
+Basic	Première année::Physique::Thermodynamique	Transfert \text{th}ermique en fonction de l'enthalpie, transformation monobare	\(Q_p = \Delta H = H_f - H_i\)
+Basic	Première année::Physique::Thermodynamique	Capacité \text{th}ermique à pression constante	\(C_p = \frac{dH}{dT}\) et \( \frac{1}{n} \frac{dH}{dT}\) Pour le GP et la phase condensée, ne dépend pas de la température.
+Basic	Première année::Physique::Thermodynamique	Enthalpie gaz parfait en fonction de \(T\) seulement	\(H(T) = U(T) + nRT\)
+Basic	Première année::Physique::Thermodynamique	2ème loi de Joule	Si l'énergie \(U\) d'un GP ne dépend que de la température, il en est de même pour \(H\).
+Basic	Première année::Physique::Thermodynamique	Définition \(\gamma\)	\(\gamma = \frac{C_{pm}}{C_{Vm}} = \frac{C_p}{C_V}\)
+Basic	Première année::Physique::Thermodynamique	Relation de Mayer d'un GP	\(C_{pm} - C_{Vm} = R\)
+Basic	Première année::Physique::Thermodynamique	\(dU\) et \(dH\) pour une transformation d'un fluide incompressible ou d'un solide	\(dU \cong dH = CdT = nC_mdT = mcdT\)
+Basic	Première année::Physique::Thermodynamique	Faire un bilan enthalpique	Exprimer \(\Delta H\) entre deux états.
+Basic	Première année::Physique::Thermodynamique	\(dU\) et \(dH\) évolution élémentaire GP	\(dU = nC_{Vm}dT\) et \(dH = nC_{pm}dT\)
+Basic	Première année::Physique::Thermodynamique	\(C_{Vm}\) et \(C_{pm}\) pour un GP en fonction de \(\gamma\)	\(C_{Vm} = \frac{R}{\gamma - 1}\) et \(C_{Vm} = \frac{\gamma R}{\gamma - 1}\)
+Basic	Première année::Physique::Thermodynamique	Loi de Laplace	Pour un GP, pendant une transformation adiabatique quasi statique \(pV^{\gamma}, TV^{\gamma - 1}, p^{1 - \gamma}T^{\gamma}\) constantes.
+Basic	Première année::Physique::Thermodynamique	Cycle de carnot 	Cycle consitué de 2 isothermes réversibles et 2 adiabatiques réversibles
+Basic	Première année::Physique::Thermodynamique	Relation caractéristique cycle ditherme de Carnot	\(\frac{Q_1}{T_1} + \frac{Q_2}{T_2} = 0\), avec \(Q_1, T_1\) le transfert \text{th}ermique et la température pendant l'isotherme 1, et de même pour \(Q_2, T_2\)
+Basic	Première année::Physique::Thermodynamique	Détente	Transformation au cours de laquelle le volume molaire d'un gaz augmente et sa pression diminue
+Basic	Première année::Physique::Thermodynamique	Variation de température d'un fluide suivant la 1ère loi de Joule lors d'une détente de Joule-Gay Lussac	Nulle
+Basic	Première année::Physique::Thermodynamique	Evolution de température lors d'une détente de Joule-Gay Lussac selon le modèle de Van der Waals	Diminue : \(\Delta T \le 0\)
+Basic	Première année::Physique::Thermodynamique	Détente de Joule Thomson	Détente lente irréversible d'un GP qui s'écoule à travers une paroi poreuse.
+Basic	Première année::Physique::Thermodynamique	Ecoulement pendant une détente de JT	Stationnaire
+Basic	Première année::Physique::Thermodynamique	Propriétés de la détente JT	Adiabatique, irréversible, Isenthalpique
+Basic	Première année::Physique::Thermodynamique	Différence de température d'un gaz parfait lors d'un détente JT	Nulle
+Basic	Première année::Physique::Thermodynamique	Définition d'un GP selon les lois de Joule	Un gaz parfait est un gaz qui suit les deux lois de Joule et réciproquement
+Basic	Première année::Physique::Thermodynamique	Condition pour qu'un fluide suive la seconde loi de Joule	Son enthalpie ne dépend que de sa température: pas de variation de température lors d'une détente JT
+Basic	Première année::Physique::Thermodynamique	Fonction entropie \(S\) du second principe	Fonction d'état extensive associée à tout système \text{th}ermodynamique fermé en \(J.K^{-1}\). Mesure du degré de désordre microscopique du système \text{th}ermodynamique
+Basic	Première année::Physique::Thermodynamique	Enoncé du second principe	- \(S\) est une fonction d'état extensive en \(J.K^{-1}\) - Lors de l'évolution d'un système fermé, \(\Delta S = S_{ech} + S_{créée}\), avec l'entropie créée \(S_{créée} \ge 0\) entropie d'échange : \(S_{ech} = \frac{Q}{T_{frontière}}\) \(S_{créée} = 0\) si la transformation est réversible
+Basic	Première année::Physique::Thermodynamique	Autre expression de l'inégalité sur \(\Delta S\)	\(\Delta S \ge S_{ech} = \frac{Q}{T_{ext}}\)
+Basic	Première année::Physique::Thermodynamique	Variation d'entropie pour un système fermé et calorifugé	\(\Delta S = S_{créée} \ge 0\)
+Basique	Première année::Physique::Thermodynamique	Entropie échangée avec un \text{th}ermostat	\(S_{ech} = \frac{Q}{T_0}\)
+Basique	Première année::Physique::Thermodynamique	Entropie d'un système isolé	Grandeur \(S\) non conservative qui ne peut que croître : \(\Delta S = S_{créée} > 0\)
+Basique	Première année::Physique::Thermodynamique	État d'équilibre d'un système isolé (Entropie)	État où son entropie devient maximale
+Basique	Première année::Physique::Thermodynamique	Entropie transformation adiabatique et équilibre 	Croissante : \(\Delta S = S_{créée} \ge 0\) Le système atteint un état d'équilibre correspondant à l'entropie maximale.
+Basique	Première année::Physique::Thermodynamique	Transformation isentropique	Transformation où \(S_f = S_i\) et \(\Delta S = 0\)
+Basique	Première année::Physique::Thermodynamique	Entropie transformation adiabatique réversible	\(\Delta S = S_{créée} = 0\). La transformation est isentropique.
+Basique	Première année::Physique::Thermodynamique	Entropie transformation cyclique	Variation d'entropie nulle, l'entropie créée est l'opposé de l'entropie échangée: \(\Delta S = 0 \Rightarrow S_{ech} = -S_{créée}\)
+Basique	Première année::Physique::Thermodynamique	Entropie du GP selon \(p, T\)	\(S = nC_{pm}\times \text{ln}(T) - nR\times \text{ln}(p) + cst\) \(S = mc_p\times \text{ln}(T) - m\frac{R}{M}\times \text{ln}(p) + cst\)
+Basique	Première année::Physique::Thermodynamique	Entropie GP selon \(T, V\)	\(S = nC_{Vm}\times \text{ln}(T) + nR \times \text{ln}(V) + cst\) \(S = mc_v\times \text{ln}(T) + m\frac{R}{M} \times \text{ln}(V) + cst\)
+Basique	Première année::Physique::Thermodynamique	Faire un bilan entropique	Écrire \(\Delta S\) au cours d'une évolution entre deux états d'équilibre, interpréter son signe.
+Basique	Première année::Physique::Thermodynamique	Entropie d'une phase condensée	\(S = mc \times \text{ln}(T) + cst\)
+Basique	Première année::Physique::Thermodynamique	Variance corps pur diphasé et grandeur	\(v = 1\), un équilibre est caractérisé par \(T\) ou \(p\)
+Basique	Première année::Physique::Thermodynamique	Pression de vapeur saturante	On appelle pression de vapeur saturante \(p_{sat}\) entre les phases 1 et 2(gaz) à la température \(T\) la pression \(p_{eq,12}(T) = p_{sat}(T)\) du système en équilibre sous les deux phases 1 et 2(gaz) sous la température \(T\).
+Basique	Première année::Physique::Thermodynamique	Transition de phase	Passage d'un corps d'un état physique à un autre, de manière réversible à \(T\) et \(p\) fixées.
+Basique	Première année::Physique::Thermodynamique	Interprétation miscroscopique d'un \text{ch}angement de phase	Modification des forces d'interactions entre particules constitutives du corps pur
+Basique	Première année::Physique::Thermodynamique	Titre massique	Dans un système diphasé (phase 1 et 2) de masse totale \(m = m_1 + m_2\), le titre massique \(x\) du corps pur dans la phase 2 est \(x = \frac{m_2}{m} = \frac{m_2}{m_1 + m_2}\)
+Basique	Première année::Physique::Thermodynamique	Point critique	Point \(C\) terminant la coubre de vaporisation dans le diagramme (\(p\), \(T\)). Au delà de \(T_C\), plus de transition liquide-vapeur, les deux phases deviennent identiques.
+Basique	Première année::Physique::Thermodynamique	Point triple	Point \(T\) où le corps est en équilibre avec ses trois phases: jonction entre les trois courbes de saturation sur le diagramme (\(p\), \(T\)). Variance nulle en ce point : \(p_T\) et \(T_T\) fixées.
+Basique	Première année::Physique::Thermodynamique	Température de \text{ch}angement d'état	On appelle température de \text{ch}angement d'état entre les phases 1 et 2 à la pression \(p\) la température \(T_{eq,12}(p)\) du système en équilibre entre les phases 1 et 2 à la pression \(p\)
+Basique	Première année::Physique::Thermodynamique	Résolution par analyse binaire	On fait une hypothèse sur la composition du système à l'équilibre et on vérifie sa validité: - Hypothèse 1 : la vapeur est sèche : \(p < p_{sat}\), pas de liquide dans le système - Hypothèse 2 : la vapeur est saturante, donc \(p = p_{sat}\), le système contient du liquide
+Basique	Première année::Physique::Thermodynamique	Isothermes d'Andrew	Transformations à température \(T_0\) imposée, avec pression relevée en fonction du volume massique.
+Basique	Première année::Physique::Thermodynamique	Courbe de saturation	Courbe séparant les domaines liquide, gaz et gaz + liquide dans le diagramme \((p, v)\)
+Basique	Première année::Physique::Thermodynamique	Nombres de moles de la vapeur dans un palier dans le diagramme de Clapeyron d'un corps pur diphasé	Jamais constant
+Basique	Première année::Physique::Thermodynamique	Volume massique d'un corps pur diphasé selon \(x\)	\(v = xv_g + (1-x)v_l\)
+Basique	Première année::Physique::Thermodynamique	Theorème des moments	\(x = \frac{v - v_l}{v_g - v_l}\)
+Basique	Première année::Physique::Thermodynamique	Atmosphère inerte	Phase gazeuse qui ne \text{ch}ange pas d'état et ne réagit pas aux autres corps en présence.
+Basique	Première année::Physique::Thermodynamique	Pression partielle	La pression partielle d'un constituant A d'un mélange gazeux est la pression \(P_A\) qu'il exercerait s'il occupait seul l'ensemble du volume offert au mélange.
+Basique	Première année::Physique::Thermodynamique	Enthalpie massique de transition de phase	Différence des enthalpies massiques d'un corps dans la phase 2 et dans la phase 1 à la température du \text{ch}angement de phase, à la pression d'équilibre: \(l_{1\rightarrow 2} = h_{1\rightarrow 2} = \Delta_{1 \rightarrow 2}h = h_2(T) - h_1(T)\)
+Basique	Première année::Physique::Thermodynamique	\(\Delta h\) \text{ch}angement d'état isotherme diphasé	\(\Delta h = \Delta x * h_{1\rightarrow 2}\) avec \(x\) la fraction phase 2.
+Basique	Première année::Physique::Thermodynamique	\(\Delta H\) \text{ch}angement d'état de toute une masse et \(Q\)	\(\Delta H = mh_{1\rightarrow 2} = Q_p\)
+Basique	Première année::Physique::Thermodynamique	Enthalpie massique corps diphasé selon \(x\)	\(h = xh_V + (1-x)h_L\)
+Basique	Première année::Physique::Thermodynamique	Théorème des moments (Enthalpie)	\(x = \frac{h - h_L}{h_V - h_L}\)
+Basique	Première année::Physique::Thermodynamique	Entropie de transition de phase	Variation d'entropie au cours de la transition de 1kg de corps de l'état 1 à 2: \(s_{1 \rightarrow 2} = \Delta s_{1 \rightarrow 2} = s_2 - s_1 = \frac{h_2 - h_1}{T_{eq}} = \frac{h_{1 \rightarrow 2}}{T_{eq}}\)
+Basique	Première année::Physique::Thermodynamique	Variation d'entropie \text{ch}angement d'état pour une masse m	Pour un système global qui subit un \text{ch}angement d'état à \(T\) constant: \(\Delta S = S_{ech} = \frac{Q}{T} = \frac{\Delta H}{T} = \frac{mh_{1 \rightarrow 2}}{T}\)
+Basique	Première année::Physique::Thermodynamique	Entropie diphasé selon \(x\)	\(s = xs_g + (1 - x) s_l\)
+Basique	Première année::Physique::Thermodynamique	Théorème des moments (entropie)	\(x = \frac{s - s_l}{s_v - s_l}\)
+Basique	Première année::Physique::Thermodynamique	Évolution du désordre lors du passage solide liquide vapeur	Croissant de solide vers liquide et liquide vers vapeur
+Basique	Première année::Physique::Thermodynamique	Utilisation du diagramme de Clapeyron pour le corps pur diphasé	Décomposer les transformations en plusieurs transformations: - Variation de température pour le liquide seul ou le gaz seul - Changement d'état à une température donnée - Changement de composition
+Basic	Première année::Physique::Thermodynamique	Rendement cycle de carnot	\(r = 1-\frac{T_f}{T_c}\)
+Basique	Première année::Physique::Thermodynamique	Machine \text{th}ermique	Dispositif réalisant une conversion continue d'énergie en échangeant du travail \(W\) et de l'énergie \text{th}ermique \(Q\) avec une ou plusieurs sources.
+Basique	Première année::Physique::Thermodynamique	Machine \text{th}ermique motrice	Machine \text{th}ermique destinée à fournir du travail à un système mécanique extérieur (\(W\) négatif)
+Basique	Première année::Physique::Thermodynamique	Machine \text{th}ermique récéptrice	Machine \text{th}ermique destinée à recevoir du travail (\(W\) positif) afin de fournir ou de prélever de l'énergie à une source
+Basique	Première année::Physique::Thermodynamique	Bilans des fonctions d'état machine \text{th}ermique	La variation de toute fonction d'état au cours d'un cycle décrit par la machine est nulle: \(\Delta U_{cycle} = \Delta H_{cycle} = \Delta S_{cycle} = 0\)
+Basique	Première année::Physique::Thermodynamique	Transferts machine \text{th}ermique	Les transferts se font avec une ou plusieurs zones distinctes du milieu extérieur,dont les températures sont différentes et en général variables. On modélise ces zones par des \text{th}ermostats parfaits.
+Basique	Première année::Physique::Thermodynamique	Agent \text{th}ermique	Fluide décrivant un cycle dans une machine \text{th}ermique au cours duquel il échange de l'énergie sous forme de travail et transfert \text{th}ermique.
+Basique	Première année::Physique::Thermodynamique	Transformations de l'agent \text{th}ermique dans une machine \text{th}ermique	Les transformations sont modélisées par des transformations simples entre des états clairement identifiés.
+Basique	Première année::Physique::Thermodynamique	Coefficient de performance	\(\eta = \frac{\text{énergie utile}}{\text{énergie coûteuse}} = \frac{\text{transfert énergie utile ou désiré}}{\text{transfert énergie dépensé}}\) Appelé rendement pour un moteur et efficacité pour un récépteur.
+Basique	Première année::Physique::Thermodynamique	Schéma de principe d'une machine \text{th}ermique	Schéma représentant le système au centre d'échanges avec l'extérieur et identifiant les différents \text{th}ermostats - Les échanges sont représentés par des flèches entre le système et l'extérieur et les \text{th}ermostats - Une grandeur d'échange \(W\) ou \(Q\) est toujours représentée du point de vue du système: positive s'il la reçoit, négative s'il la cède
+Basique	Première année::Physique::Thermodynamique	Bilan premier principe machine \text{th}ermique	\(\Delta U = W + \sum Q_i = 0\)
+Basique	Première année::Physique::Thermodynamique	Bilan second principe machine \text{th}ermique	\(\Delta S_{cycle} = 0 = \sum S_{ech, i} + S_{créée}, S_{créée} \ge 0\)
+Basique	Première année::Physique::Thermodynamique	Second principe machine \text{th}ermique modélisée avec \text{th}ermostats / Inégalité de Clausius	\(\sum \frac{Q_i}{T_i} \le 0\), égalité si l'évolution de la machine est réversible
+Basique	Première année::Physique::Thermodynamique	Machine monotherme	Machine n'échangeant de l'énergie \text{th}ermique qu'avec un \text{th}ermostat. Nécéssairement récéptrice.
+Basique	Première année::Physique::Thermodynamique	Principe de Carnot	Pour fournir du travail \(W\), un système doit échanger du transfert \text{th}ermique avec au moins deux sources de températures différentes.
+Basique	Première année::Physique::Thermodynamique	Machine ditherme	Système qui n'échange pendant son cycle de l'énergie \text{th}ermique qu'avec 2 \text{th}ermostats: elle évolue successivement au contact d'un source froide de température \(T_F\) et une \text{ch}aude de température \(T_C > T_F\), et échange un travail total \(W\) avec l'extérieur.
+Basique	Première année::Physique::Thermodynamique	Premier principe cycle ditherme	\(W + Q_C + Q_F = 0\)
+Basique	Première année::Physique::Thermodynamique	Deuxième principe cycle ditherme	\(\Delta S = \frac{Q_C}{T_C} + \frac{Q_F}{T_F} + S_{créée} = 0\)
+Basique	Première année::Physique::Thermodynamique	Inégalité de Clausius cycle ditherme	Pour une machine \text{th}ermique qui échange de la \text{ch}aleur avec une source \text{ch}aude et une source froide: \(\frac{Q_C}{T_C} + \frac{Q_F}{T_F} \le 0\) ou \(\frac{Q_C}{T_C} + \frac{Q_F}{T_F} = -S_{créée}\) Avec égalité si le cycle est réversible.
+Basique	Première année::Physique::Thermodynamique	Diagramme de Raveau	Diagramme \((Q_C, Q_F)\) permettant de classer les machines dithermes en fonction de leur utilité
+Basique	Première année::Physique::Thermodynamique	Rendement moteur	\(r = \frac{|W|}{Q_C} = \frac{-W}{Q_C} < 1\)
+Basique	Première année::Physique::Thermodynamique	Sens des échanges \text{th}ermiques dans un moteur	Sens naturel / spontané
+Basique	Première année::Physique::Thermodynamique	Rendement maximal motheur ditherme	\(r_{max} = r_{reversible} = r_{carnot} = 1 - \frac{T_F}{T_C}\), Rendement cycle moteur réversible de carnot
+Basique	Première année::Physique::Thermodynamique	Théorème de Carnot	Toute machine ditherme réelle en cycle moteur a un rendement inférieur ou égal à celui du cycle de carnot entre les mêmes \text{th}ermostats: \(r = \frac{-W}{Q_C} \le r_{carnot} = 1 - \frac{T_F}{T_C}\)
+Basique	Première année::Physique::Thermodynamique	Deuxième principe cycle de Carnot GP	Dans un moteur décrivant le cycle de carnot avec un GP, l'égalité de Clausius est respectée: \(\frac{Q_C}{T_C} + \frac{Q_F}{T_F} = 0\)
+Basique	Première année::Physique::Thermodynamique	Grandeur utile machine frigorifique	La grandeur utile est \(Q_F > 0\)
+Basique	Première année::Physique::Thermodynamique	Efficacité frigorifique maximale d'une machine	\(e_{Fcarnot} = \frac{T_F}{T_C - T_F}\) Correspond à l'efficacité du cycle de carnot décrit à l'envers du moteur.
+Basique	Première année::Physique::Thermodynamique	Grandeur utile pompe à \text{ch}aleur	La grandeur utile est \(Q_C < 0\).
+Basique	Première année::Physique::Thermodynamique	Efficacité \text{th}ermique maximale d'une pompe à \text{ch}aleur	\(e_{Fcarnot} = \frac{T_C}{T_C - T_F}\) Correspond à l'efficacité du cycle de carnot décrit à l'envers du moteur et au fonctionnement parfaitement réversible d'une pompe à \text{ch}aleur entre \(T_C\) et \(T_F\). Cette valeur est donc atteinte si \(S_{créée} = 0\)
+Basique	Première année::Physique::Thermodynamique	Modélisation cycle moteur 4 temps	Cycle de Beau de Rochas : deux isochores, deux adiabatiques réversibles
+Basic	Première année::Physique::Thermodynamique	Travail élémentaire \(\delta W_p\) Joule Kelvin système ouvert	\(\delta W_p = (p_1 v_1 - p_2 v_2) \delta m\)
+Basic	Première année::Physique::Thermodynamique	\(\Delta h\) Joule Kelvin ouvert	\(\Delta h = -\Delta e\)
+Basic	Première année::Physique::Thermodynamique	Grandeurs d'état fluide en écoulement permanent	Les grandeurs d'état du fluide sont des constantes du temps
+Basic	Première année::Physique::Thermodynamique	Débit de masse	Masse qui traverse une section droite de l'écoulement par unité de temps, en \(kg.s^{-1}\) \(D_m = \frac{\delta m}{dt}\)
+Basic	Première année::Physique::Thermodynamique	Travail de pression écoulement stationnaire	\(\delta W_p = \delta W_e + \delta W_s = (p_ev_e - p_sv_s)\delta m\)
+Basic	Première année::Physique::Thermodynamique	Enoncé industriel du permier principe de la \text{th}ermodynamique	Pour un système ouvert en écoulement stationnaire, où il reçoit par unité de masse un travail utile \(w_u\) et un transfert \text{th}ermique \(q\): \(\Delta h + \Delta e_c ( + \Delta e_{p,ext}) = w_u + q\)
+Basic	Première année::Physique::Thermodynamique	Premier principe industriel simplifié	Si \(\Delta E_c = \Delta E_p = 0\): \(\Delta h = w_u + q\)
+Basic	Première année::Physique::Thermodynamique	Premier principe industriel simplifié dans le cas adiabatique	\(\Delta h = w_u\)
+Basic	Première année::Physique::Thermodynamique	Enoncé industriel avec débit	\(D_m[h + e_c + e_p]^s_e = P_u + P_{\text{th}}\)
+Basic	Première année::Physique::Thermodynamique	Enoncé industriel avec débit simplifié	\(D_m(h_s - h_e) = P_u + P_{\text{th}}\)
+Basic	Première année::Physique::Thermodynamique	Compresseur	Dispositif destiné à augmenter la pression d'un gaz en recevant du travail. La transformation est généralement adiabatique.
+Basic	Première année::Physique::Thermodynamique	Turbine	Dispositif fournissant du travail en convertissant l'enthalpie du fluide. La transformation est généralement adiabatique.
+Basic	Première année::Physique::Thermodynamique	Évaporateur	Échangeur \text{th}ermique où un mélange liquide vapeur est entièrement vaporisé: \(q > 0\)
+Basic	Première année::Physique::Thermodynamique	Condenseur	Échangeur \text{th}ermique où une vapeur est entièrement liquéfiée : \(q < 0\)
+Basic	Première année::Physique::Thermodynamique	Deuxième principe par unité de masse système ouvert	\(\Delta s = (s_s - s_e) = \frac{q}{T_{ext}} + s_{créée}\)
+Basic	Première année::Physique::Thermodynamique	Diagramme enthalpique	Diagramme \((p,h)\) représentant les états d'équilibre du fluide caloporteur. \(h\) en abscisse, \(p\) en ordonnée. Délimite les trois zones du corps pur diphasé.

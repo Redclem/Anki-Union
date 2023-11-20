@@ -1,0 +1,36 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Groupe	Ensemble \( G \) muni d'une loi associative, avec un neutre dans \( G \) , et pour laquelle tout élément de \( G \) admet un symétrique dans \( G\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Sous-groupe	Un sous-groupe est une partie d'un groupe, non vide et stable par l'opération ( \( \forall x,y \in G', xy^{-1} \in G'\)).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Sous-groupes de \(\Z\)	Les sous-groupes de \( \Z \) sont exactement les \( m\Z, m \in \Z\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Groupe des automorphismes	Pour tout groupe \( G \) , \( (Aut(G), \circ)\) est un groupe.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Image directe / réciproque d'un sous-groupe par un morphisme de groupes	L'image directe ou réciproque d'un sous-groupe par un morphisme de groupe est un sous-groupe.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Caractérisation de l'injectivité d'un morphisme de groupe	Un morphisme de groupe \( \varphi \) est injectif ssi \( Ker(\varphi)\) est trivial.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Intersection de sous-groupes	Avec \( (H_i)_{i \in I} \) une famille de sous-groupes de \( G \) , \( \bigcap\limits_{i \in I}H_i \) est un sous-groupe de \( G\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Sous-groupe engendré et description explicite	Avec \( A \) une partie quelconque d'un groupe \( G \) , la partie engendrée par \( A \) est l'intersection des sous-groupes de \( G \) contenant \( A \) , notée \( \langle A \rangle \) ou \( Gr(A) \) . C'est l'ensemble des produits d'éléments et d'inverses d'éléments de \( A\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Partie génératrice, groupe engendré.	 \( A \) est partie génératrice du groupe \( G \) ssi \( G =\langle A \rangle \) . \( G \) est engendré par \( A\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Groupe monogène	 \( G \) est monogène ssi \( \exists g \in G, G = \langle g \rangle\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Structure des groupes monogènes	Une groupe monogène \( G \) est  - Soit infini auquel cas \( G \simeq \Z \)  - Soit fini auquel cas \( G \simeq \Z / n\Z \) et \( n = |G|\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Groupe cyclique	Un groupe cyclique est un groupe monogène fini.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Unicité des groupes cycliques finis 	Pour \( n \in \N^* \) , \( \Z / n\Z \) est le seul groupe cyclique de cardinal \( n\) à isomorphisme près.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Élément d'ordre fini	 \( g \in G \) est d'ordre fini \( \exists n \ge 1, g^n = 1_G \) . Dans ce cas, l'ordre de \( g \) est l'entier \( \omega_g \in \N^* \) minimal tel que \( g^{\omega_g} = 1\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Ordre fini et caractère cyclique	 \( g \in G \) est d'ordre fini ssi \( \langle g \rangle \) est cyclique. Dans ce cas, \( \omega_g = |\langle g \rangle |\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Puissance annulant un élément et ordre	Pour \( g \in G \) d'ordre fini, \( \forall n \in \N, g^n = 1_G \Leftrightarrow \omega_g | n\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Ordre d'une puissance d'un élément d'ordre fini	Si \( g \in G \) est d'ordre \( n \in \N^* \) , pour \( k \in \N \) , \( g^k \) est d'ordre fini et \( \omega_{g^k} = \frac{n}{n\wedge k}\)
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Théorème de Lagrange (HP)	Avec \( G \) un groupe fini et \( H \) sous-groupe de \( G \) , \( \lvert H \rvert \) divise \( |G|\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Conséquence du théorème de Lagrange (au programme)	Pour tout groupe fini \( G \) , \( \forall g \in G, \omega_g \text{ divise }|G|\). 
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Théorème d'Euler	 \( \forall n \in \N, \forall a \in \Z, a \wedge n = 1 \Rightarrow a^{\varphi(n)} \equiv 1[n]\)
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Petit théorème de Fermat	 \( \forall p \in \P, \forall a \in \Z, a \wedge p = 1 \Rightarrow a^{p-1} \equiv1[p]\)
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Caractère abélien de \(S_n\)	 \( S_n \) est abélien ssi \( n \le 2\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Conjugaison d'un p-cycle	Soit \( (a_1 \dots a_p) \) un p-cycle de \( S_n \) , et \( \sigma \in S_n \) .  \( \sigma \circ (a_1 \dots a_p) \circ \sigma^{-1} = (\sigma(a_1) \dots \sigma(a_p))\)
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Décomposition en cycles	Toute permutation se décompose en cycles à supports disjoints, de manière unique à l'ordre près des cycles.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Ordre d'un \(p\)-cycle	Un \( p \) -cycle est d'ordre \( p\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Ordre d'une permutation	L'ordre d'une permutation est le PPCM des longueurs des cycles qui la composent.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Caractérisation des permutations conjuguées par la décomposition en cycles	Deux permutation sont conjuguées ssi elles on le même type de décomposition en cycles à support disjoint.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Signature	La signature d'une transposition est définie par:  \( \varepsilon(\sigma) = \prod\limits_{1 \le i < j \le n}\frac{\sigma(j) - \sigma(i)}{j - i}\)
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Calculs effectifs de la signature	 \( \varepsilon(\sigma) = (-1)^\text{nombre d'inversions} = (-1)^{\text{nombre de transpositions dans } \sigma}\)
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Morphismes \(S_n \to \C^*\)	Les seuls morphismes de \( S_n \) dans \( \C^* \) sont le morphisme trivial ( \( \mathbb 1\)) et la signature.
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Groupe alterné	Le groupe alterné est:  \( A_n = \{\sigma \in S_n \mid \varepsilon(\sigma) = 1\} \)  C'est un sous-groupe de \( S_n\).
+Basique Maths	Seconde année::Mathématiques::Structures algébriques usuelles II	Famille génératrice du groupe alterné	Les 3-cycles génèrent le groupe alterné.

@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Loi de probabilité	Seconde année::Mathématiques::Lois de probabilité usuelles	Uniforme	\mathcal U(\unicode{10214} 1, n \unicode{10215})	\unicode{10214} 1, n \unicode{10215}	\frac{1}{n}	\frac{n+1}{2}	\frac{n^2 - 1}{12}	\frac{t}{n} \frac{t^n-1}{t-1}
+Loi de probabilité	Seconde année::Mathématiques::Lois de probabilité usuelles	Bernoulli	\mathcal B(p)	\unicode{10214} 0, 1 \unicode{10215}	\begin{array}{ll} p\text{ si }k = 1 \\ 1 - p = q\text{ si }k = 0 \end{array}	p	p(1-p) = pq	pt+q
+Loi de probabilité	Seconde année::Mathématiques::Lois de probabilité usuelles	Binomiale	\mathcal B(n,p)	\unicode{10214} 0, n \unicode{10215}	\binom{n}{k}p^kq^{n-k}	np	npq	(pt+q)^n
+Loi de probabilité	Seconde année::Mathématiques::Lois de probabilité usuelles	Géométrique	\mathcal G(p)	\N^*	q^{k-1}p	\frac{1}{p}	\frac{q}{p^2}	\frac{pt}{1-qt}
+Loi de probabilité	Seconde année::Mathématiques::Lois de probabilité usuelles	Poisson	\mathcal P(\lambda)	\N	e^{-\lambda}\frac{\lambda^k}{k!}	\lambda	\lambda	\exp(\lambda(t-1))

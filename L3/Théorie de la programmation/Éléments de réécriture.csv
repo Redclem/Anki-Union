@@ -1,0 +1,21 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Système de réécritrue abstraite	Un SRA (système de réécriture abstraite) est une relation binaire sur un ensemble.
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Propriété du diamant	Soit \((A, \to)\) un SRA. \(\to \) satisfait la propriété du diamant ssi: \(\forall(t, u_1,u_2), t\to u_1 \wedge t \to u_2 \implies \exists t', u_1 \to t' \wedge u_2 \to t'\).
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Confluence en un élément	Soit \((A, \to)\) un SRA. \(\to\) est confluente en \(t \in A\) ssi: \(\forall(u_1,u_2), t\to^* u_1 \wedge t \to^* u_2 \implies \exists t', u_1 \to^* t' \wedge u_2 \to^* t'\)
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Confluence	Soit \((A, \to)\) un SRA. \(\to \) est confluente si et seulement si elle est confluente en tout \(t\in A\).
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Propriété de Church-Rosser	\((A, \to)\) a la propriété de Church-Rosser si et seulement si: \(\forall (t_1, t_2) \in A^2, t_1 \leftrightarrow^*t_2 \implies \exists t' \in A, t_1 \to^* t' \wedge t_2 \to^* t'\) où \(\leftarrow = (\to)^{-1} = \{(y,x) \in A^2 |x \to y\} \) et \(\leftrightarrow = \leftarrow \cup \to\) et \(\leftrightarrow^* = (\leftrightarrow)^*\)
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Théorème associé à la propriété de Church-Rosser	\((A, \to)\) satisfait la propriété de Church-Rosser si et seulement si \(\to \) est confluente.
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Confluence locale	\(_\to \)est localement confluente ssi: \(\forall (t, u_1, u_2) \in A^3, t \to u_1\wedge t\to u_2 \implies \exists t' \in A, u_1 \to^* t' \wedge u_2 \to^* t' \)
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Lemme de Neumann	Si \(\to \) est localement confluente et terminante, alors elle est confluente.
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Théorème du plongement / mesurer	Soit \((B, >)\) un SRA terminant et \((A, \to)\) un SRA. S'il existe \(\phi : A \to B\) tel que \(a \to a' \implies \phi(a) \to \phi(a')\) alors \(\to\) termine
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Produit lexicographique	\((A, \to_A)\) et \((B, \to_B)\) SRA. Un produit lexicographique de \((A,\to_A)\) et \((B, \to_B)\) est le SRA noté \((A\times B, \to _{A\times B}\) défini par: \((a,b) \to_{A \times B}(a',b')\) si et seulement si \(a\to_A a'\) ou \(a = a'\) et \(b\to_Bb'\).
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Terminaison du produit lexicographique	Si \(\to_A, \to_B\) terminent, alors \(\to_{A \times B}\) termine.
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Multiensemble	Un multiensemble sur \(A\) est donné par une fonction \(M : A \to \N\) (multiplicité). On note \(M\) le multiensemble correspondant.
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Multiensemble fini	\(M: A \to \N\) est fini si \(M(a) \ne 0\) pour un nombre fini de \(a \in A\).
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Taille d'un multiensemble	La taille \(|M| \) de \(M\) est \(|M| = \sum\limits_{ a \in A}M(a)\).
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Opérations sur les multiensembles	- On note \(M_1 \le M_2\) si \(\forall a \in A, M_1(a) \le M_2(a)\) - \(M_1 \cup M_2 = M_1 + M_2\) - \(M_1 - M_2 = M_1 \ominus M_2\) où \(n \ominus k = \begin{array}{ll} n - k \text{ si } n \ge k \\ 0 \text { sinon}\end{array}\)
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Extension multiensemble	Pour \((A, >)\) SRA, l'extension mutliensemble de \((A,>)\) notée \(>_ {mul}\) est une relation sur les multiensembles finis sur \(A\) définie par \(M >_{mul} N\) ssi: \(\exists X, Y \) multiensembles sur \(A\) tels que: - \(\varnothing \ne X \le M\) - \(N = (M - X) \cup Y\) - \(\forall y \in Y, \exists x \in X, x > y\).
+Basique Maths	L3::Théorie de la programmation::Éléments de réécriture	Terminaison de l'extension multiensemble	Avec \((A, >)\) SRA, \(>\) termine si et seulement si \(>_{mul}\) termine.

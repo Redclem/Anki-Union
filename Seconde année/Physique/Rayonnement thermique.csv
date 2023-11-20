@@ -1,0 +1,20 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Flux intervenant dans le bilan énergétique d'un corps	- Flux incident \( \Phi_{inc} \)  - Flux réfléchi \( \Phi_{réfl} \)  - Flux absorbé \( \Phi_{abs} \)  - Flux transmis \( \Phi_{trans} \)  - Flux émis \( \Phi_{émis}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Fréquences des flux réfléchis et transmis	Les flux réfléchis et transmis contiennent les mêmes fréquences que le flux incident.
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Cas limites du flux réfléchi et pratique	- Réflexion spéculaire : la réflexion se fait selon une direction privilégiée donnée par la loi de Snell-Descartes (cas des aspérités de surface négligeables devant la longueur d'onde - Réflexion diffuse : le flux réfléchi est distribué dans un continuum de direction. En pratique, la réflexion spéculaire domine avec un peu de diffuse
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Équation de conservation de l'énergie du flux incident	 \( \Psi_{inc} = \Psi_{réfl} + \Psi_{trans} + \Psi_{abs}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Flux radiatif	Flux total algébrique sortant du corps:  \( \Psi_{rad} = \Psi_{réfl} + \Psi_{trans} + \Psi_{émis} - \Psi_{inc}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Cas du corps transparent	Cas où \( \Psi_{réfl} = \Psi_{abs} = 0 \) . Alors \( \Psi_{trans} = \Psi_{inc}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Cas du réflecteur parfait	Cas où \( \Psi_{abs} = \Psi_{trans} = 0 \) . Alors \( \Psi_{inc} = \Psi_{réfl}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Corps noir	Corps qui absorbe tout le rayonnement incident quelle que soit sa direction ou sa longueur d'onde. Ainsi \( \Psi_{réfl} = \Psi_{trans} = 0 \) . Alors \( \Psi_{inc} = \Psi_{abs}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Spectre d'émission du Soleil	Le spectre d'émission du Soleil s'approche de celui orbservé pour le corps noir à la température \( 5.8 \times 10^3K\), ce qui correspond à sa température de surface.
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Condition d'équilibre thermique pour le corps noir	 \( \Psi_{abs} = \Psi_{émis}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Formule de Planck	 \( u_\nu(\nu,T) = \frac{8\pi h \nu^3}{c^2} \times \frac{1}{e^{\beta h \nu} - 1}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Loi de déplacement de Wien	La densité d'énergie d'un rayonnement d'équilibre thermique présente un maximum pour la longueur d'onde \( \lambda_m \) telle que:  \( \lambda_mT= 2,9 \times 10^{-3} K.m\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Formule de planck en fonction de \(\lambda\)	 \( u_\lambda(\lambda, T) = \frac{8\pi h c^2}{\lambda^5}\times \frac{1}{e^\frac{\beta h c}{\lambda} - 1}\)
+Basique Maths	Seconde année::Physique::Rayonnement thermique	Flux d'énergie par unité de surface sur une bande	 \( j_\nu = \frac{cu_\nu}{4} \) est le flux d'énergie par unité de surface dans la bande \( [\nu, \nu + d\nu]\).
+Basic	Seconde année::Physique::Rayonnement thermique	Constante de Stefan-Boltzmann	\(\sigma = 5,7 \times 10^{-8}W.K^{-4}.m^{-2}\)
+Basic	Seconde année::Physique::Rayonnement thermique	Loi de Stefan-Boltzmann	La puissance rayonnée par unité de surface est donné par: \(j (T) = \sigma T^4\)

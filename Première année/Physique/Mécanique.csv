@@ -1,0 +1,61 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique	Première année::Physique::Mécanique	3eme loi de Newton	Principe d'action réaction : \(f_{12} = -f_{21}\)
+Basique	Première année::Physique::Mécanique	1ère loi de Newton	Principe d'inertie : Dans un référentiel galiléen, un point isolé est en mouvement rectiligne uniforme. \(\overrightarrow{v} = \overrightarrow{const}\)
+Basique	Première année::Physique::Mécanique	2eme loi de Newton / PFD	\(\vec{F} = m\vec{a}\)  i.e. \(\vec{F} = \frac{d \vec p}{dt}\)
+Basique	Première année::Physique::Mécanique	Force de Lorentz électromagnétique	\(\vec{f} = q(\vec{E} + \vec{v} \wedge \vec{B})\)
+Basique	Première année::Physique::Mécanique	Loi de hooke	\(\vec{f} = -k(l - l_0)\vec{u}\)
+Basique	Première année::Physique::Mécanique	Force centrale	\(\overrightarrow{OM} \wedge \vec f = \vec0\)
+Basique	Première année::Physique::Mécanique	Puissance d'une force	\(P = \vec v \cdot \vec f\)
+Basique	Première année::Physique::Mécanique	Travail d'une force (travail élémentaire)	\(\delta W = Pdt = \vec f \cdot \vec v dt\ = \vec f \cdot \vec{dl}\) \(= \vec f \cdot \vec{dOM}\)
+Basique	Première année::Physique::Mécanique	Travail global d'une force	\(W_{M_1\rightarrow M_2} = \int_{M_1}^{M_2}\vec f \cdot \vec{dl} \) \(  = \int_{M_1}^{M_2}\vec f \cdot \vec v\,dt\) \(= \int_{M_1}^{M_2}P\)
+Basique	Première année::Physique::Mécanique	Théorème de la puissance cinétique	\(\frac{d}{dt}(\frac{1}{2}mv^2) = \frac{dE_c}{dt} = \sum P_i = P_{tot}\)
+Basique	Première année::Physique::Mécanique	Théorème de l'énergie cinétique	\(E_{c2} - E_{c1} = W_{tot} = \sum W_{M_1 \rightarrow M_2} (\vec {f_i})\)
+Basique	Première année::Physique::Mécanique	Force conservative	Force dont le travail entre deux points quelconques ne dépend pas du \text{ch}emin suivi
+Basique	Première année::Physique::Mécanique	Définition de l'énergie potentielle (infinitésimale et entre deux points)	\(\delta W_{\vec f} = \overrightarrow{f(M)} \cdot \overrightarrow {dl} = -dE_p\) \(W_\vec f = \int_{M_1}^{M_2} \overrightarrow{f(M)} \cdot \overrightarrow {dl} = -\Delta E_p\) \( = E_{pM1} - E_{pM2}\)
+Basique	Première année::Physique::Mécanique	Énergie potentielle élastique	\(E_{p, elas} = \frac{1}{2}k(l - l_0)^2\)
+Basique	Première année::Physique::Mécanique	Énergie mécanique	\(E_m = E_c + E_p = E_c + \sum E_p(\vec {f_i})\)
+Basique	Première année::Physique::Mécanique	Condition de conservation de l'énergie mécanique	Dans un référentiel galiléen, Mouvement conservatif (soumis seulement à des forces conservatives) => énergie mécanique se conserve
+Basique	Première année::Physique::Mécanique	Théorème de l'énergie mécanique	\(\Delta E_m = \Delta E_c  + \Delta E_p = W_{nc} \)
+Basique	Première année::Physique::Mécanique	Condition d'équilibre	Point à l'équilibre dans un référentiel galiléen s'il est immobile. Résultante des forces nulle : \(\vec F = \sum \vec {f_i} = \vec 0\)  \(E_p\) est un extremum : \(\frac{dE_p(X)}{dX} (X_{eq}) = 0\)
+Basique	Première année::Physique::Mécanique	Condition d'équilibre stable (en s'écartant légèrement)	Lorsqu'on s'écarte légèrement de la position d'équilibre, on y revient spontanément
+Basique	Première année::Physique::Mécanique	Stabilité de l'équilibre avec dérivée des forces	\(\frac{dF}{dX}(X_{eq})  0\) : Instable
+Basique	Première année::Physique::Mécanique	Condition de stabilité ou instabilité d'un équilibre	Énergie potentielle minimale : \(\frac{d^2E_p}{dX^2}(X_{eq}) > 0\) Équilibre stable  Énergie potentielle maximale : \(\frac{d^2E_p}{dX^2}(X_{eq}) < 0\) Équilibre instable
+Basique	Première année::Physique::Mécanique	Profil d'énergie potentielle	Courbe de l'énergie potentielle en fonction du degré de liberté Point de \text{tan}gente nulle => équilibre Minimums => équilibre stables
+Basique	Première année::Physique::Mécanique	Approximation harmonique de l'énergie potentielle	Avec \(\varepsilon = X - X_{eq}\):   \(E_p(X) = E_p(X_{eq}) + \frac{1}{2}\frac{d^2E_p}{dX^2}(X_{eq})\varepsilon^2\)
+Basique	Première année::Physique::Mécanique	Travail de la force magnétique sur une particule \text{ch}argée	Toujours nul
+Basique	Première année::Physique::Mécanique	Mouvement d'une particule \text{ch}argée dans un \text{ch}amp \(\vec E\) uniforme	Mouvement à vecteur accélération constant : \(\vec a = \overrightarrow{const}\)
+Basique	Première année::Physique::Mécanique	Energie potentielle associée à un \text{ch}amp \(\vec E\) constant	\(E_p(M) = qV(M)\) Avec \(V\) le potentiel électrostatique du \text{ch}amp \(\vec E\) au point \(M\)
+Basique	Première année::Physique::Mécanique	Sens du \text{ch}amp électrique	Dans le sens des potentiels décroissants
+Basique	Première année::Physique::Mécanique	Travail de la force électrostatique	\(W = - \Delta E_p = q(V(M_2) - V(M_1))\)
+Basique	Première année::Physique::Mécanique	Energie mécanique d'une particule \text{ch}argée dans un \text{ch}amp \(\vec E\) constant	Constante
+Basique	Première année::Physique::Mécanique	Trajectoire d'une particule \text{ch}argée dans \(\vec E\) constant, si \(\vec v_0\) non-colinéaire à \(\vec E\)	Parabolique, similaire à la \text{ch}ute libre
+Basique	Première année::Physique::Mécanique	Pulsation cyclotron	\(\omega_c = \frac{\lvert q \rvert B}{m}\)
+Basique	Première année::Physique::Mécanique	Mouvement d'une particule \text{ch}argée dans \(\vec B\) constant	Mouvement uniforme, \(v = v_0\)
+Basique	Première année::Physique::Mécanique	Mouvement d'une particule \text{ch}argée dans la direction de \(\vec B\)	Rectiligne uniforme
+Basique	Première année::Physique::Mécanique	Quantité de mouvement	\(\vec p = m \vec v\) en \(kg\ m\ s^{-1}\)
+Basique	Première année::Physique::Mécanique	Moment cinétique de M par rapport à O	\({\vec L}_0(M) = \overrightarrow{OM} \wedge m \vec v\) en \(kg\ m^2\ s^{-1}\)
+Basique	Première année::Physique::Mécanique	Moment cinétique d'un point par rapport à un axe \(\Delta\)	\(L_\Delta = {\vec L}_O(M) \cdot {\vec u}_\Delta\)
+Basique	Première année::Physique::Mécanique	Moment d'une force	\(\vec M_0(\vec f) = \overrightarrow {OM} \wedge \vec f\)
+Basique	Première année::Physique::Mécanique	CNS pour moment d'une force nul	\(\overrightarrow {OM}\) colinéaire à \(\vec f\)
+Basique	Première année::Physique::Mécanique	Moment cinétique par rapport à un axe orienté (force)	\(M_\Delta(\vec f) = \vec M_O(\vec f) \cdot \vec u_\Delta\)
+Basic	Première année::Physique::Mécanique	Moment d'une force orthogonale à l'axe avec bras de levier	\(M_\Delta (\vec f) = \pm d \times ||\vec f||\)
+Basic	Première année::Physique::Mécanique	Théorème du moment cinétique	Dans un référentiel galiléen, \(\frac{d \vec L_O (M)}{dt} = \sum \vec M_O(\vec f_i) = \vec M_{O, total}\)
+Basic	Première année::Physique::Mécanique	Théorème du moment cinétique sur un axe	\(\frac{dL_{Oz}(M)}{dt} = \sum M_{Oz}(\vec f_i) = M_{Oz}(\vec F)\)
+Basic	Première année::Physique::Mécanique	Loi de Newton	\( \vec f_{O \rightarrow M} = -G \frac {m_O m}{r^2} \vec u_r \)
+Basic	Première année::Physique::Mécanique	Conservation du moment cinétique	Le moment cinétique de M en O se conserve s'il n'est soumis qu'à des forces centrales, dans un référentiel galiléen
+Basic	Première année::Physique::Mécanique	Moment cinétique en coordonnées polaires dans le plan xOy	\( \vec L_O(M) = m r^2 \dot \theta \vec u_z \)
+Basic	Première année::Physique::Mécanique	Constante des aires et moment cinétique	\( C = r^2 \dot \theta \) \( \vec L_O(M) = mC \vec u_z \)
+Basic	Première année::Physique::Mécanique	Grandeurs constantes dans un mouvement à forces centrales	Moment cinétique et énergie mécanique
+Basic	Première année::Physique::Mécanique	Energie potentielle effective	\(E_{p,eff}(r) = \frac {1}{2} m \frac{C^2}{r^2} + E_p(r)\)
+Basic	Première année::Physique::Mécanique	Energie mécanique avec energie potentielle effective	\(E_m = \frac{1}{2}m \dot r^2 + E_{p,eff}(r)\)
+Basic	Première année::Physique::Mécanique	Troisième loi de Kepler	\( \frac{T^2}{a^3} = \frac{4\pi^2}{Gm_s} \)
+Basic	Première année::Physique::Mécanique	Mouvement circulaire uniforme d'un satellite	\(v_0^2 = \frac{Gm_T}{r_0}\) \(v_0 = r_0 \omega_0 = \frac{2\pi r_0}{T_0}\) \(\omega_0 = \frac{2 \pi}{T_0}\)   \(E_p = 2 E_m = -2E_c\)
+Basic	Première année::Physique::Mécanique	Troisième loi de Kepler pour un cercle de rayon \(r_0\)	\(\frac{T_0^2}{r_0^3} = \frac{4 \pi^2}{Gm_T}\)
+Basic	Première année::Physique::Mécanique	Energies pour un mouvement circulaire gravitationnel terrestre	\(E_p = -\frac{Gm_Tm}{r_0}\) \(E_c = \frac{1}{2}m v_0^2\) \(E_m = -\frac{Gm_Tm}{2r_0}\)
+Basic	Première année::Physique::Mécanique	Conditions pour une trajectoire circulaire (orbite)	\(v = v_{satt}\) et \(\vec v \perp \vec r\)
+Basic	Première année::Physique::Mécanique	Vitesse de libération	Vitesse qui permet d'échapper à la trajectoire circulaire et de parti aussi loin que voulu de l'astre   \(v_L = \sqrt2 v_{satt} = \sqrt{\frac{2Gm_T}{r_0}}\)
+Basic	Première année::Physique::Mécanique	Vitesse en orbite basse	\(v_1 = \sqrt{\frac{Gm_T}{R}}\)
+Basique	Première année::Physique::Mécanique	Extremums du rayon d'une ellipse	Maximum : apogée Minimum : périgée En ces points, \(\dot r = 0\)

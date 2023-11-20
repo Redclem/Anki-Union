@@ -1,0 +1,28 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Physique::Physique statistique	Loi de la statique des fluides	 \( \vec 0 = -\overrightarrow {grad} (p) + \sum_{i \ne pression}f_i \) , où les \( f_i\) sont les forces volumiques autres que la pression.
+Basique Maths	Seconde année::Physique::Physique statistique	Formule du gradient	Pour tout champ \( p \) , sur \( S \) fermée encerclant un volume \( V_g \)   \( \iint_Spd\vec S = \iiint_{V_g}\overrightarrow {grad}(p)dV\).
+Basique Maths	Seconde année::Physique::Physique statistique	Pression selon l'altitude pour une PCII	 \( p(h) = p(0) - hg\mu\).
+Basique Maths	Seconde année::Physique::Physique statistique	Loi de la statique des fluides et pression pour les gaz parfaits	\( \frac{\partial p}{\partial z} = -\frac{Mg}{RT}p \)  avec \( H = \frac{RT}{Mg} \) , \( p(z) = p(0)e^{-\frac{z}{H}}\)
+Basique Maths	Seconde année::Physique::Physique statistique	Constante de Boltzmann	 \( k_B = \frac{R}{\mathcal N_A}\simeq1.38\times 10^{-23}J.K^{-1}\).
+Basique Maths	Seconde année::Physique::Physique statistique	Reformulation de \(H\) avec la constante de Boltzmann	 \( H = \frac{k_BT}{mg} \) , où \( m\) est la masse d'une particule.
+Basique Maths	Seconde année::Physique::Physique statistique	Proportionnalité de la densité de particules dans un GP	 \( \langle N(z) \rangle, n^*(z) \propto e^{-\frac{mgz}{k_BT}}\)
+Basique Maths	Seconde année::Physique::Physique statistique	Proportionnalité du nombres de particules à un niveau d'énergie donné	A \( T \) fixé, \( \langle N(E)\rangle \propto e^{-\frac{E}{k_BT}}\)
+Basique Maths	Seconde année::Physique::Physique statistique	Ordre de grandeur de \(k_BT\)	A \( T = 300K \) , \( k_BT= 25meV\).
+Basique Maths	Seconde année::Physique::Physique statistique	Proportionalité du nombre moyen de particules dans un état d'énergie	Le nombre moyen de particules dans l'état \( i \) d'énergie \( E_i \) est tel que:  \( \langle N_i\rangle \propto \exp(-\frac{E_i}{k_BT})\) (facteur de Boltzmann)
+Basique Maths	Seconde année::Physique::Physique statistique	Probabilité de trouver une particule dans un état	La probabilité de trouver une particule dans l'état \( i \) d'énergie \( E_i \) est:  \( p_i = \frac{1}{Z}e^{-\beta E_i} \) , avec \( \beta = \frac{1}{k_BT} \) , où \( \frac{1}{Z} \) est le coefficient de normalisation:  \( Z = \sum\limits_{i \in états}e^{-\beta E_i}\)
+Basique Maths	Seconde année::Physique::Physique statistique	Particule à spectre discret d'énergie	Une particule est à spectre discret d'énergie si son énergie ne prend que des valeurs discrètes \( E_1 , E_2, \dots\).
+Basique Maths	Seconde année::Physique::Physique statistique	Population d'un état	La population de l'état \( i \) est \( \langle N_i\rangle = \frac{N}{Z}e^{-\beta E_i}\)
+Basique Maths	Seconde année::Physique::Physique statistique	Rapport des population d'états	 \( \frac{\langle N_i \rangle}{\langle N_j \rangle} = e^{-\beta(E_i - E_j)}\)
+Basique Maths	Seconde année::Physique::Physique statistique	Rapport des populations aux limites de températures	Avec \( i,j \) tels que \( E_j > E_i \) : - Si \( k_BT \gg Ej - E_i \) , alors \( \langle N_i \rangle \simeq \langle N_j \rangle \)  - Si \( k_BT \ll E_j - E_i \) , alors \( \langle N_i \rangle \gg \langle N_j \rangle\)
+Basique Maths	Seconde année::Physique::Physique statistique	Inversion de population	Il y a inversion de population quand avec \( E_j > E_i \) , \( \langle N_j \rangle > \langle N_i \rangle\).
+Basique Maths	Seconde année::Physique::Physique statistique	Inversion de population en régime thermique	En régime thermique (i.e. avec le brassage thermique uniquement), il n'y a jamais d'inversion de population : Si \( E_j > E_i \) , \( \langle N_j \rangle \le \langle N_i \rangle\)
+Basique Maths	Seconde année::Physique::Physique statistique	Aimantation	L'aimantation en \( A . m^{-1} \) est donnée par : \( A = \frac{M}{V} \) , où \( M \) est le moment magnétique, \( V\) le volume du solide.
+Basique Maths	Seconde année::Physique::Physique statistique	Paramagnétisme des métaux alcalins	Le magnétisme des métaux alcalins est donné par:  \( M =\frac{\alpha}{T}B_{ext} \) , avec \( \alpha\) la constante de Curie.
+Basique Maths	Seconde année::Physique::Physique statistique	Spectre d'énergie continu	Situation ou la discrétisation des niveaux d'énergie est à peine perceptible. Tout se passe comme si les particules du systèmes avaient des énergies formant un continuum.
+Basique Maths	Seconde année::Physique::Physique statistique	Conditions générales du spectre continu	Cette situation se produit en général pour des systèmes de taille macroscopique ou à \( 300K\).
+Basique Maths	Seconde année::Physique::Physique statistique	Degré de liberté	Un degré de liberté d'une particule est une coordonnée de l'espace de la particule ou la dérivée par rapport au temps d'une coordonnée de l'espace de la particule.
+Basique Maths	Seconde année::Physique::Physique statistique	Théorème d'équipartition	À l'équilibre thermodynamique à la température \( T \) , pour une particule à spectre continu d'énergie, chaque degré de liberté quadratique contribue à hauteur de \( \frac{k_BT}{2}\) à l'énergie moyenne de la particule.
+Basique Maths	Seconde année::Physique::Physique statistique	Quelques résultats du théorème d'équipartition	- Énergie interne des gaz monoatomiques et diatomiques : résultat conforme au GP - Énergie interne des solides : énergie valable en ordre de grandeurs, sauf à basse température.

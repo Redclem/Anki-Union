@@ -1,0 +1,25 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Formule d'Ostrogradski	Pour une surface fermée \( S \) enfermant un volume \( V_S \) , pour tout champ vectoriel \( \vec E \) :  \( \iint_\mathcal S \vec E \cdot d\vec S = \iiint_{V_\mathcal S}div \vec E  d\tau\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation de Maxwell-Gauss	 \( div\vec E(M, t) = \frac{\rho(M,t)}{\varepsilon_0}\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Forme locale du théorème de Gauss gravitationnel	 \( div\vec G = -4\pi \mathcal G\mu \) , où \( \mu\) est la masse volumique.
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation de Maxwell-Thomson ou équation de Maxwell flux	 \( div\vec B(M,t) = 0\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Formule de Stokes	Soit \( \Gamma \) une boucle et \( S_\Gamma \) la surface s'appuyant sur \( \Gamma \) . Alors pour tout champ \( \vec B \) :  \( \oint_\Gamma \vec B \cdot d\vec l = \iint_{S_\Gamma} \overrightarrow{rot} \vec B \cdot d\vec S\).
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation de Maxwell-Faraday	 \( \overrightarrow {rot} \vec E(M) = -\frac{\partial \vec B}{\partial t}(M,t)\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Force de Lorentz	Sur une particule de charge \( q \) , la force de Lorentz \( \vec F_L \) est:  \( \vec F_L = q(\vec E(M, t) + \vec v \wedge \vec B(M, t))\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	FEM induite (première forme)	La FEM induite dans une boucle \( \Gamma \) est:  \( e_i(t) = \oint_\Gamma \frac{\vec F_L}{q}d\vec l\space\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	FEM induite (seconde forme)	La FEM induite dans une boucle \( \Gamma \) encerclant la surface \( S_\Gamma \) est:  \( e_i(t) = -\iint_{S_\Gamma}\frac{\partial \vec B}{\partial t}(M,t)d\vec S + \oint(\vec v_e(M) \wedge \vec B(M, t))d \vec l\space\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	FEM induite (forme simplifiée)	 \( e_i(t) = -\frac{d\Phi_B}{dt}\). N'est rigoureusement valable que si le circuit le circuit est indéformable et immobile, mais peut l'être dans d'autres cas. 
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation de Maxwell-Ampère (locale)	 \( \overrightarrow{rot} \vec B(M,t) = \mu_0\vec j (M, t) + \mu_0\varepsilon_0\frac{\partial \vec E}{\partial t}(M, t)\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation de Maxwell-Ampère (intégrale)	 \( \oint\vec B \cdot d \vec l = \mu_0I_{enl} + \mu_0 \varepsilon_0\iint_{S_{\Gamma}}\frac{\partial \vec E}{\partial t}\cdot d\vec S\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Premier postulat de l'électromagnétique	Conservation de la charge: Si un point de l'espace porte une charge nulle, si en ce point apparaît une charge alors nécéssairement la même charge (valeur absolue) de signe opposé doit apparaître.
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Différentielle d'une grandeur extensive	Avec \( G \) une grandeur extensive:  \( dG = \delta G_{creee} + \sum\limits_{i \in parois}\delta G_{i, echangee}\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation globale de conservation de la charge	Pour une surface \( S \) enfermant une charge \( Q \) , \( \frac{dQ}{dt} = - \iint_S \vec j(M, t)\cdot d\vec S(M)\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation locale de conservation de la charge	Pour n'importe quels potentiel \( V \) et champs lissés:  \( \frac{\partial \rho}{\partial t}(M, t) + div  \vec j(M,t) = 0\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation de conservation de la charge en régime indépendant du temps	 \( div \vec j(M, t) = 0 \) ou \( \iint_S\vec j\cdot d\vec S = 0\) sur toute surface fermée.
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation de Poisson	En statique, \( \Delta V(M) = - \frac{\rho(M)}{\varepsilon_0}\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Équation de Laplace	En statique, lorsque \( \rho(M) = 0, \) \( \Delta V(M) = 0\)
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Champ de rotationnel nul	Le rotationnel d'un champ vectoriel est nul ssi ce champ s'écrit sous forme d'un gradient, on dit qu'il dérive d'un champ scalaire.
+Basique Maths	Seconde année::Physique::Equations de Maxwell	Opérateur nabla	Opérateur qui agit sur un champ à sa droite d'expression en coordonées cartésiennes:  \( \vec \nabla = \vec u_x \frac{\partial}{\partial x} + \vec u_y \frac{\partial}{\partial y} + \vec u_z \frac{\partial}{\partial z}\)

@@ -1,0 +1,11 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Intégration et théorie de la mesure::Introduction	Ensemble dénombrable / fini / au plus dénombrable	- Un ensemble  \( A \)  est dénombrable ssi il existe une bijection entre  \( A \)  et  \( \N \) . -  \( A \)  est fini ssi il existe un entier  \( n \in \N \)  et une bijection entre  \( A \)  et  \( \lii 1, n \rii \) .  \( n \)  est unique, c'est le cardinal de  \( A \) . -  \( A\) est au plus dénombrable s'il est dénombrable ou fini
+Basique Maths	L3::Intégration et théorie de la mesure::Introduction	Dénombrabilité des parties de \(\N\)	Pour  \( A \subseteq \N \) ,  \( A\) est au plus dénombrable.
+Basique Maths	L3::Intégration et théorie de la mesure::Introduction	Dénombrabilité par injection / surjection	S'il existe une injection  \( A \to \N \)  ou une surjection  \( \N \to A \) , alors  \( A\) est au plus dénombrable.
+Basique Maths	L3::Intégration et théorie de la mesure::Introduction	Produit de dénombrables	Un produit d'ensembles au plus dénombrables est au plus dénombrable (et dénombrable si un des termes du produit est dénombrable).
+Basique Maths	L3::Intégration et théorie de la mesure::Introduction	Union de dénombrables	L'union au plus dénombrable d'ensemble au plus dénombrables est au plus dénombrable. Elle est finie si l'union et les ensembles sont finis.
+Basique Maths	L3::Intégration et théorie de la mesure::Introduction	Théorème de Cantor-Bernstein	S'il existe  \( i : A\to B \)  injective et  \( s : A \to B \)  surjective, alors il existe  \( b : A \to B\) bijective.
+Basique Maths	L3::Intégration et théorie de la mesure::Introduction	Limites des sommes d'ensembles croissants	Soient  \( J_n \subseteq J \)  une suite croissante d'ensembles finis, avec  \( J \)  dénombrable, et  \( \bigcup\limits_{n\in \N}J_n = J \) , et  \( (a_j) \in [0, +\infty]^J \) . Alors  \( \lim\limits_{ n \to +\infty} \sum\limits_{j \in J_n}a_j = \sum\limits_{j \in J}a_j\)

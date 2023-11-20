@@ -1,0 +1,19 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::FDI::Langages algébriques	Langage algébrique	Défini comme en prépa.
+Basique Maths	L3::FDI::Langages algébriques	Langage d'une grammaire	Le langage d'une grammaire est \(\{w \in \Sigma^* | S \Rightarrow^*w\}\).
+Basique Maths	L3::FDI::Langages algébriques	Grammaire ambigüe	Une grammaire est ambigüe s'il existe 2 arbres de dérivation distincts d'un même mot.
+Basique Maths	L3::FDI::Langages algébriques	Dérivation canonique	La dérivation canonique est la dérivation la plus à gauche.
+Basique Maths	L3::FDI::Langages algébriques	Caractérisation de l'ambiguité	Une grammaire est ambigüe si et seulement si il existe un mot qui admet 2 dérivations le plus à gauche différentes.
+Basique Maths	L3::FDI::Langages algébriques	Langage intrinsèquement ambigu	Un langage est intrinsèqueemnt ambigu si toute grammaire l'engendrant est ambigüe.
+Basique Maths	L3::FDI::Langages algébriques	Langages rationnels et algébriques	Les langages rationnels sont algébriques.
+Basique Maths	L3::FDI::Langages algébriques	Forme normale de Chomsky	Une grammaire est sous forme normale de Chomsky (FNC) si ses règles sont de la forme: - \(S \to \varepsilon\) - \(A \to BC, B, C \ne S\) - \(A \to a\)
+Basique Maths	L3::FDI::Langages algébriques	Langages engendrés par des FNC	Tout langage algébrique est engendré par une grammaire en FNC.
+Basique Maths	L3::FDI::Langages algébriques	Difficulté de la reconnaissance d'un langage algébrique	Tout langage algébrique est reconnaissable en temps polynomial.
+Basique Maths	L3::FDI::Langages algébriques	Algorithme CYK	Algorithme de programmation dynamique pour reconnaître une grammaire en FNC: Pour vérifier si \(w = w_1 \dots w_n\) dans la grammaire, on remplit les cases d'une matrice \(n\times n\): la case \(i,j\) contient les lettres engendrant \(w_i\dots w_j\). On accepte si \(S\) est dans la case \(1,n\).
+Basique Maths	L3::FDI::Langages algébriques	Complexité de CYK	CYK est en complexité \(\mathcal O(n^3)\).
+Basique Maths	L3::FDI::Langages algébriques	Lemme de l'étoile algébrique	Pour \(A\) algébrique, il existe \(p \in \N\) la longueur de pompage telle que pour \(s \in A\) de longueur au moins \(p\), \(s = uvxyz\) tel que: - \(\forall i \in \N, uv^ixy^iz \in A\) - \(|vy| > 0\) - \(|vxy| \le p\)
+Basic	L3::FDI::Langages algébriques	Automate à pile	Un automate à pile est défini formellement par un 6-uplet \((Q, \Sigma, P, \delta, Q_0, F)\): - Un ensemble d'états \(Q\) - Un alphabet d'entrée \(\Sigma\) - Un alphabet de pile \(P\) - Une fonction de transfert de \(Q \times \Sigma_\varepsilon \times P_\varepsilon\) dans \(\mathcal P(Q \times P_\varepsilon)\) (non déterminisme autorisé). - Un ensemble d'états initiaux \(Q_0 \in Q\) - Un ensemble \(F \subseteq Q\) d'états finaux
+Basic	L3::FDI::Langages algébriques	Langages reconnus par automate à pile	Les automates à pile reconnaissent exactement les langages algébriques.

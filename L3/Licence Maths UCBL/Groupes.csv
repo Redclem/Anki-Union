@@ -1,0 +1,16 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Licence Maths UCBL::Groupes	Matrices engendrant \(GL_n(k)\)	L'ensemble des matrices de dilatation et des matrices de transvection engendrent le groupe \(GL_n(k)\).
+Basique Maths	L3::Licence Maths UCBL::Groupes	Réflexion orthogonale	Une réflexion orthogonale est une symétrie orthogonale par rapport à un hyperplan.
+Basique Maths	L3::Licence Maths UCBL::Groupes	Groupe engendré par les réflexions orthogonales	L'ensemble des réflexions orthogonales engendre le groupe \(O_n(k)\).
+Basique Maths	L3::Licence Maths UCBL::Groupes	Intersection de sous-groupes distingués	L'intersection de sous-groupes distingués est un sous-groupe distingué.
+Basique Maths	L3::Licence Maths UCBL::Groupes	Sous-groupe caractéristique	Un sous-groupe \(H\) est caractéristique dans \(G\) s'il est stable par tout automorphisme de \(G\). On note \(H \sqsubset G\).
+Basique Maths	L3::Licence Maths UCBL::Groupes	Propriétés sur les groupes caractéristiques	1. Un sous-groupe caractéristique est distingué 2. Si \(H \sqsubset K \sqsubset G\), alors \(H \sqsubset G\) 3. Si \(H \sqsubset K \triangleleft G\), alors \(H \triangleleft G\). 4. Le centre d'un groupe est un sous-groupe caractéristique 5. Le morphisme canonique qui a un élément associe son automorphisme intérieur est un morphisme de \(G/Z(G) \cong Int(G)\).
+Basique Maths	L3::Licence Maths UCBL::Groupes	Produit semi-direct	Avec \(H, K\) sous-groupes de \(G\) avec \(H \triangleleft G\), \(G\) est produit semi-direct de \(H\) par \(K\) si une des conditions équivalentes est vérifiée: - \(H \cap K = \{e\}\) et \(G = HK\) - Tout élément de \(G\) s'écrit de manière unique comme produit d'un élément de \(H\) et un de \(K\) - \(K \simeq G/H\) via la surjection canonique \(k \mapsto kH\). On note \(G = H \rtimes K\).
+Basique Maths	L3::Licence Maths UCBL::Groupes	Produit direct	Cas du produit semi-direct où \(H,K \triangleleft G\). Dans ce cas, \(\forall h,k \in H \times K, kh = hk\), et \((h,k) \mapsto hk\) de \(H\times K \to G\) est un isomorphisme.
+Basique Maths	L3::Licence Maths UCBL::Groupes	Groupe diédral, partie génératrice 	C'est le groupe \(D_{2n}\) des isométries du plan qui fixent un polygone régulier à \(n\) côtés. Il est engendré par les rotation de \(\frac{2\pi}{n}\) et une symétrie axiale par un des sommets.
+Basique Maths	L3::Licence Maths UCBL::Groupes	Noyau d'une action	Le noyau d'une action est l'intersection des stabilisateurs. (C'est le noyau de \(\alpha\) sous-jacente).
+Basique Maths	L3::Licence Maths UCBL::Groupes	Action fidèle depuis une action	Une action est toujour fidèle sur le groupe quotienté par le noyau de l'action.
+Basique Maths	L3::Licence Maths UCBL::Groupes	Lemme de Burnside	Pour \(G\) agissant sur \(X\), \(|X/G| = \frac{1}{|G|}\sum\limits_{g \in G}|Fix(g)|\), où \(|X/G|\) est le nombre d'orbites de \(X\).

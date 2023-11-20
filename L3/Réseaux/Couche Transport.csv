@@ -1,0 +1,30 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Réseaux::Couche Transport	Services de la couche transport	Communication logique entre des applications (processus) distantes, unqieuement sur les terminaux.
+Basique Maths	L3::Réseaux::Couche Transport	Rôle de la couche transport	Sur l'émetteur: - Divise les message des applications en segments - Transmet à la couche Réseau Sur le récepteur: - Réassemble les segments en messgae - Transmet aux applications
+Basique Maths	L3::Réseaux::Couche Transport	Protocoles possibles	TCP et UDP
+Basique Maths	L3::Réseaux::Couche Transport	Socket, rôle	Le socket est l'interface entre les couches transport et application, elle permet la communication bidirectionnelle avec d'autres sockets.
+Basique Maths	L3::Réseaux::Couche Transport	Couche réseau et couche transport	"Couche réseau: - Comunication entre les noeuds, de proche en proche Couche transport: - Communication entre les processus - Utilise et améliore les services de la couche réseau - De bout en bout La couche transport voit la couche réseau comme un transport ""best-effort"""
+Basique Maths	L3::Réseaux::Couche Transport	Services UDP et TCP / TCP, aucun	Communs: Multiplexage, détection d'erreur TCP: Livraison fiable et ordonnée, controle de congestion, controle de flux jamais de QoS sur le débit ou délai.
+Basique Maths	L3::Réseaux::Couche Transport	Multiplexage couche transport	Le noeud récepteur utilise l'IP et le port pour diriger le segment vers le bon socket. L'émetteur rassemble et encapsule les données.
+Basique Maths	L3::Réseaux::Couche Transport	Multiplexage sans connexion	En UDP, le socket est identifié par le numéro de port et l'ip destinations.
+Basique Maths	L3::Réseaux::Couche Transport	Multiplexage orienté connexion	En TCP, le socket est identifié par les ip et les ports sources et destinations.
+Basique Maths	L3::Réseaux::Couche Transport	Choix du numéro de port	Le numéro de port du serveur est défini par le protocole utilisé. Le numéro de port du client est souvent choisi aléatoirement.
+Basique Maths	L3::Réseaux::Couche Transport	Avantages / défauts UDP	Avantages : Vitesse, simplicité, légereté (des sockets et paquêts) et contrôle (notamment du débit). Défauts : fiabilité et régulation du débit.
+Basique Maths	L3::Réseaux::Couche Transport	Applications de TCP	Applications nécéssitant de la réactivité et tolérantes aux pertes.
+Basique Maths	L3::Réseaux::Couche Transport	Somme de contrôle UDP	C'est le complément à 1 de la somme du segment comme mots de 16 bits.
+Basique Maths	L3::Réseaux::Couche Transport	Principe d'un transfert de données fiable	Il se base sur un protocole de transfert de données fiable (reliable data transfer: rdt), en ne considérant qu'un transfert unidirectionnel de données, avec des paquets de contrôle dans les 2 sens. Décrit par des DFA.
+Basique Maths	L3::Réseaux::Couche Transport	Protocole à anticipation	Protocole où l'expéditeur envoie plusieurs paquets avant l'acquittement du premier. Le nombre de paquets envoyés avant l'acquittement du premier est la fenêtre d'anticipation.
+Basique Maths	L3::Réseaux::Couche Transport	Avantage / défauts des protocoles à anticipation	Avantage : utilise mieux le réseau Défaut : déséquencement possible des paquets
+Basique Maths	L3::Réseaux::Couche Transport	Rejet simple / sélectif	Rejet simple: la couche transport n'accepte que les paquets bien séquencés (pas de buffer) Rejet sélectif: La couche transport maintient un buffer, les paquets peuvent entrer désequencés et attendent jusqu'à être transmis dans l'ordre à l'application.
+Basique Maths	L3::Réseaux::Couche Transport	Caractéristiques de TCP	- Orienté connexion : handshaking, paramètres du transfert fixés - Mode duplex : circulation de données dans les deux sens - Point à Point - Livraison fiable et séquencée des données - Pipeliné : fenêtre d'anticipation dynamique
+Basique Maths	L3::Réseaux::Couche Transport	RTO	Retransmission timeout : Temps avant de renvoyer un paquet sans acquittement
+Basique Maths	L3::Réseaux::Couche Transport	Estimation du RTT moyen	Il est mis à jour à chaque mesure: \(RTT_{moyen} = (1 - \alpha) RTT_{moyen} + RTT_{mesure}\), avec \(\alpha = 0.125\)
+Basique Maths	L3::Réseaux::Couche Transport	Estimation dévation RTT	On la calcule de manière similaire au RTT moyen: \(RTT_d = (1 - \beta)RTT_d + \beta|RTT_{moy} - RTT_{mes}|\), avec \(\beta = 0.25\).
+Basique Maths	L3::Réseaux::Couche Transport	RTO depuis RTT	On utilise \(RTO = RTT_{moy} + 4RTT_d\).
+Basique Maths	L3::Réseaux::Couche Transport	Négociation TCP	Une négociation (handshake) TCP se fait en 3 étapes: - Le client envoie un TCP SYN, avec un numéro de séquence intial - Le serveur envoie un SYNACK avec un numéro de séquence initial - Le client répond un ACK
+Basique Maths	L3::Réseaux::Couche Transport	Fermeture d'une connexion TCP	- Une partie (A) envoie un TCP FIN - Réponse (de B) en envoyant un ACK et un TCP FIN - Réponse (de A) en envoyant un ACK - A en mode attente : répond ACK à des FIN - B reçoit le ACK : fermeture totale
+Basique Maths	L3::Réseaux::Couche Transport	Régulation du débit par TCP	Le débit est régulé par la taille de la fenêtre d'anticipation: - Augmentée de 1 après chaque RTT - Diviser par 2 à chaque perte
+Basique Maths	L3::Réseaux::Couche Transport	Débit moyen de TCP	\(\frac{1,22MSS}{RTT\sqrt{P_r}}\)

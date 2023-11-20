@@ -1,0 +1,15 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Théorie de la programmation::Introduction	Définitions inductives d'ensembles	Définition d'un type ensemble qui peut se référer à lui même, e.g;.: - Unitaire : \( X = 1 \)  - Naturel : \( X = X + 1 \)  - Nlist : \( 1 + nat \times X\)
+Basique Maths	L3::Théorie de la programmation::Introduction	Relation	Une relation est un sous-ensemble d'un produit cartésien
+Basique Maths	L3::Théorie de la programmation::Introduction	Cas particuliers de relations	- Unitaire : prédicat - Binaire : notation infixe \( xRy \) signifie \( (x,y) \in R\).
+Basique Maths	L3::Théorie de la programmation::Introduction	Définition inductive de relation	Définition d'une relation par des règles d'inférence.
+Basique Maths	L3::Théorie de la programmation::Introduction	Règles d'inférence pour \(le\)	 \( \frac{}{le(n,n)}A \) et \( \frac{le(n,k)}{le(n,S(k))}R\)
+Basique Maths	L3::Théorie de la programmation::Introduction	Vocabulaire des règles d'inférences	Dans \( \frac{le(n,k)}{le(n,S(k))}R \) , \( le(n,k) \) est une prémice, \( le(n,S(k)) \) la conclusion, et \( n,k \) sont des métavariables (quantifiées universellement).
+Basique Maths	L3::Théorie de la programmation::Introduction	Dérivation / Preuve	On appelle dérivation ou preuve un arbre construit à l'aide des règles d'inférence avec des axiomes aux feuilles.
+Basique Maths	L3::Théorie de la programmation::Introduction	Convention de définition de la relation avec les règles d'inférences	La relation \( R \) est l'ensemble des couples \( A = (a_1, \dots, a_n) \) tels qu'il existe une dérivation avec \( A \in R\) à la racine.
+Basique Maths	L3::Théorie de la programmation::Introduction	Preuves par induction sur un type	En général, pour les définitions inductives d'ensembles:  \( \text {type } t = | C_i\text{ of } u_i^1 \times \dots \times u_i^{n_i} \) , avec \( u_i^j \) un type préexsitant ou \( t \) ; Pour montrer \( \forall x \in t, P(x) \) , il suffit de montrer \( k \) propriétés: la \( i \) -ème propriété à montrer s'écrit: - Si \( P(x_j) \) est vraie pour tous les \( j \) tels que \( u_i^j = t \) , alors \( P(C_i(x_1, \dots ,x_{n_i}))\).
+Basique Maths	L3::Théorie de la programmation::Introduction	Preuve par induction sur une relation	Pour prouver \( \forall x \in t, x \in R \implies P(x) \) , Il suffit de montrer une propriété pour chaque règle d'inférence: - Si pour tout \( x_i \in R \) dans les prémices, \( P(x_i) \) , alors \( P(x_c) \) où \( x_c \) est tel que la conclusion est \( x_c \in R\)
+Basique Maths	L3::Théorie de la programmation::Introduction	Méthode pour une preuve par induction dans une copie	- Énoncer la propriété qu'on montre - Énoncer la structure ou relation sur laquelle on fait l'induction - Énoncer les cas possibles - Pour chaque cas : Énoncer les hypothèses d'induction et la propriété à démontrer.

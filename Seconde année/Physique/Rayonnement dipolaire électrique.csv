@@ -1,0 +1,18 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Oscillation des molécules	Lorsqu'elles sont soumises à un champ électrique oscillant, les molécules possédant un moment dipolaire permanent oscillent avec ce champ, car le dipôle tend à s'aligner sur \( \vec E_{ext}\) oscillant.
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Induction d'un moment dipolaire sur les molécules	Lorsqu'ils sont soumis à un champ électrique extérieur, les atomes et les molécules ne possédant pas de moment dipolaire permanent acquièrent un moment dipôlaire induit.
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Modélisation d'une antenne	Une antenne peut être décrite comme une collection de dipôles oscillant sinusoïdalement selon l'axe de l'antenne, à la pulsation \( \omega\) du forçage sinusoïdal de la source.
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Composante nulle du champ électrique d'un dipôle oscillant	Le champ électrique \( \vec E(M,t) \) dû à un dipôle d'axe \( Ox \) n'a pas de composante selon \( \vec e_\varphi\).
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Direction du champ magnétique d'un dipôle oscillant	Le champ magnétique \( \vec B(M,t) \) dû à un dipôle d'axe \( Ox \) est selon \( \vec e_\varphi\).
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Bilan des symétries et invariances du champ électromagnétique dû à un dipôle d'axe \(Ox\)	En tout point \( M \) et à tout instant \( t \) , le champ électromagnétique dû à un dipôle d'axe \( Ox \) s'écrit: - \( \vec E(M, t) = E_r(r, \theta, t)\vec e_r + E_\theta(r, \theta, t)\vec e_\theta \)  - \( \vec B(M,t) = B_\varphi(r, \theta, t)\vec e_\varphi \)  en coordonnées sphériques d'axe \( Ox\)
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Approximation non relativiste pour le dipôle oscillant	Dans l'approximation relativiste pour le dipôle oscillant, \( a \ll \lambda \) , où \( a\) est l'amplitude des oscillations.
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Zone de rayonnement	Dans la zone de rayonnement, \( r \gg \lambda \gg a\)
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Pulsation de l'onde rayonnée par le dipôle	L'onde rayonnée par un dipôle est de même pulsation que le dipôle.
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Approximation de l'onde localement plane	À la distance \( D \) d'un dipôle oscillant, l'onde rayonnée peut être approximée par une onde plane sur une zone d'extension spatiale faible devant \( D\) .
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Polarisation locale du rayonnement	Dans la zone de rayonnement, le champ électromagnétique rayonné par un dipôle oscillant selon une direction fixe, a une structure d'onde localement plane et est polarisé rectilignement
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Plan de puissance maximale du rayonnement	À une distance donnée du dipôle, la puissance électromagnétique rayonnée est la plus grande dans le plan perpendiculaire à l'axe du dipôle, contenant \( O\).
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Puissance rayonnée sur l'axe	Un dipôle ne rayonne pas de puissance sur son axe.
+Basique Maths	Seconde année::Physique::Rayonnement dipolaire électrique	Puissance émise selon la pulsation	Dans la limite où l'amplitude d'oscillation \( p_0 \) du dipôle est indépendante de \( \omega \) , \( \prts \propto \omega^4\).

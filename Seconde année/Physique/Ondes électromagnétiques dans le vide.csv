@@ -1,0 +1,25 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Laplacien vectoriel (coordonnées cartésiennes)	Laplacien scalaire appliqué à chaque fonction composante:  \( \Delta\vec E = \Delta E_x\vec e_x + \Delta E_y\vec e_y + \Delta E_z\vec e_z\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Equation différentielle sur les composantes de \(\vec E, \vec B\) dans le vide	Dans le vide, les fonctions composantes de \( \vec E \) et \( \vec B \) satisfont \( \Delta\psi - \mu_0\varepsilon_0\frac{\partial ^2\psi}{\partial^2t} = 0\).
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Célérité des ondes em dans le vide	 \( v= \frac{1}{\sqrt{\varepsilon_0\mu_0}} \simeq 3 , 00 \times 10^8m.s^{-1}\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Quantité de mouvement et énergie relativiste d'une particule	Avec \( \gamma = (1-\frac{v^2}{c^2})^{-\frac{1}{2}} \) , \( \vec p = \gamma m \vec v \) et \( E = \gamma mc^2\).
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Seconde forme de l'énergie relativiste d'une particule	 \( E^2 = p^2c^2+m^2c^4\).
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Condition sur une particule de vitesse \(v = c\)	Si une particule a une vitesse \( v = c\), alors sa masse est nulle.
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Forme des champs électriques et magnétiques d'une oem PPM	 \( \vec E(M,t)= \underline {\vec E}_0e^{i(wt - \vec k \cdot \vec r)} \) et \( \vec B(M,t)= \underline {\vec B}_0e^{i(wt - \vec k \cdot \vec r)}\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Caractère transverse d'une oem PPM	Une oem dans le vide est transverse magnétique (TM) : \( \vec k \cdot \vec B(M,t) = 0 \)  et transverse électrique (TE) : \( \vec k \cdot \vec E(M,t) =  0\) Elle est transverse électromagnétique (TEM).
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Relation de liaison générale oem PPM	 \( \vec B(M,t) = \frac{\vec k}{\omega}\wedge \vec E(M, t)\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Lien entre \(k\) et \(\omega\), oem PPM	 \( k = \frac{\omega}{c} \) ou \( \omega = kc\).
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Vitesse de phase des oem progressives dans le vide	 \( v_\varphi = c\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Relation de liaison pour les oem PPM dans le vide	 \( \vec  B(M,t ) = \frac{\vec e_u}{c}\wedge \vec E(M,t)\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Oem PPM polarisée rectilignement	Une Oem PPM est polarisée rectilignement s'il existe \( \vec e_p \) constant portant \( \vec E(M,t) \) pour tout \( M \) et \( t\).
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Polarisation de \(\vec  B\) selon la polarisation de \(\vec E\), oem PPM	 \( \vec B \) est polarisé ssi \( \vec E\) l'est.
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Relation géométrique entre vecteur de polarisation et vecteur direction de l'onde, oem PPM	 \( \vec e_k \cdot \vec e_p = 0.\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Lien densité volumique d'énergie électrique et densité volumique d'énergie magnétique, oem PPM	 \( e_{mag}(M,t) = e_{el}(M, t)\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Densité volumique d'énergie électromagnétique, oem PPM	 \( e_{em}(M,t)=\varepsilon_0E^2(M,t)\).
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Vecteur de Poynting oem	 \( \vec \Pi(M,t) = e_{em}(M,t) \times(\pm c \vec u_z)\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Intensité lumineuse ou éclairement	Moyenne de \( ||\vec \Pi|| \) en un point : \( I(M) = <||\vec\Pi||>_t(M)\)
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Validité des formules pour les oem PP	Toutes les formules restent valides. Attention \( \vec B = \frac{\vec k}{\omega}\wedge \vec E \) est proscrite pour les oem non monochromatiques ( \( \omega \) et \( \vec k\) non définis!). Une oem PP est transverse électromagnétique
+Basique Maths	Seconde année::Physique::Ondes électromagnétiques dans le vide	Oem réelles comme somme d'oem monochromatiques	Une onde électromagnétique réelle peut toujours être vue comme une somme continue d'ondes électromagnétiques monochromatiques. En ce sens, les ondes monochromatiques constituent une famille génératrice des ondes réelles.

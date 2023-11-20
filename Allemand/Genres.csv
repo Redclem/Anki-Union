@@ -1,0 +1,43 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique	Allemand::Genres	Renvoyant à un métier, une fonction, une nationalité et en -er, -ör ou -eur, -ier	Masculin
+Basique	Allemand::Genres	-ent	Masculin
+Basique	Allemand::Genres	-ant	Masculin
+Basique	Allemand::Genres	-ist	Masculin
+Basique	Allemand::Genres	-ismus	Masculin
+Basique	Allemand::Genres	-or	Masculin
+Basique	Allemand::Genres	-ling	Masculin
+Basique	Allemand::Genres	Désignant les jours, les mois, les saisons	Masculin
+Basique	Allemand::Genres	Renvoyant à un métier, une fonction, une nationalité et se terminant en -in ou -erin	Féminin
+Basique	Allemand::Genres	-ung	Féminin
+Basique	Allemand::Genres	-ion	Féminin
+Basique	Allemand::Genres	-heit ou -keit	Féminin
+Basique	Allemand::Genres	-ät	Féminin
+Basique	Allemand::Genres	-schaft	Féminin
+Basique	Allemand::Genres	-enz ou -anz	Féminin
+Basique	Allemand::Genres	-ei	Féminin
+Basique	Allemand::Genres	-ie	Féminin
+Basique	Allemand::Genres	Petits des êtres animés	Neutre
+Basique	Allemand::Genres	Diminutifs (suffixes -\text{ch}en ou -lein)	Neutre
+Basique	Allemand::Genres	Verbes substantivés	Neutre
+Basique	Allemand::Genres	-um	Neutre
+Basique	Allemand::Genres	-tel ou -stel	Neutre
+Basique	Allemand::Genres	-ment	Neutre
+Basique	Allemand::Genres	-tum	Neutre (sauf Reichtum et Irrtum)
+Basique	Allemand::Genres	-ett	Neutre
+Basique	Allemand::Genres	-on	Neutre
+Basique	Allemand::Genres	Unités de temps jusqu'à l'heure	Féminin
+Basic	Allemand::Genres	Substantifs (généralement d'une syllabe) d'un verbe fort	Masculin
+Basic	Allemand::Genres	Noms de voiture	Masculin
+Basic	Allemand::Genres	Alcools forts	Masculin
+Basic	Allemand::Genres	Direction (Ouest, est ...)	Masculin
+Basic	Allemand::Genres	Noms dérivés du radical d'un verbe avec les suffixes -e et -t	Féminin
+Basic	Allemand::Genres	Noms de bateaux	Féminin
+Basic	Allemand::Genres	Noms de motos	Féminin
+Basic	Allemand::Genres	Nombres substantivés	Féminin
+Basic	Allemand::Genres	Collectifs précédés de Ge-	Neutre
+Basic	Allemand::Genres	Noms de villes, pays ou continents non précédés d'un article	Neutre
+Basic	Allemand::Genres	Lettres substantivées	Neutre
+Basic	Allemand::Genres	Pronoms substantivés	Neutre

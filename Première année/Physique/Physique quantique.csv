@@ -1,0 +1,59 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basic	Première année::Physique::Physique quantique	Deux grands concepts de le physique quantique	Corpuscules et ondes
+Basic	Première année::Physique::Physique quantique	Corpuscule	Infime quantité de matière capable de transmettre de l'énergie \(E\) et de la quantité de mouvement \(\vec p\). Sa trajectoire est parfaitement définie
+Basic	Première année::Physique::Physique quantique	Onde	Transmission d'énergie utilisant un espace relativement grand, caractérisée par sa fréquence.
+Basic	Première année::Physique::Physique quantique	Effet photoélectrique	Éjection d'électrons à la surface d'un matériau (généralement un métal) sous l'effet d'un rayonnement lumineux convenable.
+Basic	Première année::Physique::Physique quantique	Condition pour l'effet photoélectrique	Le rayonnement doit atteindre une fréquence seuil pour qu'un électron soit émis quelque soit l'intensité du rayonnement. Cette fréquence seuil en général appelée \(f_s\) ou \(\nu_s\) ne dépend que de la nature du métal.
+Basic	Première année::Physique::Physique quantique	Nombre d'électrons éjectés par effet photoélectrique	Si la fréquence du rayonnement \(f \ge f_s\), alors le nombre d'électrons éjectés est proportionnel à la puissance lumineuse. Si \(f < f_s\), rien ne se passe.
+Basic	Première année::Physique::Physique quantique	Photon	Plus petite fraction possible d'une onde lumineuse monochromatique donnée. - Il forme un quantum d'énergie lumineuse: \(E = h\nu = h \frac{c}{\lambda}\), où \(h\) est la constante de Planck. - Sa masse est nulle, sa vitesse égale à la célérité de la lumière dans le vide.
+Basic	Première année::Physique::Physique quantique	Constante de Planck	\(h = 6,626 \times 10^{-34}J.s\)
+Basic	Première année::Physique::Physique quantique	Électron-volt	\(1ev = 1.6 \times 10^{-19} J\)
+Basic	Première année::Physique::Physique quantique	Nombre de photons causant l'éjection d'un électron	L'éjection d'un électron par effet photoélectrique résulte toujours de l'action d'un seul photon.
+Basic	Première année::Physique::Physique quantique	Équations de l'effet photoélectrique	\(E = W_{ext} + E_c = h\nu_s + E_c\) Le surplus d'énergie est l'énergie cinétique maximale communiquée à l'électron libéré: \(E_c = \frac{1}{2}m_ev_e^2 = h\nu - h\nu_s\)
+Basic	Première année::Physique::Physique quantique	Impulsion d'un photon	Vecteur dont la direction et le sens sont ceux du déplacement du photon; sa norme est: \(p = \frac{E}{c} = \frac{h}{\lambda} = \frac{h}{2\pi}k\). L'impulsion s'exprime en \(J.s.m^{-1}\). Il s'agit de l'autre relation de Planck-Einstein.
+Basic	Première année::Physique::Physique quantique	Quantification de l'énergie et de l'impulsion	L'énergie et l'impulsion sont quantifiées: Pour une onde électromagnétique de longueur d'onde \(\lambda\), la plus petit quantité d'énergie et la plus petite impulsion sont celles du photon. \(h\) est le quantum d'action.
+Basic	Première année::Physique::Physique quantique	Dualité onde-corpuscule	"Toute particule de quantité de mouvement \(\vec p\) possède un comportement ondulatoire et peut être décrite par une onde monochromatique dite ""onde de matière"" possédant une longueur d'onde \(\lambda\) telle que \(\lambda = \frac{h}{p}\)."
+Basic	Première année::Physique::Physique quantique	"Relation dualité onde-corpuscule de ""Louis de Broglie"""	\(p = \frac{hf}{c} = \frac{h}{\lambda}\)
+Basic	Première année::Physique::Physique quantique	Principe fondamental de la physique quantique	Dualité onde-corpuscule
+Basic	Première année::Physique::Physique quantique	Nécéssité de la description quantique	Avec \(L\) la dimension caractéristique de l'environnement avec lequel la particule agit: si \(\lambda << L\), une approche classique peut suffire. si \(\lambda \sim L\), une approche quantique est nécéssaire.
+Basic	Première année::Physique::Physique quantique	Particule associée à l'onde lumineuse	Photon
+Basic	Première année::Physique::Physique quantique	Dualité onde-corpuscule de la lumière	La nature de la lumière est simultanément corpusculaire et ondulatoire, même pour la lumière associée à un unique photon.
+Basic	Première année::Physique::Physique quantique	Quanton	Particule quantique d'une nature nouvelle, ni particule ni onde.
+Basic	Première année::Physique::Physique quantique	Nature probabiliste de la trajectoire des photons (fentes)	Les photons se répartissent de manière aléatoire, en suivant une loi de probabilité identique.
+Basic	Première année::Physique::Physique quantique	Destruction du phénomène d'interférence par observation (fentes)	Mesurer par quelle fente est passé \text{ch}aque électron détruit le phénomène d'interférences.
+Basic	Première année::Physique::Physique quantique	Condition nécéssaire aux interférences (fentes)	Chaque photon doit pouvoir passer simultanément par les deux fentes.
+Basic	Première année::Physique::Physique quantique	Nature du mode d'interaction du photon avec la matière	Le mode d'interaction du photon avec la matière est intrinsèquement probabiliste.
+Basic	Première année::Physique::Physique quantique	Fonction d'onde	Onde de probabilité \(s(M, t)\) dont l'amplitude \(A(M)\) dépend du point \(M\) considéré. La probabilité d'apparition de la particule au voisinage de \(M\) est proportionnelle au carré de \(A(M)\): \(Pr = cste \times A^2(M)\)
+Basic	Première année::Physique::Physique quantique	Notation onde de probabilité	Généralement notée \(\Psi(M, t)\)
+Basic	Première année::Physique::Physique quantique	Notion repésentée par \(\Psi(M, t)\)	"\(\Psi(M, t)\) représente un ""état quantique"" de la particule."
+Basic	Première année::Physique::Physique quantique	Probabilité de présence dans un volume infiniement petit	"La probabilité de présence de la particule à l'instant \(t\) dans le volume infiniement petit \(d\tau\) autour du point \(M\) est définie telle que: \(dP = \lvert \Psi(M, t) \rvert^2 d\tau\). \(\lvert \Psi(M, t) \rvert\) est appelée la ""densité de probabilité"" de présence de la particule au point \(M\) à l'instant \(t\)."
+Basic	Première année::Physique::Physique quantique	Constante de Dirac	\(\hbar = \frac{h}{2\pi}\)
+Basic	Première année::Physique::Physique quantique	Équation de Schrodinger	\(-\frac{\hbar^2}{2m}\frac{d^2\Psi}{dx^2} + V\Psi = E\Psi\).
+Basic	Première année::Physique::Physique quantique	Confinement 1D	Une particule confinée 1D est une particule de masse \(m\) astreinte à se déplacer sur un axe \((O, x)\), placée dans une cavité de largeur \(L\) imposant \(x \in [0, L]\) (ce qui l'empêche de sortir) et qui n'est soumise à aucune force dans cet intervalle.
+Basic	Première année::Physique::Physique quantique	Relation entre la largeur du puits \(L\) et la longueur d'onde \(\lambda_n\) pour une particule confinée 1D	Les longueurs d'ondes acceptables sont les \(\lambda_n\) telles que: \(L = n\frac{\lambda_n}{2}, n \in \mathbb N\)
+Basic	Première année::Physique::Physique quantique	Valeurs possibles de l'impulsion pour une particule confinée 1D	\(p_n = \frac{nh}{2L}\).
+Basic	Première année::Physique::Physique quantique	Énergie quantifiée d'une particule confinée 1D (selon \(h\) et \(\hbar\))	\(E = E_n = n^2\frac{h^2}{8mL^2} = n^2\frac{\hbar^2\pi^2}{2mL^2}\)
+Basic	Première année::Physique::Physique quantique	État quantique correspondant à l'état d'énergie le plus bas (confinement 1D)	État fondamental atteint pour \(n = 1\). Son niveau d'énergie est \(E_0\). La particule ne peut avoir une énergie nulle.
+Basic	Première année::Physique::Physique quantique	Principe d'incertitude d'Heisenberg	Sur un axe, \(\Delta x\) l'incertitude sur la position et \(\Delta p_x\) l'incertitude sur la quantité de mouvement: L'ordre de grandeur de \(\Delta x \Delta p_x\) est au moins égal à \(h\) : \(\Delta x \Delta p_x \ge h\).
+Basic	Première année::Physique::Physique quantique	Charge élémentaire	\(e = 1.6 \times 10^{-19} C\).
+Basic	Première année::Physique::Physique quantique	Force agissant sur l'électron (modèle de Bohr hydrogène)	\(\vec f = -\frac{k}{r^2}\vec e_r\), avec \(k = \frac{e^2}{4\pi \varepsilon_0}\)
+Basic	Première année::Physique::Physique quantique	Énergie de l'électron (modèle de Bohr hydrogène)	\(E = -\frac{k}{2r}\)
+Basic	Première année::Physique::Physique quantique	Moment cinétique de l'électron (modèle de Bohr hydrogène)	L = \(\sqrt{m_ekr}\)
+Basic	Première année::Physique::Physique quantique	Résultat de la mécanique classique (modèle de Bohr hydrogène)	\(m_e v^2 = \frac{k}{r}\)
+Basic	Première année::Physique::Physique quantique	Quantification du moment cinétique (Bohr hydrogène)	\(L = n\hbar\)
+Basic	Première année::Physique::Physique quantique	Quantification de l'énergie \(E\) (Bohr hydrogène)	\(E_n = -\frac{E_0}{n^2}\) avec \(E_0 = \frac{m_Ek^2}{2\hbar^2} = 13,6 eV\)
+Basic	Première année::Physique::Physique quantique	Rayon correspondant au niveau d'énergie \(E_n\) (Bohr hydrogène)	\(r_n = a_0n^2\) avec \(a_0 = \frac{\hbar^2}{km_e} = 0.53\times 10^{-10} m\).
+Basic	Première année::Physique::Physique quantique	Énergie d'ionisation	L'énergie d'ionisation est \(E_0 = E_\infty - E_1\). Pour l'hydrogène, \(E_0 = 13,6 eV\)
+Basic	Première année::Physique::Physique quantique	\(E\) pour un état ionisé (hydrogène)	\(E \ge 0\), \(E\) n'est plus quantifiée.
+Basic	Première année::Physique::Physique quantique	Masse de l'électron	\(m_e = 9,1 \times 10^{-31} kg\)
+Basic	Première année::Physique::Physique quantique	Distance interfrange	\(i = \lambda \frac{D}{a}\), avec \(a\) la distance entre les fentes et \(D\) la distance fente-écran.
+Basic	Première année::Physique::Physique quantique	Relation d'incertitude sur l'énergie et le temps	Si le temps caractéristique d'un phénomène étudié est \(\Delta t\), l'énergie \(E\) de la particule peut prendre un ensemble de valeurs dans un intervalle de longueur \(\Delta E\) tel que: \(\Delta E \Delta t \gtrsim \hbar\)
+Basic	Première année::Physique::Physique quantique	Notation de l'énergie potentielle en mécanique quantique	L'énergie potentielle est notée \(V\) ou \(U\).
+Basic	Première année::Physique::Physique quantique	Niveau	Ensemble des électrons décrits par une même valeur de n.
+Basic	Première année::Physique::Physique quantique	Nombre quantique secondaire (Schrödinger hydrogène)	\(l\) tel que \(0 \le l \le n - 1\) quantifiant le module du moment cinétique orbital de l'électron \(\vec L = m \vec r \wedge \vec v\): \(\lvert \lvert \vec L \rvert \rvert = \sqrt{l(l+1)}\hbar\)
+Basic	Première année::Physique::Physique quantique	Relation énergie cinétique et moment cinétique	\(E_c = \frac{p^2}{2m}\)
+Basic	Première année::Physique::Physique quantique	Nombre quantique magnétique (Schrödinger hydrogène)	\(m\) quantifiant la projection du moment cinétique orbital suivant une direction (par exemple \(z\)): \(L_z = m \hbar\).
+Basic	Première année::Physique::Physique quantique	Notions associées à \(n\) et \(l\) (Schrödinger hydrogène)	\(n\) est associé à une couche, \(l\) à une sous-couche.

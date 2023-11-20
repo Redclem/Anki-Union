@@ -1,0 +1,16 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(e^x\)	 \( 1 + x + \frac{x^2}{2} + \cdots + \frac{x^n}{n!} + \mathcal o(x^n)\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\text{sin}(x)\)	 \( x - \frac{x^3}{3!} + \frac{x^5}{5!} + \cdots + (-1)^n\frac{x^{2n+1}}{(2n+1)!} + \mathcal o(x^{2n+2})\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\text{cos}(x)\)	 \( 1 - \frac{x^2}{2!} + \frac{x^4}{4!} + \cdots + (-1)^n\frac{x^{2n}}{(2n)!} + \mathcal o(x^{2n+1})\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\text{sh}(x)\)	 \( \text{sh}(x) = x + \frac{x^3}{3!} + \frac{x^5}{5!} + \cdots + \frac{x^{2n+1}}{(2n+1)!} + \mathcal o(x^{2n+2})\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\text{ch}(x)\)	 \( 1 + \frac{x^2}{2!} + \frac{x^4}{4!} + \cdots + \frac{x^{2n}}{(2n)!} + \mathcal o(x^{2n+1})\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\text{tan}(x)\)	 \( x + \frac{1}{3}x^3+\frac{2}{15}x^5 + \mathcal o(x^6)\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\((1+x)^\alpha\)	 \( 1 + \alpha x + \frac{\alpha (\alpha - 1)}{2}x^2 + \cdots + \frac{\alpha(\alpha - 1) \cdots (\alpha - n + 1)}{n!}x^n + \mathcal o(x^n)\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\frac{1}{1-x}\)	 \( 1 + x + x^2 + \cdots + x^n + \mathcal o(x^n)\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\frac{1}{1+x}\)	 \( 1 - x + x^2 + \cdots + (-1)^nx^n + \mathcal o(x^n)\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\frac{1}{1+x^2}\)	 \( 1 - x^2 + x^4 + \cdots + (-1)^nx^{2n} + \mathcal o(x^{2n})\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\text{ln}(1 + x)\)	 \( x-\frac{x^2}{2} + \frac{x^3}{3} + \cdots + (-1)^{n - 1}\frac{x^n}{n} + \mathcal o(x^n)\)
+Basique Maths	Seconde année::Mathématiques::Trigonométrie, développements usuels, Primitives usuelles::Développements limités usuels	\(\text{arctan}(x)\)	 \( x - \frac{x^3}{3} + \frac{x^5}{5} + \cdots + (-1)^n\frac{x^{2n+1}}{(2n+1)} + \mathcal o(x^{2n+2})\)

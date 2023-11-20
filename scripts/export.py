@@ -1,6 +1,6 @@
 from anki.storage import Collection
 from os import mkdir, getcwd
-from os.path import isdir, isfile
+from os.path import isdir, isfile, expanduser
 from anki.collection import DeckIdLimit
 from hashlib import sha256
 from sys import argv
@@ -23,7 +23,7 @@ class MyCol(Collection):
 
 
 def main():
-    with MyCol("/home/redclem/.local/share/Anki2/Redclem/collection.anki2") as col:
+    with MyCol(expanduser("~/.local/share/Anki2/Redclem/collection.anki2")) as col:
 
         hashes_c = {}
         modified = {}
@@ -86,15 +86,14 @@ def main():
                 path += i
                 exists_or_create(path)
 
-            path += '/' + filename + ".apkg"
+            path += '/' + filename + ".csv"
 
             lim = DeckIdLimit(did)
 
             if did in modified.keys():
                 print("Exporting {}".format(filename))
                 if not dry_run:
-                    col.export_anki_package(out_path=path, limit=lim, with_scheduling=False, with_media=False,
-                                            legacy_support=True)
+                    col.export_note_csv(out_path=path, limit=lim, with_html=False, with_tags=False, with_deck=True, with_notetype=True, with_guid=False)
             else:
                 print("Skipping {}".format(filename))
 

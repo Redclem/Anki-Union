@@ -1,0 +1,161 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique	Allemand::Verbes irréguliers	Sein	Présent Ich bin Du bist Et ist Wir \text{sin}d Ihr seid Sie \text{sin}d  Prétérit Ich war Du warst Er war Wir waren Ihr wart Sie waren  Subjonctif II : wäre  Participe passé : gewesen  Sens : être				
+Basique	Allemand::Verbes irréguliers	Haben	Présent Ich habe Du hast Er hat Wir haben Ihr habt Sie haben  Prétérit Ich hatte Du hattest Er hatte Wir hatten Ihr hattet Sie hatten  Subjonctif II : hätte  Participe : gehabt  Sens : avoir				
+Basique	Allemand::Verbes irréguliers	Werden	Présent Ich werde Du wirst Er wird Wir werden Ihr werdet Sie werden  Prétérit Ich wurde Du wurdest Er wurde Wir wurden Ihr wurdet Sie wurden  Prétérit II : würde  Participe passé : geworden  Sens : devenir				
+Verbes de modalité	Allemand::Verbes irréguliers	Können	Ich kann Du kannst Er kann Wir können Ihr könnt Sie können	Konnte	Könnte	Gekonnt	Pouvoir
+Verbes de modalité	Allemand::Verbes irréguliers	Dürfen	Ich darf Du darfst Er darf Wir dürfen Ihr dürft Sie dürfen	Durfte	Dürfte	Gedurft	Avoir la permission
+Verbes de modalité	Allemand::Verbes irréguliers	Müssen	Ich muss Du musst Er muss Wir müssen Ihr müsst Sie müssen	Musste	Müsste	Gemusst	Devoir
+Verbes de modalité	Allemand::Verbes irréguliers	Sollen	Ich soll Du sollst Er soll Wir sollen Ihr sollt Sie sollen	Sollte	Sollte	Gesollt	Devoir
+Verbes de modalité	Allemand::Verbes irréguliers	Wollen	Ich will Du willst Er will Wir wollen Ihr wollt Sie wollen	Wollte	Wollte	Gewollt	Vouloir
+Verbes de modalité	Allemand::Verbes irréguliers	Mögen	Ich mag Du magst Er mag Wir mögen Ihr mögt Sie mögen	Mochte	Möchte	Gemocht	Aimer
+Verbes de modalité	Allemand::Verbes irréguliers	Wissen	Ich weiß Du weißt Er weiß Wir wissen Ihr wisst Sit wissen	Wusste	Wüsste	Gewusst	Savoir
+Verbe fort	Allemand::Verbes irréguliers	Backen	Backte (buk)	Hat gebacken	Bäckt	Cuire au four	
+Verbe fort	Allemand::Verbes irréguliers	Befehlen	Befahl	Hat befohlen	Befiehlt	Ordonner, commander	
+Verbe fort	Allemand::Verbes irréguliers	Beginnen	Begann	Hat begonnen	Beginnt	Commencer	
+Verbe fort	Allemand::Verbes irréguliers	Beißen	Biss	Hat gebissen	Beißt	Mordre	
+Verbe fort	Allemand::Verbes irréguliers	Biegen	Bog	Hat/Ist gebogen	Biegt	Tourner, bifurquer (ist) / tordre (hat)	
+Verbe fort	Allemand::Verbes irréguliers	Bieten	Bot	Hat geboten	Bietet	Offrir, proposer	
+Verbe fort	Allemand::Verbes irréguliers	Binden	Band	Hat gebunden	Bindet	Lier, attacher	
+Verbe fort	Allemand::Verbes irréguliers	Bitten	Bat	Hat gebeten	Bittet	Prier qn. de, demander	
+Verbe fort	Allemand::Verbes irréguliers	Blasen	Blies	Hat geblasen	Bläst	Souffler	
+Verbe fort	Allemand::Verbes irréguliers	Bleiben	Blieb	Ist geblieben	Bleibt	Rester	
+Verbe fort	Allemand::Verbes irréguliers	Braten	Briet	Hat gebraten	Brät	(faire) Rotir	
+Verbe fort	Allemand::Verbes irréguliers	Brechen	Brach	Hat gebrochen	Bricht	Casser, briser	
+Verbe fort	Allemand::Verbes irréguliers	Dringen	Drang	Ist gedrungen	Dringt	Pénétrer, s'enfoncer	
+Verbe fort	Allemand::Verbes irréguliers	Empfehlen	Empfahl	Hat empfohlen	Empfiehlt	Recommander	
+Verbe fort	Allemand::Verbes irréguliers	Empfinden	Empfand	Hat empfunden	Empfindet	Ressentir	
+Verbe fort	Allemand::Verbes irréguliers	Erschrecken	Erschrak	Ist erschrocken	Erschrickt	Prendre peur, s'effrayer	
+Verbe fort	Allemand::Verbes irréguliers	Essen	Aß	Hat gegessen	Isst	Manger	
+Verbe fort	Allemand::Verbes irréguliers	Fahren	Fuhr	Ist/hat gefahren	Fährt	Aller, rouler (véhicule) (ist) / conduire (un véhicule) (hat)	
+Verbe fort	Allemand::Verbes irréguliers	Fallen	Fiel	Ist gefallen	Fällt	Tomber	
+Verbe fort	Allemand::Verbes irréguliers	Fangen	Fing	Hat gefangen	Fängt	Attraper	
+Verbe fort	Allemand::Verbes irréguliers	Fechten	Focht	Hat gefochten	Ficht	Faire de l'escrime, combattre	
+Verbe fort	Allemand::Verbes irréguliers	Finden	Fand	Hat gefunden	Findet	Trouver	
+Verbe fort	Allemand::Verbes irréguliers	Fliegen	Flog	Ist geflogen	Fliegt	Voler, aller (avion)	
+Verbe fort	Allemand::Verbes irréguliers	Fliehen	Floh	Ist geflohen	Flieht	Fuire, se sauver	
+Verbe fort	Allemand::Verbes irréguliers	Fließen	Floss	Ist geflossen	Fließt	Couler	
+Verbe fort	Allemand::Verbes irréguliers	Fressen	Fraß	Hat gefressen	Frisst	Manger (animaux)	
+Verbe fort	Allemand::Verbes irréguliers	Frieren	Fror	Hat/Ist gefroren	Friert	Geler (ist) / avoir froid (hat)	
+Verbe fort	Allemand::Verbes irréguliers	Geben	Gab	Hat gegeben	Gibt	Donner	
+Verbe fort	Allemand::Verbes irréguliers	Gedeihen	Gedieh	Ist gediehen	Gedeiht	Prospérer	
+Verbe fort	Allemand::Verbes irréguliers	Gehen	Ging	Ist gegangen	Geht	Aller, marcher	
+Verbe fort	Allemand::Verbes irréguliers	Gelingen	Gelang	Ist Gelungen	Gelingt	Réussir	
+Verbe fort	Allemand::Verbes irréguliers	Gelten	Galt	Hat gegolten	Gilt	Valoir, compter	
+Verbe fort	Allemand::Verbes irréguliers	Genießen	Genoss	Hat genossen	Genießt	Apprécier, prendre plaisir à	
+Verbe fort	Allemand::Verbes irréguliers	Geschehen	Geschah	Ist geschehen	Geschieht	Se produire	
+Verbe fort	Allemand::Verbes irréguliers	Gewinnen	Gewann	Hat gewonnen	Gewinnt	Gagner	
+Verbe fort	Allemand::Verbes irréguliers	Gießen	Goss	Hat gegossen	Gießt	Verser, Arroser	
+Verbe fort	Allemand::Verbes irréguliers	Gleichen	Glich	Hat geglichen	Gleicht	Ressembler, égaler	
+Verbe fort	Allemand::Verbes irréguliers	Gleiten	Glitt	Ist geglitten	Gleitet	Glisser	
+Verbe fort	Allemand::Verbes irréguliers	Graben	Grub	Hat gegraben	Gräbt	Creuser	
+Verbe fort	Allemand::Verbes irréguliers	Greifen	Griff	Hat gegriffen	Greift	Saisir	
+Verbe fort	Allemand::Verbes irréguliers	Halten	Hielt	Hat gehalten	Hält	Tenir, s'arrêter	
+Verbe fort	Allemand::Verbes irréguliers	Hängen	Hing	Hat gehangen	Hängt	Être pendu, être accroché	
+Verbe fort	Allemand::Verbes irréguliers	Hauen	Hieb (haute)	Hat gehauen	Haut	Frapper, tailler	
+Verbe fort	Allemand::Verbes irréguliers	Heben	Hob	Hat gehoben	Hebt	Lever, soulever	
+Verbe fort	Allemand::Verbes irréguliers	Heißen	Hieß	Hat geheißen	Heißt	S'appeler	
+Verbe fort	Allemand::Verbes irréguliers	Helfen	Half	Hat geholfen	Hilft	Aider	
+Verbe fort	Allemand::Verbes irréguliers	Klingen	Klang	Hat geklungen	Klingt	Sonner, résonner	
+Verbe fort	Allemand::Verbes irréguliers	Kommen	Kam	Ist gekommen	Kommt	Venir	
+Verbe fort	Allemand::Verbes irréguliers	Kriechen	Kroch	Ist gekrochen	Kriecht	Ramper	
+Verbe fort	Allemand::Verbes irréguliers	Laden	Lud	Hat geladen	Lädt	Charger	
+Verbe fort	Allemand::Verbes irréguliers	Lassen	Ließ	Hat gelassen	Lässt	Laisser	
+Verbe fort	Allemand::Verbes irréguliers	Laufen	Lief	Ist gelaufen	Läuft	Courir, marcher	
+Verbe fort	Allemand::Verbes irréguliers	Leiden	Litt	Hat gelitten	Leidet	Souffrir	
+Verbe fort	Allemand::Verbes irréguliers	Leihen	Lieh	Hat geliehen	Leiht	Prêter	
+Verbe fort	Allemand::Verbes irréguliers	Lesen	Las	Hat gelesen	Liest	Lire	
+Verbe fort	Allemand::Verbes irréguliers	Liegen	Lag	Hat gelegen	Liegt	Être allongé, situé, posé	
+Verbe fort	Allemand::Verbes irréguliers	Lügen	Log	Hat gelogen	Lügt	Mentir	
+Verbe fort	Allemand::Verbes irréguliers	Meiden	Mied	Hat gemieden	Meidet	Éviter	
+Verbe fort	Allemand::Verbes irréguliers	Melken	Molk (melkte)	Hat gemolken	Melkt	Traire	
+Verbe fort	Allemand::Verbes irréguliers	Messen	Maß	Hat gemessen	Misst	Mesurer	
+Verbe fort	Allemand::Verbes irréguliers	Nehmen	Nahm	Hat genommen	Nimmt	Prendre	
+Verbe fort	Allemand::Verbes irréguliers	Pfeifen	Pfiff	Hat gepfiffen	Pfeift	Siffler	
+Verbe fort	Allemand::Verbes irréguliers	Preisen	Pries	Hat gepriesen	Preist	Louer, vanter	
+Verbe fort	Allemand::Verbes irréguliers	Raten	Riet	Hat geraten	Rät	Conseiller	
+Verbe fort	Allemand::Verbes irréguliers	Reiben	Rieb	Hat gerieben	Reibt	Frotter, râper	
+Verbe fort	Allemand::Verbes irréguliers	Reißen	Riss	Hat gerissen	Reißt	Déchirer, arracher	
+Verbe fort	Allemand::Verbes irréguliers	Reiten	Ritt	Ist geritten	Reitet	Aller à (faire du) \text{ch}eval	
+Verbe fort	Allemand::Verbes irréguliers	Riechen	Roch	Hat gerochen	Riecht	Sentir (odeur)	
+Verbe fort	Allemand::Verbes irréguliers	Ringen	Rang	Hat gerungen	Ringt	Lutter	
+Verbe fort	Allemand::Verbes irréguliers	Rufen	Rief	Hat gerufen	Ruft	Appeler, crier	
+Verbe fort	Allemand::Verbes irréguliers	Saufen	Soff	Hat gesoffen	Säuft	Se saoûler, boire (animaux)	
+Verbe fort	Allemand::Verbes irréguliers	Saugen	Sog	Hat gesogen	Saugt	Aspirer	
+Verbe fort	Allemand::Verbes irréguliers	Schaffen	Schuf	Hat geschaffen	Schafft	Créer	
+Verbe fort	Allemand::Verbes irréguliers	Scheiden	Schied	Hat geschieden	Scheidet	Séparer	
+Verbe fort	Allemand::Verbes irréguliers	Scheinen	Schien	Hat geschienen	Scheint	Briller, luire, sembler	
+Verbe fort	Allemand::Verbes irréguliers	Schieben	Schob	Hat geschoben	Schiebt	Pousser	
+Verbe fort	Allemand::Verbes irréguliers	Schießen	Schoss	Hat geschossen	Schießt	Tirer (au fusil)	
+Verbe fort	Allemand::Verbes irréguliers	Schlafen	Schlief	Hat geschlafen	Schläft	Dormir	
+Verbe fort	Allemand::Verbes irréguliers	Schlagen	Schlug	Hat geschlagen	Schlägt	Taper, battre, frapper	
+Verbe fort	Allemand::Verbes irréguliers	Schleichen	Schlich	Ist geschlichen	Schleicht	Se glisser	
+Verbe fort	Allemand::Verbes irréguliers	Schließen	Schloss	Hat geschlossen	Schließt	Fermer	
+Verbe fort	Allemand::Verbes irréguliers	Schmelzen	Schmolz	Ist/hat geschmolzen	Schmilzt	Fondre (ist) / Faire fondre (hat)	
+Verbe fort	Allemand::Verbes irréguliers	Schneiden	Schnitt	Hat geschnitten	Schneidet	Couper	
+Verbe fort	Allemand::Verbes irréguliers	Schreiben	Schrieb	Hat geschrieben	Schreibt	Écrire	
+Verbe fort	Allemand::Verbes irréguliers	Schreien	Schrie	Hat geschrien	Schreit	Crier, hurler	
+Verbe fort	Allemand::Verbes irréguliers	Schreiten	Schritt	Ist geschritten	Schreitet	Faire un pas, marcher (soutenu)	
+Verbe fort	Allemand::Verbes irréguliers	Schweigen	Schwieg	Hat geschwiegen	Schweigt	Se taire	
+Verbe fort	Allemand::Verbes irréguliers	Schwellen	Schwoll	Ist geschwollen	Schwillt	Enfler, s'amplifier	
+Verbe fort	Allemand::Verbes irréguliers	Schwimmen	Schwamm	Ist geschwommen	Schwimmt	Nager, aller qqpart en nageant	
+Verbe fort	Allemand::Verbes irréguliers	Schwören	Schwor	Hat geschworen	Schwört	Jurer	
+Verbe fort	Allemand::Verbes irréguliers	Sehen	Sah	Hat gesehen	Sieht	Voir	
+Verbe fort	Allemand::Verbes irréguliers	Singen	Sang	Hat gesungen	Singt	Chanter	
+Verbe fort	Allemand::Verbes irréguliers	Sinken	Sank	Ist gesunken	Sinkt	Sombrer, baisser	
+Verbe fort	Allemand::Verbes irréguliers	Sitzen	Saß	Hat gesessen	Sitzt	Être assis, posé	
+Verbe fort	Allemand::Verbes irréguliers	Speien	Spie	Hat gespien	Speit	Cracher	
+Verbe fort	Allemand::Verbes irréguliers	Sprechen	Sprach	Hat gesprochen	Spricht	Parler	
+Verbe fort	Allemand::Verbes irréguliers	Springen	Sprang	Ist gesprungen	Springt	Sauter	
+Verbe fort	Allemand::Verbes irréguliers	Stechen	Stach	Hat gestochen	Sticht	Piquer	
+Verbe fort	Allemand::Verbes irréguliers	Stehen	Stand	Hat gestanden	Steht	Être debout, assis, posé	
+Verbe fort	Allemand::Verbes irréguliers	Stehlen	Stahl	Hat gestohlen	Stiehlt	Voler, dérober	
+Verbe fort	Allemand::Verbes irréguliers	Steigen	Stieg	Ist gestiegen	Steigt	Monter	
+Verbe fort	Allemand::Verbes irréguliers	Sterben	Starb	Ist gestorben	Stirbt	Mourir	
+Verbe fort	Allemand::Verbes irréguliers	Stinken	Stank	Hat gestunken	Stinkt	Puer	
+Verbe fort	Allemand::Verbes irréguliers	Stoßen	Stieß	Hat/ist gestoßen	Stößt	Heurter, pousser (hat) / buter, tomber sur (ist)	
+Verbe fort	Allemand::Verbes irréguliers	Streichen	Strich	Hat gestrichen	Streicht	Peindre, rayer, effleurer	
+Verbe fort	Allemand::Verbes irréguliers	Streiten	Stritt	Hat gestritten	Streitet	Se disputer	
+Verbe fort	Allemand::Verbes irréguliers	Tragen	Trug	Hat getragen	Trägt	Porter	
+Verbe fort	Allemand::Verbes irréguliers	Treffen	Traf	Hat getroffen	Trifft	Rencontrer, toucher	
+Verbe fort	Allemand::Verbes irréguliers	Treiben	Trieb	Hat getrieben	Treibt	Pousser, pratiquer, faire	
+Verbe fort	Allemand::Verbes irréguliers	Treten	Trat	Hat getreten	Tritt	Poser le pied sur	
+Verbe fort	Allemand::Verbes irréguliers	Trinken	Trank	Hat getrunken	Trinkt	Boire	
+Verbe fort	Allemand::Verbes irréguliers	Trügen	Trog	Hat getrogen	Trügt	Être trompeur	
+Verbe fort	Allemand::Verbes irréguliers	Tun	Tat	Hat getan	Tut	Faire	
+Verbe fort	Allemand::Verbes irréguliers	Unterscheiden	Unterschied	Hat unterschieden	Unterscheidet	Distinguer, différencier	
+Verbe fort	Allemand::Verbes irréguliers	Bergen	Barg	Hat geborgen	Birgt	Cacher	
+Verbe fort	Allemand::Verbes irréguliers	Verderben	Verdarb	Hat verdorben	Verdirbt	Abîmer, gâter	
+Verbe fort	Allemand::Verbes irréguliers	Vergessen	Vergaß	Hat vergessen	Vergisst	Oublier	
+Verbe fort	Allemand::Verbes irréguliers	Verschlingen	Verschlang	Hat verschlungen	Verschlingt	Engloutir	
+Verbe fort	Allemand::Verbes irréguliers	Verschwinden	Verschwand	Ist verschwunden	Verschwindet	Disparaître	
+Verbe fort	Allemand::Verbes irréguliers	Verzeihen	Verzieh	Hat verziehen	Verzeiht	Pardonner	
+Verbe fort	Allemand::Verbes irréguliers	Wachsen	Wuchs	Ist gewachsen	Wächst	Grandire, croître, pousser	
+Verbe fort	Allemand::Verbes irréguliers	Waschen	Wusch	Hat gewaschen	Wäscht	Laver	
+Verbe fort	Allemand::Verbes irréguliers	Weisen	Wies	Hat gewiesen	Weist	Indiquer, désigner	
+Verbe fort	Allemand::Verbes irréguliers	Werben	Warb	Hat geworben	Wirbt	Faire de la publicité	
+Verbe fort	Allemand::Verbes irréguliers	Werfen	Warf	Hat geworfen	Wirft	Lancer, jeter	
+Verbe fort	Allemand::Verbes irréguliers	Wiegen	Wog	Hat gewogen	Wiegt	Peser	
+Verbe fort	Allemand::Verbes irréguliers	Ziehen	Zog	Hat/ist gezogen	Zieht	Tirer (hat) / passer (direction), aller, déménager (ist)	
+Verbe fort	Allemand::Verbes irréguliers	Zwingen	Zwang	Hat gezwungen	Zwingt	Obliger, forcer	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Brennen	Brannte	Hat/ist gebrannt	Brennt	Brûler	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Bringen	Brachte	Hat gebracht	Bringt	Apporter	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Denken	Dachte	Hat gedacht	Denkt	Penser	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Kennen	Kannte	Hat gekannt	Kennt	Connaître	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Nennen	Nannte	Hat genannt	Nennt	Nommer	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Rennen	Rannte	Ist gerannt	Rennt	Courir	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Senden	Sandte (sendete)	Hat gesandt (gesendet)	Sendet	Envoyer	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Wenden	Wandte (wendete)	Hat gewandt (gewendet)	Wendet	Tourner	
+Verbe fort	Allemand::Verbes irréguliers	Erbleichen	Erblich	Ist erblichen	Erbleicht	Pâlir	
+Verbe fort	Allemand::Verbes irréguliers	Erlöschen	Erlosch	Ist erloschen	Erlischt	S'éteindre	
+Verbe fort	Allemand::Verbes irréguliers	Gebären	Gebar	Hat geboren	Gebiert	Mettre au monde	
+Verbe fort	Allemand::Verbes irréguliers	Genesen	Genas	Ist genesen	Genest	Guérir	
+Verbe fort	Allemand::Verbes irréguliers	Mahlen	Mahlte	Hat gemahlen	Mahlt	Moudre	
+Verbe fort	Allemand::Verbes irréguliers	Quellen	Quoll	Ist gequollen	Quillt	Sourdre	
+Verbe fort	Allemand::Verbes irréguliers	Salzen	Salzte	Hat gesalzen	Salzt	Saler	
+Verbe fort	Allemand::Verbes irréguliers	Schelten	Schalt	Hat gescholten	Schilt	Gronder	
+Verbe fort	Allemand::Verbes irréguliers	Sieden	Sott	Hat gesotten	Siedet	Bouillir	
+Verbe fort	Allemand::Verbes irréguliers	Spalten	Spaltete	Hat gespalten	Spaltet	Diviser	
+Verbe fort	Allemand::Verbes irréguliers	Weichen	Wich	Ist gewichen	Weicht	Céder, s'écarter	

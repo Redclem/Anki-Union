@@ -1,0 +1,13 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Ordre partiel	Un ordre partiel sur un ensemble est une relation binaire réflexive, transitive et antisymétrique.
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Minorant / Majorant	Un minorant de  \( A \subseteq (E, \le) \)  est un  \( m \in E \)  tel que  \( \forall x \in A, m \le x \) . Définition analogue du majorant avec  \( m \ge x\).
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Plus grand minorant / majorant	Un plus grand minorant de  \( A \subseteq (E, \le) \)  est un élément de  \( E \)  noté  \( \sqcap A \)  tel que c'est un minorant de  \( A \) , et pour tout minorant  \( m \)  de  \( A \) ,  \( m \le\sqcap A \) . Le plus grand majorant est noté  \( \sqcup A\) et est défini de manière analogue.
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Treillis complet	Un treillis complet est un ensemble muni d'un ordre partiel tel que pour tout  \( A \subseteq (E, \le) \) ,  \( \sqcap A, \sqcup A\) existent.
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Théorème de Knaster-Tarski	Toute fonction  \( f \) croissante d'un treillis complet dans lui-même admet un plus petit et plus grand point fixe (Le sous-ensemble des points fixes est un treillis complet), et le plus petit point fixe est le plus petit prépoint fixe
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Application du théorème K-T	On voit les règles d'inférences comme des fonctions  \( f_i \)  qui a un ensemble de couples associe l'ensemble des nouveaux couples construits, et on considère  \( f \)  l'union de ces fonctions. Alors la relation est définie comme le plus petit point fixe de  \( f\).
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Preuve par induction sur une relation avec K-T	"Montrer, avec une propriété  \( P \)  ,  \( \forall x \in t, x \in R \implies P(x) \)  par induction revient à montrer que pour toute fonction  \( f_i \)  associée à une règle de dérivation, pour tout ensemble  \( A \)  d'éléments,  \( P(A) \implies P(f_i(A))\) (i.e. la propriété ""passe en dérivant"")."
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Définitions en pratique	En pratique, on définit: - Les types par leurs constructeurs - Les relations par des règles d'inférence - Les fonctions par récursion Soit en Coq / Ocaml, soit avec des phrases.
+Basique Maths	L3::Théorie de la programmation::Théorème de Knaster-Tarski	Preuves en pratique	En pratique, on rédige toujours les preuves. On n'utilise pas d'objets non construits explicitement dans une preuve.

@@ -1,0 +1,27 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algorithmique	Types de problèmes	3 types de problèmes: - Construction de solution - Optimisation - Décision
+Basique Maths	L3::Algorithmique	"""Efficace"" en algorithmique"	"Un algorithme est ""efficace"" s'il est en temps polynomial sur une machine de Turing déterministe."
+Basique Maths	L3::Algorithmique	Quelques paradigmes d'algorithmique	- Diviser pour régner - Gloutons - Programmation dynamique - Recherche locale - Optimisation linéaire - Randomisés
+Basique Maths	L3::Algorithmique	Stratégies de réduction en NP-Complétude	- Approximation - Algos exponentiels exacts - Algos paramétrés
+Basique Maths	L3::Algorithmique	Complexité / Algorithme paramétré	Complexité / Algorithme avec des conditions supplémentaires sur les entrées et sorties.
+Basique Maths	L3::Algorithmique	Exemples à vérifier sur tout problème	Petite valeurs et petites dimensions.
+Basique Maths	L3::Algorithmique	Nombre de noeuds interne d'un arbre binaire strict à \(n\) feuilles	Un arbre binaire strict à \(n\) feuilles a \(n - 1\) noeuds internes (y compris racine).
+Basique Maths	L3::Algorithmique	Nombre minimal de comparaisons pour un tri	Il faut au minimum \(\lceil \log_2n!\rceil\) comparaisons pour trier un tableau à \(n!\) éléments dans le pire cas. En effet il y a \(n!\) permutations possibles à départager.
+Basique Maths	L3::Algorithmique	Caractérisation algébrique de la connexité	Un graphe est connexe si et seulement si sa matrice d'incidence est de rang \(n-1\) dans \(\mathbb F_2\).
+Basique Maths	L3::Algorithmique	Lemme sur les graphes connexes	Tout graphe connexe \(G\) possède un sommet \(x\) tel que \(G\setminus \{x\}\) est connexe.
+Basique Maths	L3::Algorithmique	Exemple d'algorithme diviser pour régner	Algorithme de Karatsuba en calcul algébrique.
+Basique Maths	L3::Algorithmique	Meilleure puissance pour le calcul matriciel	La meilleure puissance pour le calcul matriciel est notée \(\omega\), la meilleure complexité est \(n^\omega\).
+Basique Maths	L3::Algorithmique	Complexité de l'algorithme de Strassen pour la multiplication matricielle	Avec l'algorithme de Strassen, la complexité de la multiplication matricielle est \(\mathcal O(n^{\log_27})\).
+Basique Maths	L3::Algorithmique	Master Theorem	Avec une complexité récursive de la forme \(T(n) = aT(\frac nb) + f(n)\), avec \(c^* = \log_ba\) - Si \(f = o(n^c)\), \(c< c^*\), alors \(T(n) = \Theta(n^{c^*})\) - Si \(f(n) = \mathcal O(n^{c^*} \log^kn)\), alors \(T(n) = \mathcal O(n^{c^*} \log^{k+1}n)\) - Si \(n^{c^*} = o(f(n))\) (i.e. \(f(n) = \Omega(n^c)\) avec \(c > c^*\)), avec la condition de régularité supplémentaire : APCR, \(af(\frac{n}{b}) \le \varepsilon f(n)\), \(\varepsilon \in ]0, 1[\); alors \(T(n) = \Theta(f(n))\).
+Basique Maths	L3::Algorithmique	Algorithme: médiane des médianes	- Calculer les médianes des segments de 5 éléments du tableau - Calculer la vraie médiane de ces médianes - Partitionner selon cette médiane - Appeler récursivement sur la moitié contenant la médiane Cette dernière moitié contient au plus 30% des éléments du tableau, ce qui garantit une complexité linéaire. Algorithme en \(O(n)\)
+Basique Maths	L3::Algorithmique	Algorithme des deux points les plus proches dans le plan	- Trier selon \(x\) - Dans chaque moitié séparée par \(x_m\) (médiane), trouver la paire la plus proche. Garder la plus proche des deux, distance \(d\). - Trier les éléments de \(x \in [x_m - d, x_m + d]\) par \(y\). - Tester si une paire est plus proche que \(d\). S'il y en a une, les éléments sont d'écart inférieur à 7 dans le tri. Algorithme en \(O(n\log n)\).
+Basique Maths	L3::Algorithmique	Algorithme glouton	La structure générale de l'algorithme glouton est: - Trier \(X\) par ordre décroissant de \(w\) - \(Y \gets \varnothing\) - Pour tout \(x \in X\)   - Si \(Y \cup \{x\} \in S\) alors \(Y \gets Y \cup \{x\}\)   - Retourner \(Y\)
+Basique Maths	L3::Algorithmique	Matroïde	\(S\) est un matroïde ssi: - \(\varnothing \in S\) - \(\forall A \in S, \mathcal P(A) \subseteq S\) (clôture par sous-ensemble) - \(\forall A,B \in S\) et \(|A| < |B|\) alors il existe \(b \in B\setminus A\) tel que \(A \cup \{b\} \in S\). (Échange)
+Basique Maths	L3::Algorithmique	Caractérisation Matroïde Glouton	\(S\) est un matroïde si et seulement si pour toute fonction \(w\), l'algorithme glouton retourne une solution optimale.
+Basique Maths	L3::Algorithmique	Indépendant dans un graphe	Un indépendant dans un graphe est un ensemble de sommets deux à deux non adjacents.
+Basique Maths	L3::Algorithmique	Algorithme de Floyd-Warshall	- Pour \(k, i, j\) de \(1\) à \(n\) (itérés dans cet ordre)   - \(d_{ij} = \min(d_{ij}, d_{ik} + d_{kj})\) Retourne la matrice des plus courtes distances (sauf cycle de poids nég), \(\mathcal O(n^3)\).
+Basique Maths	L3::Algorithmique	Classe NP	Classe de problèmes de décision; 2 définitions équivalentes: - Certificat polynomial en la taille de l'entrée et vérifiable en temps polynomial en la taille de l'entrée - Décidable par une machine de Turing non déterministe en temps polynomial.
+Basique Maths	L3::Algorithmique	Quelques problèmes NP	- PREMIER et NON PREMIER - SOMME (Un nombre est une somme d'éléments d'un tableau) - 3-COLORIABLE

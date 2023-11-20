@@ -1,0 +1,6 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Physique::Lois de Coulomb du frottement solide	Force de frottement / force de collage	- En présence de glissement, la composante tangentielle de la réaction du support sur le solide est appelée force de frottement - En l'absence de glissement, la composante tangentielle de la réaction du support sur le solide est appelée force d'adhérence ou force de collage
+Basique Maths	Seconde année::Physique::Lois de Coulomb du frottement solide	Lois de Coulomb du frottement solide	On note \( R_t \) la réaction tangentielle, \( R_n \) la réaction normale; - Adhérence ou collage: en l'absence de glissement, la force d'adhérence \( \vec R_t \) compense toutes les autres forces s'appliquant sur le solide. Il existe un coefficient \( \mu_s \) , appelé coefficient de frottement statique, tel que l'adhérence n'est possible que tant que \( R_t \le \mu_sR_n \)  - Glissement : la force de frottement \( \vec R_t \) est opposée à la vitesse de glissement du solide par rapport au support. Il existe un coefficient \( \mu_d \) , appelé coefficient de frottement dynamique, tel que \( R_t = \mu_d R_n\)

@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Physique::Analyse vectorielle	\(div \circ \vec {rot}\)	Pour tout \( \vec F \) , \( div(\vec {rot} \vec F) = 0\)
+Basique Maths	Seconde année::Physique::Analyse vectorielle	\(div \circ \vec {grad}\)	 \( div \circ \vec {grad}f = \Delta f\)
+Basique Maths	Seconde année::Physique::Analyse vectorielle	\(\vec {rot} \circ \vec{grad}\)	Pour tout \( \vec f \ \) ,  \( \vec {rot} (\vec{grad}\vec f) = 0\)
+Basique Maths	Seconde année::Physique::Analyse vectorielle	\(\vec {rot} \circ \vec {rot}\)	 \( \vec {rot} (\vec {rot}\vec F) = \vec {grad}(div \vec F) - \Delta \vec F\)
+Basique Maths	Seconde année::Physique::Analyse vectorielle	Double produit vectoriel	\( \vec u \wedge (\vec v \wedge \vec w) = (\vec u \cdot \vec w) \vec v - (\vec u \cdot \vec v)\vec w \)  Le cas \( (\vec u \wedge \vec v) \wedge \vec w\) s'obtient par antisymétrie.

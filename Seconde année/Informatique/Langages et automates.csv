@@ -1,0 +1,21 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Informatique::Langages et automates	Lemme de Levi	Soient \( x, y, u, v \in \Sigma^* \) tels que \( xy = uv \) . Alors il existe un unique mot \( w \) tel que l'une des conditions suivante est réalisée: - \( x = uw \) et \( v = wy \)  - \( u = xw \) et \( y = wv\)
+Basique Maths	Seconde année::Informatique::Langages et automates	Langage reconnaissable	Un langage \( L \) est reconnaissable s'il existe un AFD \( A \) tel que \( L(A) = L \) . On note \( Rec(\Sigma) \) l'ensemble des langages reconnaissables sur \( \Sigma\).
+Basique Maths	Seconde année::Informatique::Langages et automates	Automates équivalents	Deux automates sont équivalents s'ils reconnaissent le même langage.
+Basique Maths	Seconde année::Informatique::Langages et automates	Blocage	Un blocage est un couple \( (q,a) \in Q\times \Sigma\) pour lequel la fonction de transition n'est pas définie
+Basique Maths	Seconde année::Informatique::Langages et automates	Automate complet	Automate sans blocage
+Basique Maths	Seconde année::Informatique::Langages et automates	Automate complet reconnaissant un langage reconnaissable	Tout langage reconnaissable est reconnu par un automate complet.
+Basique Maths	Seconde année::Informatique::Langages et automates	Automate émondé reconnaissant un langage reconnaissable	Tout langage reconnaissable non vide est reconnu par un automate émondé.
+Basique Maths	Seconde année::Informatique::Langages et automates	Automate standard	Automate sans transition vers l'état initial
+Basique Maths	Seconde année::Informatique::Langages et automates	Automate standard reconnaissant un langage reconnaissable	Tout langage reconnaissable est reconnu par un automate standard.
+Basique Maths	Seconde année::Informatique::Langages et automates	Taille minimale d'un automate déterministe par rapport à un non déterministe	Pour \( n \in \mathbb N^* \) , il existe un langage \( L \) reconnu par un AFND à \( n + 1 \) états et non reconnu par un AFD à moins de \( 2^n\)états.
+Basique Maths	Seconde année::Informatique::Langages et automates	Ensemble des langages rationnels	Avec \( \Sigma \) un alphabet, on appelle ensemble des langages rationnels sur \( \Sigma \) noté \( Rat(\Sigma) \) le sous-ensemble de \( \prts(E) \) défini par induction par: - \( \varnothing \in Rat(\Sigma) \)  - \( \forall a \in \Sigma, \{a\} \in Rat(\Sigma) \)  - \( Rat(\Sigma)\) est stable par concaténation, union et étoile.
+Basique Maths	Seconde année::Informatique::Langages et automates	Expression régulières	On définit l'ensemble des expressions régulières sur \( \Sigma \) par induction par: - \( \varnothing \) est une expression régulière - pour tout \( a \in \Sigma, a \) est une expression régulière - Si \( e, f \) sont des expressions régulières, \( ef, e | f, e^\star\) sont des expressions régulières.
+Basique Maths	Seconde année::Informatique::Langages et automates	Equivalence langage rationnel / expression régulière	Un langage est rationnel si et seulement s'il est l'interprétation d'une expression régulière.
+Basique Maths	Seconde année::Informatique::Langages et automates	Théorème de Kleene	Pour tout alphabet \( \Sigma \) , \( Rec(\Sigma) = Rat(\Sigma)\)
+Basique Maths	Seconde année::Informatique::Langages et automates	Automate généralisé	Automate dont les transitions sont étiquetées par des expressions régulières.
+Basique Maths	Seconde année::Informatique::Langages et automates	Complémentaires et intersection de langages rationnels	Le complémentaire et l'intersection de langages rationnels sont des langages rationnels
+Basique Maths	Seconde année::Informatique::Langages et automates	Lemme de pompage	Soit \( L \in Rat(\Sigma) \) . Alors il existe un entier \( n \in \mathbb N^* \) , appelé longueur de pompage, tel que pour tout mot \( u \in L \) tel que \( |u| \ge n \) admet une décomposition de la forme \( xyz \) telle que: - \( y \ne \varepsilon \)  - \( |xy| \le n \)  - \( \forall k \in \mathbb N, xy^kz \in L\)

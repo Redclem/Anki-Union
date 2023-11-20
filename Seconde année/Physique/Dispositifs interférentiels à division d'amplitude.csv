@@ -1,0 +1,19 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Dispositif intérférentiel à division d'amplitude	Un dispositif interférentiel est à division d'amplitude si les rayons qui y interfèrent sont issus d'un même rayon émergent de la source éclairant le dispositif.
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Interféromètre de Michelson	Interféromètre composé de deux miroirs, orthogonaux à \( Ox \) et \( Oy \) respectivement, et d'une lame semi-réfléchissante, formant un angle de \( 45° \) avec \( Ox\).
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Rayons en sortie de l'interféromètre de Michelson	les rayons en sortie sont parallèles. L'écran d'observation est placé dans le plan focal objet d'une lentille convergente.
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Différence de marche intérféromètre de michelson	 \( \delta_{2/1}(M) = 2ne\cos i \) , où \( i \) est l'angle d'incidence, \( e\) est l'écart des distances miroirs-lames.
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Formule de Fresnel pour l'interféromètre de Michelson	 \( I(M) = \frac{I_0}{2}(1 + \cos(\frac{2\pi}{\lambda} 2 e \cos i))\)
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Figure d'interférence pour l'interféromètre de Michelson	La figure est constitué de cercles de centre \( O'\), appelés anneaux d'égale inclinaison.
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Source étendue pour l'interféromètre de Michelson	Une source étendue ne cause pas de brouillage pour l'interféromètre de Michelson.
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Localisation des franges d'interférences de l'interféromètre de Michelson	Elles sont localisées à l'infini: elles sont observables en d'autres points, mais le contraste est maximal à l'infini.
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Rayon de l'anneau d'égale inclunaison d'ordre \(p\)	 \( r = f'\sqrt{2(1-\frac{p}{p(O')})}\)
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Ordre d'interférences au centre de la figure d'interférences	 \( p(O') = \frac{2e}{\lambda}\)
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Lien écart au brouillage et \(\lambda_0, \Delta\lambda, l_c\) 	 \( \frac{2e_b}{\lambda_0^2}\Delta\lambda = \frac{2e_b}{l_c} = 1\)
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Différence de marche en coin d'air	 \( \delta_{1/2}(M) = 2n\alpha X \) , où \( \alpha \) est l'angle du coin d'air et \( X\) la coordonnée du point sur les miroirs 
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Interfrange en coin d'air	 \( i = \frac{\lambda}{2\alpha}\)
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Formule de conjugaison de Descartes pour le coin d'air	 \( \frac{1}{f'} = \frac{1}{d'} + \frac{1}{d} \) , où \( f' \) est la distance focale de la lentille utilisée pour observer, \( d' \) la distance lentille-écran et \( d\) la distance miroir-lentille. 
+Basique Maths	Seconde année::Physique::Dispositifs interférentiels à division d'amplitude	Interfranges sur l'écran, coin d'air	Elles ne sont pas de la même taille que sur le miroir:  \( \frac{i_{ecran}}{i} = \frac{d'}{d}\)

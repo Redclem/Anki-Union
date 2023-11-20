@@ -1,0 +1,16 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Clan	Un clan de \(X\) est un ensemble \(\mathcal C\) de parties de \(X\) tel que: - \(\varnothing \in \mathcal C\) - \(A \in \mathcal C \implies A^c \in \mathcal C\) - \(\mathcal C\) est stable par union finie
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Suite de fonctions de Cauchy en mesure	\((f_n)\) est de Cauchy en mesure si \(\forall \varepsilon > 0, \lim\limits_{m, n}\mu(\{x \in X, |f_n(x) - f_m(x) | \ge \varepsilon\}) = 0\)
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Suite de fonctions de Cauchy uniforme	\((f_n)\) est de cauchy uniforme si \(f_n\) est de Cauchy pour \(||\cdot ||_\infty\).
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Suite de fonctions de Cauchy presque uniformément	\((f_n)\) est de Cauchy presque uniformément si \(\forall \varepsilon > 0, \exists A \in \mathcal T, \mu(A) < \varepsilon\) et \((f_n)\) est de Cauchy uniforme sur \(X \setminus A\).
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Convergence en mesure	\(f_n \to f\) en mesure si \(\forall \varepsilon > 0, \lim\limits_n\mu(\{x | |f_n(x) - f(x)| \ge \varepsilon\}) = 0\).
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Convergence presque uniformément	\(f_n \to f\) presque uniformément si \(\forall \varepsilon > 0, \exists A \in \mathcal T, \mu(A) < \varepsilon\) et \(f_n \to f\) uniformément sur \(X \setminus A\).
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Théorème de Beppo-Levi	Autre nom du théorème de convergence monotone (croissante).
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Inégalité de Markov	Pour \(f\) mesurable et \(p \in \N^*\), \(t > 0\). Alors: \(\mu(\{x \in X:|f(x)| > t \}) \le \frac1{t^p}\int|f|^p\)
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Notation mesure de Lebesgue	On note \(\nu_i\) la mesure de Lebesgue sur \(\R^i\).
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Critère de Lebesgue	\(f\) est Riemann-Intégrable sur \([a,b]\) si et seulement si \(f\) est bornée et l'ensemble des discontinuités de \(f\) est \(\nu_1\)-négligeables.
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Riemann-Intégrable et Lebesgue-Intégrable	Si une fonction est Riemann-Intégrable, alors elle est Lebesgue-Intégrable et les intégrales coïncident sur les intervalles où elle rest Riemann-Intégrable.
+Basique Maths	L3::Licence Maths UCBL::Mesure et Intégration	Convergence dominée p.p.	Le théorème de convergence dominée fonctionne avec les hypothèses seulement presque partout.

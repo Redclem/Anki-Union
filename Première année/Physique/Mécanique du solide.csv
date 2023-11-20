@@ -1,0 +1,26 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique	Première année::Physique::Mécanique du solide	Énergie cinétique de rotation	\(E_c = \frac{1}{2}J_{\Delta}\dot{\theta}^2\)
+Basique	Première année::Physique::Mécanique du solide	Translation d'un solide	Mouvement où pour tout A, B de (S), \(\overrightarrow{AB}\) est constant
+Basique	Première année::Physique::Mécanique du solide	Vecteurs vitesses des points d'un solide en translation	Identiques
+Basique	Première année::Physique::Mécanique du solide	Rotation d'un solide	(S) est en rotation autour de \(\Delta\) si tous les points du solide ont une trajectoire circulaire centrée sur un point de \(\Delta\). Les points sur l'axe sont immobiles.
+Basique	Première année::Physique::Mécanique du solide	Plan du mouvement d'un point M lié à un solide en rotation autour de \(\Delta\)	Perpendiculaire à \(\Delta\)
+Basique	Première année::Physique::Mécanique du solide	Éléments caractérisant le mouvement de M de (S) en rotation autour de \(\Delta\)	Le centre H (projeté de M sur \(\Delta\)) Le rayon HM = r La vitesse angulaire \(\Omega = \dot{\theta}\)
+Basique	Première année::Physique::Mécanique du solide	Vitesse de rotation d'un solide	Vitesse de rotation de \text{ch}aque point du solide dans un cercle de rayon r perpendiculaire à \(\Delta\)
+Basique	Première année::Physique::Mécanique du solide	Vitesse et accélération d'un point dans un solide en rotation	\(\vec{v}(M) = HM\dot{\theta}\vec{u_\theta}\)\( \vec{a}(M) = -HM\dot{\theta}^2\vec{u_r} + HM \ddot{\theta}\vec{u_\theta}\)
+Basique	Première année::Physique::Mécanique du solide	Vitesse et accélération rotation uniforme	Avec \(\Omega = \dot{\theta} = const\):\(\vec{v}(M) = HM\Omega\vec{u_\theta}\)\(\vec{a}(M) = -HM\Omega^2\vec{u_r}\)
+Basique	Première année::Physique::Mécanique du solide	Moment d'inertie d'un point \((r, \theta, z)\) autour de \(Oz\)	\(J_{Oz}(M) = mr^2\)
+Basique	Première année::Physique::Mécanique du solide	Moment cinétique d'un point avec le moment d'inertie	\(L_{Oz}(M) = J_{Oz}(M) \times \dot\theta\)
+Basique	Première année::Physique::Mécanique du solide	Vitesses de rotation angulaire des points d'un solide en rotation	Identiques
+Basique	Première année::Physique::Mécanique du solide	Moment d'inertie d'un solide	\(J_\Delta = \sum_{i}{m_i \times r_i^2}\)
+Basique	Première année::Physique::Mécanique du solide	Moment d'inertie d'une masse plus éloignée du centre	Plus important
+Basique	Première année::Physique::Mécanique du solide	Couple de forces	Ensemble de forces \(\vec f_1\) et \(\vec f_2\) de résultante nulle et moment non nul: \(\vec f_1 + \vec f_2 = \vec 0\) et \(M_{\Delta}(\vec f_1) + M_{\Delta}(\vec f_2) \ne 0\)
+Basique	Première année::Physique::Mécanique du solide	Liaison pivot	Ensemble d'actions exercées par un axe \(\Delta\) sur un solide, assurant la rotation du solide autour de l'axe
+Basique	Première année::Physique::Mécanique du solide	Liaison pivot parfaite	Liaison pivot n'exerçant aucun moment selon l'axe \(\Delta\): \(M_\Delta(pivot) = 0\)
+Basique	Première année::Physique::Mécanique du solide	Théorème du moment cinétique (TMC) :	Dans un référentiel galiléen: \(\frac{dL_\Delta}{dt} = \sum_{i}M_\Delta(\vec f_{i ext})\)   En isolant le moment cinétique:   \(J_\Delta \times \ddot\theta = \sum_{i}M_\Delta(\vec f_{i ext})\)
+Basique	Première année::Physique::Mécanique du solide	Condition de conservation du moment cinétique et conséquence sur le mouvement	Le moment cinétique se conserve si la somme des moments des forces extérieures est nulle. Le mouvement de rotation est uniforme, et la vitesse de rotation \(\omega = \dot\theta\) est constante.
+Basique	Première année::Physique::Mécanique du solide	Condition d'équilibre d'un solide en rotation	Vitesse angulaire nulle à tout moment : \(0 = \dot\theta = \ddot\theta\)
+Basique	Première année::Physique::Mécanique du solide	Puissance d'une action sur un solide en rotation	\(P = M_\Delta(\vec f) \times \omega\)
+Basique	Première année::Physique::Mécanique du solide	Théorème de la puissance cinétique pour la rotation	\(\frac{d}{dt}(\frac{1}{2}J_\Delta \dot\theta^2) = \frac{dE_{C,rot}}{dt} = P_{ext} = M_{\Delta, ext} \times \dot\theta\)

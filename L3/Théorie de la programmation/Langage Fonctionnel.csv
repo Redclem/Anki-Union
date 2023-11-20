@@ -1,0 +1,17 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	\(\alpha\)-conversion	"On note \(e =_\alpha e'\) si \(e'\) s'obtient à partir de \(e\) en renommant des variables liées ""sans conflit""."
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	\(\alpha\)-conversion et variables libres	Si \(e =_\alpha e'\), alors \(Vl(e) = Vl(e')\).
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Langage FUN	C'est le langage correspondant à la grammaire: \(e ::= \underline k | e_1 \oplus e_2 | \text{fun }x\to e|x|e_1 \space e_2\)
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Valeurs dans le langage FUN	Les valeurs correspondent à la grammaire: \(v ::= \underline k | \fun x \to e\)
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Lieur et variable liée	\(\fun x \to e\) est un lieur, \(x\) est liée dans \(e\).
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Définition des types	Les types sont donnés par la grammaire \(\tau ::= int | \tau_1 \to \tau_2\).
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Hypothèse de typage	Une hypothèse de typage est un couple \((x,\tau)\) noté \(x:\tau\).
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Conditions sur les hypothèses de typage pour typer une expression	Si \(\Gamma \vdash e:\tau\) alors \(Vl(e) \subseteq dom(\Gamma)\).
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Lemme de progrès	Si \(\varnothing \vdash e: int\) et \(e \not \to\) alors \(e = \underline k\). Si \(\varnothing \vdash e : \tau_1 \to \tau_2\) et \(e\not \to\) alors \(e = \fun x \to e'\).
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Corollaire du lemme de progrès	Si \(\varnothing \vdash e : \tau\), alors soit \(e\) est une valeur, soit \(\exists e', e \to e'\).
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Renforcement et affaiblissement du typage	- Si \(\Gamma, x:\tau_0 \vdash e:\tau\) et \(x \notin Vl(e)\), alors \(\Gamma \vdash e:\tau\) - Si \(\Gamma \vdash e : \tau\), pour \(x\notin dom(\Gamma)\), \(\Gamma, x:\tau_0 \vdash e:\tau\)
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Préservation du typage	Si \(\varnothing\vdash e : \tau \) et \(e \to e'\), alors \(\varnothing \vdash e':\tau\).
+Basique Maths	L3::Théorie de la programmation::Langage Fonctionnel	Étapes de l'inférence de types	- Poser une inconnue de type par sous-expression, ou presque - Construire des contraintes de typage entre les inconnues de type - Résoudre (Unification)

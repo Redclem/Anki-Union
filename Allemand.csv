@@ -1,0 +1,639 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique	Allemand::Verbes irréguliers	Sein	Présent Ich bin Du bist Et ist Wir \text{sin}d Ihr seid Sie \text{sin}d  Prétérit Ich war Du warst Er war Wir waren Ihr wart Sie waren  Subjonctif II : wäre  Participe passé : gewesen  Sens : être				
+Basique	Allemand::Verbes irréguliers	Haben	Présent Ich habe Du hast Er hat Wir haben Ihr habt Sie haben  Prétérit Ich hatte Du hattest Er hatte Wir hatten Ihr hattet Sie hatten  Subjonctif II : hätte  Participe : gehabt  Sens : avoir				
+Basique	Allemand::Verbes irréguliers	Werden	Présent Ich werde Du wirst Er wird Wir werden Ihr werdet Sie werden  Prétérit Ich wurde Du wurdest Er wurde Wir wurden Ihr wurdet Sie wurden  Prétérit II : würde  Participe passé : geworden  Sens : devenir				
+Verbes de modalité	Allemand::Verbes irréguliers	Können	Ich kann Du kannst Er kann Wir können Ihr könnt Sie können	Konnte	Könnte	Gekonnt	Pouvoir
+Verbes de modalité	Allemand::Verbes irréguliers	Dürfen	Ich darf Du darfst Er darf Wir dürfen Ihr dürft Sie dürfen	Durfte	Dürfte	Gedurft	Avoir la permission
+Verbes de modalité	Allemand::Verbes irréguliers	Müssen	Ich muss Du musst Er muss Wir müssen Ihr müsst Sie müssen	Musste	Müsste	Gemusst	Devoir
+Verbes de modalité	Allemand::Verbes irréguliers	Sollen	Ich soll Du sollst Er soll Wir sollen Ihr sollt Sie sollen	Sollte	Sollte	Gesollt	Devoir
+Verbes de modalité	Allemand::Verbes irréguliers	Wollen	Ich will Du willst Er will Wir wollen Ihr wollt Sie wollen	Wollte	Wollte	Gewollt	Vouloir
+Verbes de modalité	Allemand::Verbes irréguliers	Mögen	Ich mag Du magst Er mag Wir mögen Ihr mögt Sie mögen	Mochte	Möchte	Gemocht	Aimer
+Verbes de modalité	Allemand::Verbes irréguliers	Wissen	Ich weiß Du weißt Er weiß Wir wissen Ihr wisst Sit wissen	Wusste	Wüsste	Gewusst	Savoir
+Verbe fort	Allemand::Verbes irréguliers	Backen	Backte (buk)	Hat gebacken	Bäckt	Cuire au four	
+Verbe fort	Allemand::Verbes irréguliers	Befehlen	Befahl	Hat befohlen	Befiehlt	Ordonner, commander	
+Verbe fort	Allemand::Verbes irréguliers	Beginnen	Begann	Hat begonnen	Beginnt	Commencer	
+Verbe fort	Allemand::Verbes irréguliers	Beißen	Biss	Hat gebissen	Beißt	Mordre	
+Verbe fort	Allemand::Verbes irréguliers	Biegen	Bog	Hat/Ist gebogen	Biegt	Tourner, bifurquer (ist) / tordre (hat)	
+Verbe fort	Allemand::Verbes irréguliers	Bieten	Bot	Hat geboten	Bietet	Offrir, proposer	
+Verbe fort	Allemand::Verbes irréguliers	Binden	Band	Hat gebunden	Bindet	Lier, attacher	
+Verbe fort	Allemand::Verbes irréguliers	Bitten	Bat	Hat gebeten	Bittet	Prier qn. de, demander	
+Verbe fort	Allemand::Verbes irréguliers	Blasen	Blies	Hat geblasen	Bläst	Souffler	
+Verbe fort	Allemand::Verbes irréguliers	Bleiben	Blieb	Ist geblieben	Bleibt	Rester	
+Verbe fort	Allemand::Verbes irréguliers	Braten	Briet	Hat gebraten	Brät	(faire) Rotir	
+Verbe fort	Allemand::Verbes irréguliers	Brechen	Brach	Hat gebrochen	Bricht	Casser, briser	
+Verbe fort	Allemand::Verbes irréguliers	Dringen	Drang	Ist gedrungen	Dringt	Pénétrer, s'enfoncer	
+Verbe fort	Allemand::Verbes irréguliers	Empfehlen	Empfahl	Hat empfohlen	Empfiehlt	Recommander	
+Verbe fort	Allemand::Verbes irréguliers	Empfinden	Empfand	Hat empfunden	Empfindet	Ressentir	
+Verbe fort	Allemand::Verbes irréguliers	Erschrecken	Erschrak	Ist erschrocken	Erschrickt	Prendre peur, s'effrayer	
+Verbe fort	Allemand::Verbes irréguliers	Essen	Aß	Hat gegessen	Isst	Manger	
+Verbe fort	Allemand::Verbes irréguliers	Fahren	Fuhr	Ist/hat gefahren	Fährt	Aller, rouler (véhicule) (ist) / conduire (un véhicule) (hat)	
+Verbe fort	Allemand::Verbes irréguliers	Fallen	Fiel	Ist gefallen	Fällt	Tomber	
+Verbe fort	Allemand::Verbes irréguliers	Fangen	Fing	Hat gefangen	Fängt	Attraper	
+Verbe fort	Allemand::Verbes irréguliers	Fechten	Focht	Hat gefochten	Ficht	Faire de l'escrime, combattre	
+Verbe fort	Allemand::Verbes irréguliers	Finden	Fand	Hat gefunden	Findet	Trouver	
+Verbe fort	Allemand::Verbes irréguliers	Fliegen	Flog	Ist geflogen	Fliegt	Voler, aller (avion)	
+Verbe fort	Allemand::Verbes irréguliers	Fliehen	Floh	Ist geflohen	Flieht	Fuire, se sauver	
+Verbe fort	Allemand::Verbes irréguliers	Fließen	Floss	Ist geflossen	Fließt	Couler	
+Verbe fort	Allemand::Verbes irréguliers	Fressen	Fraß	Hat gefressen	Frisst	Manger (animaux)	
+Verbe fort	Allemand::Verbes irréguliers	Frieren	Fror	Hat/Ist gefroren	Friert	Geler (ist) / avoir froid (hat)	
+Verbe fort	Allemand::Verbes irréguliers	Geben	Gab	Hat gegeben	Gibt	Donner	
+Verbe fort	Allemand::Verbes irréguliers	Gedeihen	Gedieh	Ist gediehen	Gedeiht	Prospérer	
+Verbe fort	Allemand::Verbes irréguliers	Gehen	Ging	Ist gegangen	Geht	Aller, marcher	
+Verbe fort	Allemand::Verbes irréguliers	Gelingen	Gelang	Ist Gelungen	Gelingt	Réussir	
+Verbe fort	Allemand::Verbes irréguliers	Gelten	Galt	Hat gegolten	Gilt	Valoir, compter	
+Verbe fort	Allemand::Verbes irréguliers	Genießen	Genoss	Hat genossen	Genießt	Apprécier, prendre plaisir à	
+Verbe fort	Allemand::Verbes irréguliers	Geschehen	Geschah	Ist geschehen	Geschieht	Se produire	
+Verbe fort	Allemand::Verbes irréguliers	Gewinnen	Gewann	Hat gewonnen	Gewinnt	Gagner	
+Verbe fort	Allemand::Verbes irréguliers	Gießen	Goss	Hat gegossen	Gießt	Verser, Arroser	
+Verbe fort	Allemand::Verbes irréguliers	Gleichen	Glich	Hat geglichen	Gleicht	Ressembler, égaler	
+Verbe fort	Allemand::Verbes irréguliers	Gleiten	Glitt	Ist geglitten	Gleitet	Glisser	
+Verbe fort	Allemand::Verbes irréguliers	Graben	Grub	Hat gegraben	Gräbt	Creuser	
+Verbe fort	Allemand::Verbes irréguliers	Greifen	Griff	Hat gegriffen	Greift	Saisir	
+Verbe fort	Allemand::Verbes irréguliers	Halten	Hielt	Hat gehalten	Hält	Tenir, s'arrêter	
+Verbe fort	Allemand::Verbes irréguliers	Hängen	Hing	Hat gehangen	Hängt	Être pendu, être accroché	
+Verbe fort	Allemand::Verbes irréguliers	Hauen	Hieb (haute)	Hat gehauen	Haut	Frapper, tailler	
+Verbe fort	Allemand::Verbes irréguliers	Heben	Hob	Hat gehoben	Hebt	Lever, soulever	
+Verbe fort	Allemand::Verbes irréguliers	Heißen	Hieß	Hat geheißen	Heißt	S'appeler	
+Verbe fort	Allemand::Verbes irréguliers	Helfen	Half	Hat geholfen	Hilft	Aider	
+Verbe fort	Allemand::Verbes irréguliers	Klingen	Klang	Hat geklungen	Klingt	Sonner, résonner	
+Verbe fort	Allemand::Verbes irréguliers	Kommen	Kam	Ist gekommen	Kommt	Venir	
+Verbe fort	Allemand::Verbes irréguliers	Kriechen	Kroch	Ist gekrochen	Kriecht	Ramper	
+Verbe fort	Allemand::Verbes irréguliers	Laden	Lud	Hat geladen	Lädt	Charger	
+Verbe fort	Allemand::Verbes irréguliers	Lassen	Ließ	Hat gelassen	Lässt	Laisser	
+Verbe fort	Allemand::Verbes irréguliers	Laufen	Lief	Ist gelaufen	Läuft	Courir, marcher	
+Verbe fort	Allemand::Verbes irréguliers	Leiden	Litt	Hat gelitten	Leidet	Souffrir	
+Verbe fort	Allemand::Verbes irréguliers	Leihen	Lieh	Hat geliehen	Leiht	Prêter	
+Verbe fort	Allemand::Verbes irréguliers	Lesen	Las	Hat gelesen	Liest	Lire	
+Verbe fort	Allemand::Verbes irréguliers	Liegen	Lag	Hat gelegen	Liegt	Être allongé, situé, posé	
+Verbe fort	Allemand::Verbes irréguliers	Lügen	Log	Hat gelogen	Lügt	Mentir	
+Verbe fort	Allemand::Verbes irréguliers	Meiden	Mied	Hat gemieden	Meidet	Éviter	
+Verbe fort	Allemand::Verbes irréguliers	Melken	Molk (melkte)	Hat gemolken	Melkt	Traire	
+Verbe fort	Allemand::Verbes irréguliers	Messen	Maß	Hat gemessen	Misst	Mesurer	
+Verbe fort	Allemand::Verbes irréguliers	Nehmen	Nahm	Hat genommen	Nimmt	Prendre	
+Verbe fort	Allemand::Verbes irréguliers	Pfeifen	Pfiff	Hat gepfiffen	Pfeift	Siffler	
+Verbe fort	Allemand::Verbes irréguliers	Preisen	Pries	Hat gepriesen	Preist	Louer, vanter	
+Verbe fort	Allemand::Verbes irréguliers	Raten	Riet	Hat geraten	Rät	Conseiller	
+Verbe fort	Allemand::Verbes irréguliers	Reiben	Rieb	Hat gerieben	Reibt	Frotter, râper	
+Verbe fort	Allemand::Verbes irréguliers	Reißen	Riss	Hat gerissen	Reißt	Déchirer, arracher	
+Verbe fort	Allemand::Verbes irréguliers	Reiten	Ritt	Ist geritten	Reitet	Aller à (faire du) \text{ch}eval	
+Verbe fort	Allemand::Verbes irréguliers	Riechen	Roch	Hat gerochen	Riecht	Sentir (odeur)	
+Verbe fort	Allemand::Verbes irréguliers	Ringen	Rang	Hat gerungen	Ringt	Lutter	
+Verbe fort	Allemand::Verbes irréguliers	Rufen	Rief	Hat gerufen	Ruft	Appeler, crier	
+Verbe fort	Allemand::Verbes irréguliers	Saufen	Soff	Hat gesoffen	Säuft	Se saoûler, boire (animaux)	
+Verbe fort	Allemand::Verbes irréguliers	Saugen	Sog	Hat gesogen	Saugt	Aspirer	
+Verbe fort	Allemand::Verbes irréguliers	Schaffen	Schuf	Hat geschaffen	Schafft	Créer	
+Verbe fort	Allemand::Verbes irréguliers	Scheiden	Schied	Hat geschieden	Scheidet	Séparer	
+Verbe fort	Allemand::Verbes irréguliers	Scheinen	Schien	Hat geschienen	Scheint	Briller, luire, sembler	
+Verbe fort	Allemand::Verbes irréguliers	Schieben	Schob	Hat geschoben	Schiebt	Pousser	
+Verbe fort	Allemand::Verbes irréguliers	Schießen	Schoss	Hat geschossen	Schießt	Tirer (au fusil)	
+Verbe fort	Allemand::Verbes irréguliers	Schlafen	Schlief	Hat geschlafen	Schläft	Dormir	
+Verbe fort	Allemand::Verbes irréguliers	Schlagen	Schlug	Hat geschlagen	Schlägt	Taper, battre, frapper	
+Verbe fort	Allemand::Verbes irréguliers	Schleichen	Schlich	Ist geschlichen	Schleicht	Se glisser	
+Verbe fort	Allemand::Verbes irréguliers	Schließen	Schloss	Hat geschlossen	Schließt	Fermer	
+Verbe fort	Allemand::Verbes irréguliers	Schmelzen	Schmolz	Ist/hat geschmolzen	Schmilzt	Fondre (ist) / Faire fondre (hat)	
+Verbe fort	Allemand::Verbes irréguliers	Schneiden	Schnitt	Hat geschnitten	Schneidet	Couper	
+Verbe fort	Allemand::Verbes irréguliers	Schreiben	Schrieb	Hat geschrieben	Schreibt	Écrire	
+Verbe fort	Allemand::Verbes irréguliers	Schreien	Schrie	Hat geschrien	Schreit	Crier, hurler	
+Verbe fort	Allemand::Verbes irréguliers	Schreiten	Schritt	Ist geschritten	Schreitet	Faire un pas, marcher (soutenu)	
+Verbe fort	Allemand::Verbes irréguliers	Schweigen	Schwieg	Hat geschwiegen	Schweigt	Se taire	
+Verbe fort	Allemand::Verbes irréguliers	Schwellen	Schwoll	Ist geschwollen	Schwillt	Enfler, s'amplifier	
+Verbe fort	Allemand::Verbes irréguliers	Schwimmen	Schwamm	Ist geschwommen	Schwimmt	Nager, aller qqpart en nageant	
+Verbe fort	Allemand::Verbes irréguliers	Schwören	Schwor	Hat geschworen	Schwört	Jurer	
+Verbe fort	Allemand::Verbes irréguliers	Sehen	Sah	Hat gesehen	Sieht	Voir	
+Verbe fort	Allemand::Verbes irréguliers	Singen	Sang	Hat gesungen	Singt	Chanter	
+Verbe fort	Allemand::Verbes irréguliers	Sinken	Sank	Ist gesunken	Sinkt	Sombrer, baisser	
+Verbe fort	Allemand::Verbes irréguliers	Sitzen	Saß	Hat gesessen	Sitzt	Être assis, posé	
+Verbe fort	Allemand::Verbes irréguliers	Speien	Spie	Hat gespien	Speit	Cracher	
+Verbe fort	Allemand::Verbes irréguliers	Sprechen	Sprach	Hat gesprochen	Spricht	Parler	
+Verbe fort	Allemand::Verbes irréguliers	Springen	Sprang	Ist gesprungen	Springt	Sauter	
+Verbe fort	Allemand::Verbes irréguliers	Stechen	Stach	Hat gestochen	Sticht	Piquer	
+Verbe fort	Allemand::Verbes irréguliers	Stehen	Stand	Hat gestanden	Steht	Être debout, assis, posé	
+Verbe fort	Allemand::Verbes irréguliers	Stehlen	Stahl	Hat gestohlen	Stiehlt	Voler, dérober	
+Verbe fort	Allemand::Verbes irréguliers	Steigen	Stieg	Ist gestiegen	Steigt	Monter	
+Verbe fort	Allemand::Verbes irréguliers	Sterben	Starb	Ist gestorben	Stirbt	Mourir	
+Verbe fort	Allemand::Verbes irréguliers	Stinken	Stank	Hat gestunken	Stinkt	Puer	
+Verbe fort	Allemand::Verbes irréguliers	Stoßen	Stieß	Hat/ist gestoßen	Stößt	Heurter, pousser (hat) / buter, tomber sur (ist)	
+Verbe fort	Allemand::Verbes irréguliers	Streichen	Strich	Hat gestrichen	Streicht	Peindre, rayer, effleurer	
+Verbe fort	Allemand::Verbes irréguliers	Streiten	Stritt	Hat gestritten	Streitet	Se disputer	
+Verbe fort	Allemand::Verbes irréguliers	Tragen	Trug	Hat getragen	Trägt	Porter	
+Verbe fort	Allemand::Verbes irréguliers	Treffen	Traf	Hat getroffen	Trifft	Rencontrer, toucher	
+Verbe fort	Allemand::Verbes irréguliers	Treiben	Trieb	Hat getrieben	Treibt	Pousser, pratiquer, faire	
+Verbe fort	Allemand::Verbes irréguliers	Treten	Trat	Hat getreten	Tritt	Poser le pied sur	
+Verbe fort	Allemand::Verbes irréguliers	Trinken	Trank	Hat getrunken	Trinkt	Boire	
+Verbe fort	Allemand::Verbes irréguliers	Trügen	Trog	Hat getrogen	Trügt	Être trompeur	
+Verbe fort	Allemand::Verbes irréguliers	Tun	Tat	Hat getan	Tut	Faire	
+Verbe fort	Allemand::Verbes irréguliers	Unterscheiden	Unterschied	Hat unterschieden	Unterscheidet	Distinguer, différencier	
+Verbe fort	Allemand::Verbes irréguliers	Bergen	Barg	Hat geborgen	Birgt	Cacher	
+Verbe fort	Allemand::Verbes irréguliers	Verderben	Verdarb	Hat verdorben	Verdirbt	Abîmer, gâter	
+Verbe fort	Allemand::Verbes irréguliers	Vergessen	Vergaß	Hat vergessen	Vergisst	Oublier	
+Verbe fort	Allemand::Verbes irréguliers	Verschlingen	Verschlang	Hat verschlungen	Verschlingt	Engloutir	
+Verbe fort	Allemand::Verbes irréguliers	Verschwinden	Verschwand	Ist verschwunden	Verschwindet	Disparaître	
+Verbe fort	Allemand::Verbes irréguliers	Verzeihen	Verzieh	Hat verziehen	Verzeiht	Pardonner	
+Verbe fort	Allemand::Verbes irréguliers	Wachsen	Wuchs	Ist gewachsen	Wächst	Grandire, croître, pousser	
+Verbe fort	Allemand::Verbes irréguliers	Waschen	Wusch	Hat gewaschen	Wäscht	Laver	
+Verbe fort	Allemand::Verbes irréguliers	Weisen	Wies	Hat gewiesen	Weist	Indiquer, désigner	
+Verbe fort	Allemand::Verbes irréguliers	Werben	Warb	Hat geworben	Wirbt	Faire de la publicité	
+Verbe fort	Allemand::Verbes irréguliers	Werfen	Warf	Hat geworfen	Wirft	Lancer, jeter	
+Verbe fort	Allemand::Verbes irréguliers	Wiegen	Wog	Hat gewogen	Wiegt	Peser	
+Verbe fort	Allemand::Verbes irréguliers	Ziehen	Zog	Hat/ist gezogen	Zieht	Tirer (hat) / passer (direction), aller, déménager (ist)	
+Verbe fort	Allemand::Verbes irréguliers	Zwingen	Zwang	Hat gezwungen	Zwingt	Obliger, forcer	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Brennen	Brannte	Hat/ist gebrannt	Brennt	Brûler	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Bringen	Brachte	Hat gebracht	Bringt	Apporter	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Denken	Dachte	Hat gedacht	Denkt	Penser	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Kennen	Kannte	Hat gekannt	Kennt	Connaître	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Nennen	Nannte	Hat genannt	Nennt	Nommer	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Rennen	Rannte	Ist gerannt	Rennt	Courir	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Senden	Sandte (sendete)	Hat gesandt (gesendet)	Sendet	Envoyer	
+Verbe faible irrégulier	Allemand::Verbes irréguliers	Wenden	Wandte (wendete)	Hat gewandt (gewendet)	Wendet	Tourner	
+Basique (et envers de la carte)	Allemand::Divers	Comme, de même que	Wie auch				
+Basique (et envers de la carte)	Allemand::Divers	Particulièrement/surtout	Besonders				
+Basique (et envers de la carte)	Allemand::Divers	Beide	Les deux				
+Basique (et envers de la carte)	Allemand::Divers	Deshalb	Pour cela (cause / conséquence)				
+Basique (et envers de la carte)	Allemand::Divers	Solch	Tel/pareil				
+Basique (et envers de la carte)	Allemand::Divers	Bis zum	D'ici à / avant				
+Basique (et envers de la carte)	Allemand::Divers	Ab	À partir de				
+Basique (et envers de la carte)	Allemand::Divers	Noch	Encore (Ne s'est pas arrêté)				
+Basique (et envers de la carte)	Allemand::Divers	Etwas	Quelque \text{ch}ose				
+Basique (et envers de la carte)	Allemand::Divers	Darüber	Au-dessus (position) / à ce sujet				
+Basic	Allemand::Impératif	Werden	(Du) werde! (Ihr) werdet! Werden Sie! Werden wir!				
+Basic	Allemand::Impératif	Sein	Sei (Du)! Seid (Ihr)! Seien Sie! Seien wir!				
+Basique (et envers de la carte)	Allemand::Divers	Noch einmal	Encore une fois				
+Basique	Allemand::Exceptions	Verbes (hors modaux) au double infinitif au passé	Lassen, Sehen, Brauchen				
+Basique (et envers de la carte)	Allemand::Divers	Gestern	Hier				
+Basique (et envers de la carte)	Allemand::Divers	Ganz	Complet/Entier				
+Basique (et envers de la carte)	Allemand::Divers	Leider	Malheureusement				
+Basique (et envers de la carte)	Allemand::Divers	Nur	Seulement				
+Basique (et envers de la carte)	Allemand::Divers	Mit ... Jahren	À ... ans				
+Basique (et envers de la carte)	Allemand::Divers	Wegen + Gen	À cause de				
+Basique (et envers de la carte)	Allemand::Divers	Einfach	Simple				
+Basique (et envers de la carte)	Allemand::Divers	Manchmal	Parfois				
+Basique (et envers de la carte)	Allemand::Divers	Oft	Souvent				
+Basique (et envers de la carte)	Allemand::Divers	Assez	Genug				
+Basique (et envers de la carte)	Allemand::Divers	Ein paar	Quelques				
+Basique (et envers de la carte)	Allemand::Divers	Ein bisschen	Un peu				
+Basique (et envers de la carte)	Allemand::Divers	Möglich	Possible				
+Basique (et envers de la carte)	Allemand::Divers	Um ... (Uhr)	À ... (Heure)				
+Basique (et envers de la carte)	Allemand::Divers	An ... (Temps)	À ... (Jour)				
+Basique (et envers de la carte)	Allemand::Divers	Bei ... (Temps)	À ... (Événement)				
+Basique (et envers de la carte)	Allemand::Divers	Von	De / par (personne)				
+Basique (et envers de la carte)	Allemand::Divers	Durch	Par (moyen)				
+Basique	Allemand::Exceptions	Participe passé de werden au passif	Worden				
+Rection verbe utile	Allemand::Rection verbes	Sich abfinden	Mit + D	Se faire une raison de	Ich kann mich nur schwer damit abfinden, dass er jetzt im Ausland lebt.		
+Rection verbe utile	Allemand::Rection verbes	Abhängen	von + D	dépendre de	Meine Schwester hängt finanziell immer noch von unseren Eltern ab.		
+Rection verbe utile	Allemand::Rection verbes	Achten	Auf + A	Faire attention à	Achten Sie bitte auf die Durchsage!		
+Rection verbe utile	Allemand::Rection verbes	anfangen	mit + D	commencer qch./par qch.	Ich habe vor drei Monaten mit meiner Diplomarbeit angefangen		
+Rection verbe utile	Allemand::Rection verbes	ankommen	auf + A	dépendre de	Es kommt auf darauf an, wann er kann		
+Rection verbe utile	Allemand::Rection verbes	anspielen	auf + A	faire allusion à	Er hat mehrmals auf seine Vergangenheit angespielt.		
+Rection verbe utile	Allemand::Rection verbes	antworten	auf + A	répondre à	Antworten Sie bitte auf folgende fragen!		
+Rection verbe utile	Allemand::Rection verbes	arbeiten	an + D	travailler à	Er arbeitet an einem neuen Projekt.		
+Rection verbe utile	Allemand::Rection verbes	sich ärgern	über + A	se fâcher au sujet de	Warum ärgerst du dich über ihn?		
+Rection verbe utile	Allemand::Rection verbes	aufhören	mit + D	arrêter qch.	Kannst du bitte mit dem Krach aufhören!		
+Rection verbe utile	Allemand::Rection verbes	aufpassen	auf + A	surveiller qn., faire attention à	Könntest du bitte heute Abend auf die Kinder aufpassen?		
+Rection verbe utile	Allemand::Rection verbes	sich aufregen	über + A	s'énerver au sujet de	Die Leute regen sich über die hohen Benzinpreise auf.		
+Rection verbe utile	Allemand::Rection verbes	jn. beauftragen	mit + D	charger qn. de qch.	Der Praktikant wurde mit der Ausarbeitung des Projekts beauftragt.		
+Rection verbe utile	Allemand::Rection verbes	sich bedanken	bei + D/für + A	Remercier qn. pour	Er hat sich bei seinen Freunden für das Geschenk bedankt.		
+Rection verbe utile	Allemand::Rection verbes	beginnen	mit + D	Commencer qch./par qch.	Die Schauspieler haben mit der Probe begonnen.		
+Rection verbe utile	Allemand::Rection verbes	beitragen	zu + D	contribuer à	Gandhi hat zur Aufrechterhaltung des Friedens beigetragen		
+Rection verbe utile	Allemand::Rection verbes	sich bemühen	um + A	s'efforcer d'atteindre qch., travailler à	Willy Brandt bemühte sich um eine Verbesserung der Ost-West-Beziehungen.		
+Rection verbe utile	Allemand::Rection verbes	jn. beneiden	um + A	envier qch. à qn.	Er beneidet sie um ihre Selbstsicherheit.		
+Rection verbe utile	Allemand::Rection verbes	berichten	über + A	rendre compte de	Der Reporter berichtet in den Nachrichten über die Lage in Israel.		
+Rection verbe utile	Allemand::Rection verbes	berichten	von + D	Parler de qch., rapporter qch.	Der Journalist berichtete von den Ereignissen in Südafrika.		
+Rection verbe utile	Allemand::Rection verbes	beruhen	auf + D	reposer sur	Demokratie beruht auf Transparenz		
+Rection verbe utile	Allemand::Rection verbes	sich beschäftigen	mit + D	s'occuper de, travailler sur	Unser Labor beschäftigt sich mit Nanotechnologien		
+Basique (et envers de la carte)	Allemand::Divers	Vor (temps)	Il y a				
+Basique (et envers de la carte)	Allemand::Divers	Vor (position)	Devant				
+Rection verbe utile	Allemand::Rection verbes	sich beschränken	auf + A	se limiter à	Beschränken Sie sich bitte auf das Notwendigste!		
+Rection verbe utile	Allemand::Rection verbes	sich beschweren	bei + D / über + A	se plaindre de qch., auprès de qn.	Der Nachbar beschwerte sich bei mir über den Lärm.		
+Rection verbe utile	Allemand::Rection verbes	bestehen	auf + D	insister sur	Die Arbeiter bestanden auf einer Gehaltserhöhung.		
+Rection verbe utile	Allemand::Rection verbes	bestehen	in + D	consister en	Seine Arbeit besteht darin, neue Kunden zu werben.		
+Rection verbe utile	Allemand::Rection verbes	sich bewerben	um + A	se porter candidat à	Der Student hat sich um einen Studienplatz in München beworben		
+Rection verbe utile	Allemand::Rection verbes	bezeichnen	als + A	qualifier de, désigner comme	Sie bezeichnet sich als Künstlerin		
+Rection verbe utile	Allemand::Rection verbes	sich beziehen	auf + A	se référer à	In seiner Arbeit bezieht sich der Philosoph oft auf Marx.		
+Rection verbe utile	Allemand::Rection verbes	jn. bitten	um + A	demander qch. à qn. (service / objet)	Darf ich Sie um einen Gefallen bitten?		
+Rection verbe utile	Allemand::Rection verbes	jm. danken	für + A	remercier qn. pour	Ich danke Ihnen für Ihre Hilfe		
+Rection verbe utile	Allemand::Rection verbes	denken	an + A	penser à	Du denkst immer nur an dich.		
+Rection verbe utile	Allemand::Rection verbes	denken	über + A	penser de	Was denken Sie über die deutsche Zuwanderungspolitik?		
+Rection verbe utile	Allemand::Rection verbes	diskutieren	mit + D / über + A	discuter de, avec qn.	Mit ihm diskutiere ich gern über Kunst.		
+Rection verbe utile	Allemand::Rection verbes	sich einigen	auf + A	se mettre d'accord sur	Die Koalition hat sich auf eine neue Klimapolitik geeinigt.		
+Rection verbe utile	Allemand::Rection verbes	jn. einladen	zu + D	inviter qn. à	Sie hat mich zu ihrer Geburtstagsparty eingeladen.		
+Rection verbe utile	Allemand::Rection verbes	sich entscheiden	für + A	se décider pour, \text{ch}oisir	Ich habe mich für ein Studium in Zürich entschieden		
+Rection verbe utile	Allemand::Rection verbes	sich entschuldigen	bei + D / für + A	s'excuser auprès de qn.	Er hat sich bei seiner Kollegin für seine Verspätung entschuldigt		
+Rection verbe utile	Allemand::Rection verbes	sich ergeben	aus + D	résulter de	Aus meinen Forschungen ergibt sich, dass Chamäleons äußerst sprachbegabt \text{sin}d		
+Rection verbe utile	Allemand::Rection verbes	sich erholen	von + D	se reposer, se remettre de	Hast du dich vom Prüfungsstress erholt?		
+Rection verbe utile	Allemand::Rection verbes	sich erinnern	an + A	se souvenir de	Erinnerst du dich noch an unseren gemeinsamen Tauchurlaub?		
+Rection verbe utile	Allemand::Rection verbes	jn. erinnern	an + A	rappeler qch. à qn.	Darf ich Sie daran erinnern, dass Sie Ihre Miete noch nicht bezahlt haben?		
+Rection verbe utile	Allemand::Rection verbes	sich erkundigen	bei/nach + D	se renseigner sur qch. auprès de qn.	Ich habe mich bei einem Fußgänger nach dem Weg erkundigt.		
+Rection verbe utile	Allemand::Rection verbes	erzählen	von + D	parler de, raconter	Erzähl mir doch von deiner Reise!		
+Rection verbe utile	Allemand::Rection verbes	folgen	auf + A	suivre, succéder à	Auf das Konzert folgte ein kleiner Empfang.		
+Rection verbe utile	Allemand::Rection verbes	folgen	aus + D	résulter, s'ensuivre	Daraus folgt, dass ich Recht habe.		
+Rection verbe utile	Allemand::Rection verbes	jn. fragen	nach + D	demander qch. à qn. (information)	Frag doch den Mann dort nach der Uhrzeit!		
+Rection verbe utile	Allemand::Rection verbes	sich freuen	auf + A	se réjouir à l'idée de	Ich freue mich auf meinen nächsten Urlaub.		
+Rection verbe utile	Allemand::Rection verbes	sich freuen	für + A	être content pour	Ich freue mich für dich.		
+Rection verbe utile	Allemand::Rection verbes	sich freuen	über + A	se réjouir de	Ich habe mich sehr über die Blumen gefreut.		
+Rection verbe utile	Allemand::Rection verbes	fürchten	um + A	être inquiet pour	Er fürchtet um seine Stellung in der Firma.		
+Rection verbe utile	Allemand::Rection verbes	sich fürchten	vor + D	craindre, avoir peur de	Er fürchtet sich vor Schlangen.		
+Basique (et envers de la carte)	Allemand::Divers	Dort	Là-bas				
+Rection verbe utile	Allemand::Rection verbes	gehen	um + A	s'agir de	In diesem Text geht um deutsche Geschichte		
+Rection verbe utile	Allemand::Rection verbes	gehören	zu + D	faire partie de, relever de	Dies gehört nicht zu meinem Arbeitsbereich		
+Rection verbe utile	Allemand::Rection verbes	sich gewöhnen	an + A	s'habituer à	Ich hatte grosse Schwierigkeiten, mich an das Großstadtleben zu gewöhnen		
+Rection verbe utile	Allemand::Rection verbes	glauben	an + A	croire en, dans	Er glaubt an Gott und an den Menschen		
+Rection verbe utile	Allemand::Rection verbes	jm. gratulieren	zu + D	féliciter qn. à l'occasion de, pour qch.	Ich gratuliere dir zum Geburtstag.		
+Rection verbe utile	Allemand::Rection verbes	sich halten	an + A	s'en tenir à, respecter	Er hält sich streng an die Vorschriften.		
+Rection verbe utile	Allemand::Rection verbes	jn. halten	für + A	considérer comme	Er hält sich für ein Genie.		
+Rection verbe utile	Allemand::Rection verbes	etwas halten	von + D	penser qch. de	Was hältst du von diesem Projekt?		
+Rection verbe utile	Allemand::Rection verbes	sich handeln	um + A	s'agir de	Es handelt sich um einen interessanten Vorschlag.		
+Rection verbe utile	Allemand::Rection verbes	handeln	von + D	traiter d'un sujet	Das Theaterstück handelt von der Globalisierung.		
+Rection verbe utile	Allemand::Rection verbes	jn. hindern	an + D	Empêcher qn. de	Man hat ihn an der Einreise gehindert.		
+Rection verbe utile	Allemand::Rection verbes	jn. hinweisen	auf + A	renvoyer à, rappeler qch. à qn.	Darf ich Sie darauf hinweisen, dass Rauchen hier verboten ist.		
+Rection verbe utile	Allemand::Rection verbes	hoffen	auf + A	espérer	Er hofft auf eine Gehaltserhöhung		
+Rection verbe utile	Allemand::Rection verbes	hören	von + D	entendre parler de, avoir des nouvelles de	Ich habe von dieser Theorie noch nie etwas gehört.		
+Rection verbe utile	Allemand::Rection verbes	sich interessieren	für + A	s'intéresser à	Sie interessieren sich sehr für Fußball.		
+Rection verbe utile	Allemand::Rection verbes	kämpfen	für + A	se battre pour	Im Sezessionskrieg kämpfte der Norde, für die Abschaffung der Sklaverei.		
+Rection verbe utile	Allemand::Rection verbes	kämpfen	gegen + A	lutter contre	Seit langem versuchen die Ärtze gegen Aids zu kämpfen.		
+Rection verbe utile	Allemand::Rection verbes	kämpfen	um + A	rivaliser au sujet de, se battre pour	Die beiden Konzerne kämpfen um ihre Marktanteile.		
+Rection verbe utile	Allemand::Rection verbes	klagen	über + A	se plaindre de	Sie klagt oft über Kopfschmerzen.		
+Rection verbe utile	Allemand::Rection verbes	sich konzentrieren	auf + A	se concentrer sur	Er konzentriert sich auf seine Arbeit.		
+Rection verbe utile	Allemand::Rection verbes	sich kümmern	um + A	s'occuper de	Die Kinder kümmern sich um ihr Chamäleon.		
+Rection verbe utile	Allemand::Rection verbes	lachen	über + A	rire de	Er lacht oft über meine Witze.		
+Rection verbe utile	Allemand::Rection verbes	leiden	an + D	souffrir d'une maladie	Sie leidet an Heuschnupfen.		
+Rection verbe utile	Allemand::Rection verbes	leiden	unter + D	souffrir de (contexte)	Die Kinder leiden unter der Scheidung ihrer Eltern.		
+Rection verbe utile	Allemand::Rection verbes	mangeln	an + A	manquer de	Es mangelt ihnen an beruflicher Erfahrung.		
+Rection verbe utile	Allemand::Rection verbes	nachdenken	über + A	réfléchir à	Ich muss über Ihr Angebot nachdenken.		
+Rection verbe utile	Allemand::Rection verbes	passen	zu + D	aller bien avec	Die rosa Bluse passt gut zu dem lila Rock.		
+Rection verbe utile	Allemand::Rection verbes	protestieren	gegen + A	protester contre	Die studenten haben gegen die Studienreform protestiert.		
+Rection verbe utile	Allemand::Rection verbes	reagieren	auf + A	réagir à	Auf Stress reagieren Chamäleons mit Farbwechsel.		
+Rection verbe utile	Allemand::Rection verbes	rechnen	mit + D	s'attendre à	Er rechnete nicht mit seiner Kündigung.		
+Rection verbe utile	Allemand::Rection verbes	sich richten	nach + D	s'adapter à, faire en fonction de	Ich richte mich ganz nach dir.		
+Rection verbe utile	Allemand::Rection verbes	riechen	nach + D	sentir (odeur)	Es riecht nach Käse.		
+Rection verbe utile	Allemand::Rection verbes	schließen	aus + D	conclure, déduire de	Ich schließe aus seiner Bemerkung, dass er nicht Bescheid weiß.		
+Rection verbe utile	Allemand::Rection verbes	schmecken	nach + D	avoir le goût de	Der Wein schmeckt nach Johannisbeeren.		
+Rection verbe utile	Allemand::Rection verbes	schreiben	an + A	écrire à qn.	Du musst an den Anwalt schreiben!		
+Rection verbe utile	Allemand::Rection verbes	schreiben	über + A	écrire au sujet de	Der Journalist schreibt über schweizerische Underground-Kultur.		
+Rection verbe utile	Allemand::Rection verbes	(sich) schützen	vor + A	(se) protéger contre	Du musst dich (das Kind) vor Insektenstichen schützen.		
+Rection verbe utile	Allemand::Rection verbes	(sich) schützen	gegen + A	(se) protéger contre	Diese Creme schützt gegen Sonnenbrand.		
+Rection verbe utile	Allemand::Rection verbes	sorgen	für + A	prendre soin de	Die Familie sorgt für die alte Großmutter.		
+Rection verbe utile	Allemand::Rection verbes	sich sorgen	um + A	se soucier de	Sie sorgt sich um Ihre Gesundheit.		
+Basique	Allemand::Rection particules	aus	dativ				
+Basique	Allemand::Rection particules	bei	dativ				
+Basique	Allemand::Rection particules	mit	dativ				
+Basique	Allemand::Rection particules	nach	dativ				
+Basique	Allemand::Rection particules	seit	dativ				
+Basique	Allemand::Rection particules	von	dativ				
+Basique	Allemand::Rection particules	zu	dativ				
+Basique	Allemand::Rection particules	durch	akkusativ				
+Basique	Allemand::Rection particules	für	akkusativ				
+Basique	Allemand::Rection particules	gegen	akkusativ				
+Basique	Allemand::Rection particules	ohne	akkusativ				
+Basique	Allemand::Rection particules	um	akkusativ				
+Basique	Allemand::Rection particules	wider	akkusativ				
+Rection verbe utile	Allemand::Rection verbes	sprechen	mit + D/über + A	parler avec qn. de qch., discuter	Der Chef sprach mit ihm über seine Zukunftspläne.		
+Rection verbe utile	Allemand::Rection verbes	sprechen	von + D	parler de	Wovon sprichst du eigentlich?		
+Rection verbe utile	Allemand::Rection verbes	stammen	aus + D	être originaire de, issu de	Der Student stammt aus Leipzig.		
+Rection verbe utile	Allemand::Rection verbes	stehen	auf + A	être fana de qch	Ich stehe auf Chamäleons.		
+Rection verbe utile	Allemand::Rection verbes	sterben	an + D	mourir de	Meine Urgroßmutter ist an Tuberkulose gestorben.		
+Rection verbe utile	Allemand::Rection verbes	(sich) streiten	mit + D	se disputer avec qn.	Sie streitet sich immer mit ihrem Bruder.		
+Rection verbe utile	Allemand::Rection verbes	streiten	über + A	se disputer au sujet de qch.	Die Kollegen streiten immer über Politik.		
+Rection verbe utile	Allemand::Rection verbes	(sich) streiten	um + A	se disputer qch.	Die Geschwister streiten sich oft um die Spielsachen.		
+Rection verbe utile	Allemand::Rection verbes	sich stützen	auf + A	s'appuyer sur	Wir stützen uns auf die Theorien von Keynes.		
+Rection verbe utile	Allemand::Rection verbes	teilnehmen	an + D	participer à	Der Ingenieur hat an einem internationalen Kongress teilgenommen.		
+Rection verbe utile	Allemand::Rection verbes	telefonieren	mit + D	parler au téléphone avec	Wir haben lange miteinander telefoniert.		
+Rection verbe utile	Allemand::Rection verbes	träumen	von + D	rêver de	Wir träumen von einer Reise nach Alaska.		
+Rection verbe utile	Allemand::Rection verbes	jn. überreden	zu + D	persuader qn. de	Seine Eltern haben ihn zu dieser Heirat überredet.		
+Rection verbe utile	Allemand::Rection verbes	jn. überzeugen	von + D	convaincre qn. de	Beim Vorstellungsgespräch hat er uns von seinen Fähigkeiten überzeugt.		
+Rection verbe utile	Allemand::Rection verbes	sich unterhalten	über + A	discuter de	Er hat sich mit mir über den letzten Film von Christian Petzold unterhalten.		
+Rection verbe utile	Allemand::Rection verbes	sich verabreden	mit + D	prendre rendez-vous avec qn.	Er hat sich mit seiner Ex um acht Uhr verabredet.		
+Rection verbe utile	Allemand::Rection verbes	sich verabschieden	von + D	prendre congé de, dire au revoir à	Wir müssen uns noch von Oma verabschiden!		
+Rection verbe utile	Allemand::Rection verbes	jn. veranlassen	zu + D	amener qn. à	Was hat ihn wohl zu diesem Schritt veranlasst?		
+Rection verbe utile	Allemand::Rection verbes	verfügen	über + A	disposer de	Sie können frei über Ihre Zeit verfügen.		
+Rection verbe utile	Allemand::Rection verbes	sich verlassen	auf + A	compter sur	Man kann sich wirklich auf Sie verlassen.		
+Rection verbe utile	Allemand::Rection verbes	sich verlieben	in + A	tomber amoureux	Ben hat sich in anna verliebt.		
+Rection verbe utile	Allemand::Rection verbes	sich verstehen	mit + D	(bien) s'entendre avec qn.	Sie versteht sich gut mit ihrer Nachbarin.		
+Rection verbe utile	Allemand::Rection verbes	etwas verstehen	unter + D	entendre par	Was verstehen Sie unter Demokratie?		
+Rection verbe utile	Allemand::Rection verbes	etwas verstehen	von + D	s'y connaître	Er versteht viel vom Kochen.		
+Rection verbe utile	Allemand::Rection verbes	jn. verurteilen	zu + D	condamner qn. à	Der Angeklagte wurde zu einer 10-jährigen Gefängnisstrafe verurteilt.		
+Rection verbe utile	Allemand::Rection verbes	verzichten	auf + A	renoncer à	Pazifisten verzichten auf die Anwendung von Gewalt.		
+Rection verbe utile	Allemand::Rection verbes	sich vorbereiten	auf + A	se préparer à	Die Schüler haben sich gut auf das Abitur vorbereitet.		
+Rection verbe utile	Allemand::Rection verbes	wählen	zu + D	élire au poste de	Er wurde zum Präsidenten gewählt.		
+Rection verbe utile	Allemand::Rection verbes	warnen	vor + D	mettre en garde contre	Die Polizei warnte vor Taschendieben.		
+Basique (et envers de la carte)	Allemand::Divers	Seit	Depuis				
+Rection verbe utile	Allemand::Rection verbes	warten	auf + A	attendre qch.	Wir warten seit einer Woche auf deinen Brief.		
+Rection verbe utile	Allemand::Rection verbes	sich wehren	gegen + A	se défendre contre	Sie wehrte sich gegen die Vorwürfe ihrer Eltern.		
+Rection verbe utile	Allemand::Rection verbes	sich wenden	an + A	s'adresser à, se tourner vers	Wenden Sie sich bitte an die Direktion.		
+Rection verbe utile	Allemand::Rection verbes	sich wundern	über + A	s'étonner de, s'interroger sur	Ich wundere mich über seinen Erfolg.		
+Rection verbe utile	Allemand::Rection verbes	zählen	auf + A	compter sur qn.	Man kann immer auf ihn zählen.		
+Rection verbe utile	Allemand::Rection verbes	zählen	zu + D	compter parmi, faire partie de	Er zählt zu den besten Jazz-Musikern der 90er Jahre.		
+Rection verbe utile	Allemand::Rection verbes	zurückkommen	auf + A	revenir sur qch.	Ich möchte auf Ihre Bemerkung zurückkommen.		
+Rection verbe utile	Allemand::Rection verbes	zweifeln	an + D	douter de	Ich zweifle an ihrer Aufrichtigkeit.		
+Rection verbe utile	Allemand::Rection verbes	zwingen	zu + D	obliger, contraindre à	Die Eltern hatten ihn dazu gezwungen, sein Studium zu beenden.		
+Q/R exemple	Allemand::Conjonctions de coordination	Und	Et	Ich studiere Biologie, Chemie und Physik.			
+Q/R exemple	Allemand::Conjonctions de coordination	Oder	Ou	Verreist du zu Weihnachten oder zu Ostern?			
+Q/R exemple	Allemand::Conjonctions de coordination	Denn	Car	Ich muss jetzt gehen, denn mein Lieblingsfilm beginnt in einer halben Stunde.			
+Q/R exemple	Allemand::Conjonctions de coordination	Aber	Mais	Der Film war interessant, aber ich fand die Regie nur Mittelmaßig.			
+Q/R exemple	Allemand::Conjonctions de coordination	Sondern	Mais	Er wohnt nicht in München, sondern in Köln.			
+Q/R exemple	Allemand::Conjonctions de subordination	Dass	Que	Er sagt, dass er morgen Zeit hat.			
+Q/R exemple	Allemand::Conjonctions de subordination	Ob	Si (interrogation)	Ich möchte wissen, ob wir morgen Unterricht haben.			
+Q/R exemple	Allemand::Conjonctions de subordination	Als (temps)	Quand (fait unique au passé)	Als die Berliner Mauer fiel, war ich in Berlin.			
+Q/R exemple	Allemand::Conjonctions de subordination	Wenn (temps)	Quand (fait au futur, présent, ou répétitif au passé)	Wenn ich zu meinen Großeltern fuhr, nahm ich (immer) den Zug.			
+Q/R exemple	Allemand::Conjonctions de subordination	Wann	Quand (interrogation, moment indéterminé)	Du kannst kommen, wann du willst.			
+Q/R exemple	Allemand::Conjonctions de subordination	Bevor/ehe	Avant que (antériorité)	Bevor das Kind ins Bett geht, bekommt es eine Gutenachtgeschichte.			
+Q/R exemple	Allemand::Conjonctions de subordination	Nachdem	Après que	Nachdem sie geduscht hat, föhnt sie sich immer die Haare.			
+Q/R exemple	Allemand::Conjonctions de subordination	Während	Pendant que, alors que, \text{tan}dis que (opposition)	Während sie Schach spielten,  klingelte plötzlich das Telefon.			
+Q/R exemple	Allemand::Conjonctions de subordination	Seit/seitdem	Depuis que	Seit sie verheiratet waren, liebte er sie noch mehr.			
+Q/R exemple	Allemand::Conjonctions de subordination	Bis	Jusqu'à ce que	Warte, bis ich zurückkomme.			
+Q/R exemple	Allemand::Conjonctions de subordination	Sobald	Dès que, aussitôt que	Sobald er mit dem Essen fertig war, ging er in den Garten.			
+Q/R exemple	Allemand::Conjonctions de subordination	Solange	Aussi longtemps que, \text{tan}t que	Solange ihr nicht regelmäßig deutsche Bücher im Original lest, werdet ihr keine Fortschritte machen.			
+Q/R exemple	Allemand::Conjonctions de subordination	Sooft	Aussi souvent que, toutes les fois que, \text{ch}aque fois que	Sooft ich ihn sah, war er immer gut gekleidet.			
+Q/R exemple	Allemand::Conjonctions de subordination	Wenn (Condition)	Si (Condition)	Wenn du Durst hat, musst du mehr Wasser trinken.			
+Q/R exemple	Allemand::Conjonctions de subordination	Falls	Au cas où	Falls du über Berlin fährst, vergisst nicht, dir den Potsdamer Platz anzuschauen.			
+Q/R exemple	Allemand::Conjonctions de subordination	Soweit, (in)sofern	Dans la mesure où, (pour) autant que	Soweit ich weiß, ist das Schwimmbad morgen wieder geöffnet.			
+Q/R exemple	Allemand::Conjonctions de subordination	Es sei denn, (dass)	À moins que	Wir können morgen leider nicht kommen, es sei denn, wir finden noch einen Babysitter.			
+Q/R exemple	Allemand::Conjonctions de subordination	Vorausgesetzt, (dass)	À supposer que, pourvu que	Der Turnhalle wird nächstes jahr renoviert, vorausgesetzt, dass der Stadtrat die nötigen Mittel zur Verfügung stellt.			
+Q/R exemple	Allemand::Conjonctions de subordination	Weil	Parce que	Er studierte Mechanik, weil er bei BMW arbeiten möchte.			
+Q/R exemple	Allemand::Conjonctions de subordination	Da	Comme, puisque, étant donné que	Da es so stark regnete, nahm ich meinen Regenschirm mit.			
+Q/R exemple	Allemand::Conjonctions de subordination	Zumal	D'autant (plus) que	Ein Praktikum in Deutschland kann ich dir nur empfehlen, zumal du später dort arbeiten willst.			
+Q/R exemple	Allemand::Conjonctions de subordination	So ..., Dass	Si ... Que ...	Es spricht so leise, dass man ihn nicht verstehen kann.			
+Q/R exemple	Allemand::Conjonctions de subordination	..., so dass	Si bien que; de sorte que	Er spricht sehr leise, so dass man ihn nicht verstehen kann.			
+Q/R exemple	Allemand::Conjonctions de subordination	Damit ...	Pour que ...	Nimm deinen Regenschirm, damit du nicht nass wirst.			
+Q/R exemple	Allemand::Conjonctions de subordination	Obwohl (obgleich, obschon)	Bien que, quoique	Obwohl er viel Geld hat, ist er nicht glücklich.			
+Q/R exemple	Allemand::Conjonctions de subordination	Auch wenn, selbst wenn	Même si	Auch wenn ich geld hätte, würde ich kein Haus kaufen. 			
+Q/R exemple	Allemand::Conjonctions de subordination	Wenn ... Auch	Quand bien même, tout en + gérondif	Ich tue es, wenn ich auch weiß, dass es gefährlich ist.			
+Q/R exemple	Allemand::Conjonctions de subordination	Was ... Auch	Quoi que	Was du auch tust, es gelingt dir nicht.			
+Q/R exemple	Allemand::Conjonctions de subordination	Wie ... Auch	De quelque manière que/quoi qu'il en soit	Wie sehr du dich auch bemühst, es wird ihn nicht beeindrucken.			
+Q/R exemple	Allemand::Conjonctions de subordination	Wo ... Auch	Où que	Er findet dich, wo du auch wohnst.			
+Q/R exemple	Allemand::Conjonctions de subordination	Wer ... Auch	Qui que	Wir werden ihn verklagen, wer er auch sein mag.			
+Q/R exemple	Allemand::Conjonctions de subordination	Indem	En + participe présent	Er setze den Motor in Gang, indem er den Anlasser betätigte.			
+Q/R exemple	Allemand::Conjonctions de subordination	Wie	Comme (manière)	Er antwortete, (so) wie man es ihm gesagt hatte.			
+Q/R exemple	Allemand::Conjonctions de subordination	Ohne dass	Sans que	Der Student schreibt eine SMS, ohne dass der Dozent es merkt.			
+Q/R exemple	Allemand::Conjonctions de subordination	Außer dass	Sauf que, si ce n'est que	Es gibt keinen Ausweg, außer dass wir flüchten.			
+Q/R exemple	Allemand::Conjonctions de subordination	So ... Wie	Aussi ... Que (égalité)	Es ist nicht so schlimm, wie man geglaubt hatte.			
+Q/R exemple	Allemand::Conjonctions de subordination	Als ... (Comparaison)	Plus ... Que; Moins ... Que	Er ist besser, als man denkt.			
+Q/R exemple	Allemand::Conjonctions de subordination	Je ... Desto / je ... Um so	Plus ... Plus ... ; Moins ... plus	Je größer das Kind wird, desto besser spricht es.			
+Q/R exemple	Allemand::Conjonctions de subordination	Umso ... Als	D'autant plus ... que	Es ist umso schlimmer, als man darauf nicht vorbereitet war.			
+Q/R exemple	Allemand::Conjonctions de subordination	Zu ... Als dass	Trop ... Pour que (conséquence d'un excès)	Mein Koffer ist zu schwer, als dass ich ihn tragen nicht kann/könnte			
+Q/R exemple	Allemand::Conjonctions de subordination	Je nachdem	Selon que	Je nachdem wer kommt, nehme ich an der reise teil oder nicht.			
+Basique	Allemand::Exceptions	Verbes après lesquels pas de zu à l'infinitif	- verbes de modalité - verbes de perception :   hören, sehen, fühlen - infinitifs de position :   haben, sehen, finden - lassen - helfen, lernen, lehren   (sauf plusieurs compléments) - bleiben, machen, gehen				
+Q/R exemple	Allemand::Introductions infinitifs	Um ... Zu ...	Pour que	Ich arbeite mehr, um mehr zu verdienen.			
+Q/R exemple	Allemand::Introductions infinitifs	Ohne ... Zu ...	Sans que	Ein Präsident kann keine wichtigen politischen Entscheidungen treffen, ohne vorher mit seinem Premierminister gesprochen zu haben.			
+Q/R exemple	Allemand::Introductions infinitifs	(an)statt ... Zu ...	Au lieu de	Anstatt zu meckern, solltest du lieber konstruktive Vorschläge machen.			
+Q/R exemple	Allemand::Négations	Nicht mehr, kein mehr	Ne plus	Es ist nicht mehr möglich.			
+Q/R exemple	Allemand::Négations	Nicht einmal	Même pas, pas même	Sie hat mich nicht einmal zu meinem Geburtstag angerufen.			
+Q/R exemple	Allemand::Négations	Gar nicht, gar kein	Pas du tout, absolument pas	Es hat mir gar nicht gefallen.			
+Q/R exemple	Allemand::Négations	Überhaupt nicht, überhaupt kein	Pas du tout, absolument pas	Es ist überhaupt kein Problem.			
+Q/R exemple	Allemand::Négations	Noch nicht, noch kein	Pas encore	Er ist noch nicht da.			
+Q/R exemple	Allemand::Négations	Nicht nur ..., Sondern auch ...	Non seulement, mais encore	Das Buch ist nicht nur spannend, sondern auch gut dokumentiert.			
+Q/R exemple	Allemand::Négations	Nie, niemals	Jamais	Ich war nie in Afrika.			
+Q/R exemple	Allemand::Négations	Niemand, keiner	Personne	Kann dir keiner helfen?			
+Q/R exemple	Allemand::Négations	Nirgendwo, nirgends	Nulle part	Nirgendwo schmeckt das Bier besser.			
+Q/R exemple	Allemand::Négations	Nirgendwohin, nirgendwoher	Nulle part : direction ou provenance	Diese Politik führt nirgendwohin.			
+Q/R exemple	Allemand::Négations	Nichts 	Rien	Damit habe nichts zu tun.			
+Q/R exemple	Allemand::Négations	Weder ... Noch ...	Ni ... Ni ...	Er mag weder Tennis noch Squash.			
+Q/R exemple	Allemand::Comparaison	Égalité	So/Ebenso/Genauso ... Wie	Er ist so alt wie ich.			
+Q/R exemple	Allemand::Comparaison	Supériorité	Adjectif + -er Als	Er ist glücklich als sie.			
+Q/R exemple	Allemand::Comparaison	Infériorité	Nicht so ... Wie, weniger ... Als	Er schwimmt nicht so schnell wie sie.			
+Adjectif	Allemand::Adjectifs	Alt	Älter	Vieux			
+Adjectif	Allemand::Adjectifs	Jung	Jünger	Jeune			
+Adjectif	Allemand::Adjectifs	Kalt	Kälter	Froid			
+Adjectif	Allemand::Adjectifs	Warm	Wärmer	Chaud			
+Adjectif	Allemand::Adjectifs	Kurz	Kürzer	Court			
+Adjectif	Allemand::Adjectifs	Lang	Länger	Long			
+Adjectif	Allemand::Adjectifs	Stark	Stärker	Fort			
+Adjectif	Allemand::Adjectifs	Schwach	Schwächer	Faible			
+Adjectif	Allemand::Adjectifs	Klug	Klüger	Intelligent			
+Adjectif	Allemand::Adjectifs	Dumm	Dümmer	Bête			
+Adjectif	Allemand::Adjectifs	Arm	Ärmer	Pauvre			
+Adjectif	Allemand::Adjectifs	Grob	Gröber	Grossier			
+Adjectif	Allemand::Adjectifs	Groß	Größer	Grand			
+Adjectif	Allemand::Adjectifs	Hart	Härter	Dur			
+Adjectif	Allemand::Adjectifs	Krank	Kränker	Malade			
+Adjectif	Allemand::Adjectifs	Scharf	Schärfer	Épicé			
+Adjectif	Allemand::Adjectifs	Schwarz	Schwärzer	Noir			
+Adjectif irrégulier	Allemand::Adjectifs	Gut	Bon	Besser	Der beste/am besten		
+Adjectif irrégulier	Allemand::Adjectifs	Viel	Beaucoup	Mehr	Der meiste/am meisten		
+Adjectif irrégulier	Allemand::Adjectifs	Gern	Volontiers	Lieber	Der liebste/am liebsten		
+Adjectif irrégulier	Allemand::Adjectifs	Hoch	Haut	Höher	Der höchste/am höchsten		
+Adjectif irrégulier	Allemand::Adjectifs	Nah	Proche	Näher	Der nächste/am nächsten		
+Adjectif irrégulier	Allemand::Adjectifs	Bald	Bientôt	Eher	Am ehesten		
+Adjectif irrégulier	Allemand::Adjectifs	Oft	Souvent	Öfter/häufiger	Der häufigste/am häufigsten		
+Basique	Allemand::Comparaison	Terminaison avec e au superlatif	-d, -t, -s, -ß, -tz, -x, -z -sch (possible, sauf si la syllabe n'est pas accentuée)				
+Basique	Allemand::Comparaison	Terminaisons avec perte de e en déclinant et au comparatif	-er, -el (si précédé d'une voyelle)				
+Basique	Allemand::Genres	Renvoyant à un métier, une fonction, une nationalité et en -er, -ör ou -eur, -ier	Masculin				
+Basique	Allemand::Genres	-ent	Masculin				
+Basique	Allemand::Genres	-ant	Masculin				
+Basique	Allemand::Genres	-ist	Masculin				
+Basique	Allemand::Genres	-ismus	Masculin				
+Basique	Allemand::Genres	-or	Masculin				
+Basique	Allemand::Genres	-ling	Masculin				
+Basique	Allemand::Genres	Désignant les jours, les mois, les saisons	Masculin				
+Basique	Allemand::Genres	Renvoyant à un métier, une fonction, une nationalité et se terminant en -in ou -erin	Féminin				
+Basique	Allemand::Genres	-ung	Féminin				
+Basique	Allemand::Genres	-ion	Féminin				
+Basique	Allemand::Genres	-heit ou -keit	Féminin				
+Basique	Allemand::Genres	-ät	Féminin				
+Basique	Allemand::Genres	-schaft	Féminin				
+Basique	Allemand::Genres	-enz ou -anz	Féminin				
+Basique	Allemand::Genres	-ei	Féminin				
+Basique	Allemand::Genres	-ie	Féminin				
+Basique	Allemand::Genres	Petits des êtres animés	Neutre				
+Basique	Allemand::Genres	Diminutifs (suffixes -\text{ch}en ou -lein)	Neutre				
+Basique	Allemand::Genres	Verbes substantivés	Neutre				
+Basique	Allemand::Genres	-um	Neutre				
+Basique	Allemand::Genres	-tel ou -stel	Neutre				
+Basique	Allemand::Genres	-ment	Neutre				
+Basique	Allemand::Genres	-tum	Neutre (sauf Reichtum et Irrtum)				
+Basique	Allemand::Genres	-ett	Neutre				
+Basique	Allemand::Genres	-on	Neutre				
+Basique	Allemand::Genres	Unités de temps jusqu'à l'heure	Féminin				
+Basic	Allemand::Divers	Fast	Presque				
+Basique (et envers de la carte)	Allemand::Divers	Wesentlich	Essentiellement				
+Basique (et envers de la carte)	Allemand::Notes de cours	In vorliegendem Artikel	Dans l'article présent				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der artikel	L'article				
+Basique (et envers de la carte)	Allemand::Notes de cours	erscheinen	paraître (article) / apparaître				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Fernsehsendung	L'émission (TV)				
+Basique (et envers de la carte)	Allemand::Notes de cours	ausstrahlen	diffuser				
+Basique (et envers de la carte)	Allemand::Notes de cours	betonen	accentuer, souligner				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Lebenswartung	L'espérance de vie				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Bildung	L'éducation				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Wohlstand	La prospérité				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Arbeitslosigkeit	le \text{ch}ômage				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Schule brechen	Interrompre ses études				
+Basique (et envers de la carte)	Allemand::Notes de cours	Auf den ersten blick	A première vue				
+Basique (et envers de la carte)	Allemand::Notes de cours	ausgezeichnet	excellent				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Ungleichheit	L'inégalité				
+Basique (et envers de la carte)	Allemand::Notes de cours	verdienen	gagner (argent)				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Schattenseite	La zone d'ombre				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Vergleich	la comparaison				
+Basique (et envers de la carte)	Allemand::Notes de cours	zwar	certes				
+Basique (et envers de la carte)	Allemand::Notes de cours	jedoch	cependant				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Unterbrechung	l'interruption				
+Basique (et envers de la carte)	Allemand::Notes de cours	Alles in allem	En définitive				
+Basique (et envers de la carte)	Allemand::Notes de cours	lösen	régler (un problème)				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Aufgabe	La tâche				
+Basique (et envers de la carte)	Allemand::Notes de cours	schwierig	difficile				
+Basique (et envers de la carte)	Allemand::Notes de cours	Das Fazit	Le bilan				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Nachfolger	Le successeur				
+Basique (et envers de la carte)	Allemand::Notes de cours	Es lässt sich demnach fragen	On peut donc se demander				
+Basique (et envers de la carte)	Allemand::Notes de cours	behalten	garder				
+Basique (et envers de la carte)	Allemand::Notes de cours	verlieren	perdre				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Herausforderung	Le défi (problème à résoudre)				
+Basique (et envers de la carte)	Allemand::Notes de cours	zahlreich	nombreux				
+Basique (et envers de la carte)	Allemand::Notes de cours	sich behaupten	s'imposer				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Selbstverständlichkeit	L'évidence				
+Basique (et envers de la carte)	Allemand::Notes de cours	Das Gesicht	Le visage				
+Basique (et envers de la carte)	Allemand::Notes de cours	Inhaltlich	sur le fond				
+Basique (et envers de la carte)	Allemand::Notes de cours	brennende	brûlant				
+Basique (et envers de la carte)	Allemand::Notes de cours	heikle	délicat				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Klimawandel	Le changement climatique				
+Rection verbe utile	Allemand::Rection verbes	aussteigen	aus + D	Abandonner, sortir de qch.	Deutschland steigt aus der Atomenergie aus.		
+Rection verbe utile	Allemand::Rection verbes	pochen	auf + A	réclamer qch.	Die Grünen pochen auf einen schnelleren Ausstieg aus der Atomenergie.		
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Ausstieg	La descente / sortie				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Rückkehr	Le retour				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Wirtschaft	L'économie				
+Basique (et envers de la carte)	Allemand::Notes de cours	auseinanderfallen	se disloquer / exploser				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Zankapfel	La pomme de discorde				
+Basique (et envers de la carte)	Allemand::Notes de cours	endgültig	définitivement				
+Basique (et envers de la carte)	Allemand::Notes de cours	überwinden	surmonter				
+Basique (et envers de la carte)	Allemand::Notes de cours	gleich sein	être égaux				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Riese	Le géant				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Zwerg	Le nain				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Zweifel	Le doute				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Erlaubnis	L'autorisation				
+Basique (et envers de la carte)	Allemand::Notes de cours	Das Ziel	Le but				
+Basique (et envers de la carte)	Allemand::Notes de cours	Ziel ist es	Le but étant de				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Gegner	L'opposant				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Befürworter	Le partisan				
+Basique (et envers de la carte)	Allemand::Notes de cours	fordern	exiger				
+Basique (et envers de la carte)	Allemand::Notes de cours	fördern	favoriser				
+Basique (et envers de la carte)	Allemand::Notes de cours	regelmäßig	régulier				
+Basique (et envers de la carte)	Allemand::Notes de cours	bezüglich	concernant				
+Verbe fort	Allemand::Verbes irréguliers	Erbleichen	Erblich	Ist erblichen	Erbleicht	Pâlir	
+Verbe fort	Allemand::Verbes irréguliers	Erlöschen	Erlosch	Ist erloschen	Erlischt	S'éteindre	
+Verbe fort	Allemand::Verbes irréguliers	Gebären	Gebar	Hat geboren	Gebiert	Mettre au monde	
+Verbe fort	Allemand::Verbes irréguliers	Genesen	Genas	Ist genesen	Genest	Guérir	
+Verbe fort	Allemand::Verbes irréguliers	Mahlen	Mahlte	Hat gemahlen	Mahlt	Moudre	
+Verbe fort	Allemand::Verbes irréguliers	Quellen	Quoll	Ist gequollen	Quillt	Sourdre	
+Verbe fort	Allemand::Verbes irréguliers	Salzen	Salzte	Hat gesalzen	Salzt	Saler	
+Verbe fort	Allemand::Verbes irréguliers	Schelten	Schalt	Hat gescholten	Schilt	Gronder	
+Verbe fort	Allemand::Verbes irréguliers	Sieden	Sott	Hat gesotten	Siedet	Bouillir	
+Verbe fort	Allemand::Verbes irréguliers	Spalten	Spaltete	Hat gespalten	Spaltet	Diviser	
+Verbe fort	Allemand::Verbes irréguliers	Weichen	Wich	Ist gewichen	Weicht	Céder, s'écarter	
+Basic	Allemand::Divers	(Ne pas) Avoir besoin de + GN	Etw (nicht) brauchen				
+Basic	Allemand::Divers	Avoir besoin de +GV	müssen				
+Basic	Allemand::Divers	Ne pas avoir besoin de +GV	nicht brauchen / müssen				
+Basic	Allemand::Genres	Substantifs (généralement d'une syllabe) d'un verbe fort	Masculin				
+Basic	Allemand::Genres	Noms de voiture	Masculin				
+Basic	Allemand::Genres	Alcools forts	Masculin				
+Basic	Allemand::Genres	Direction (Ouest, est ...)	Masculin				
+Basic	Allemand::Genres	Noms dérivés du radical d'un verbe avec les suffixes -e et -t	Féminin				
+Basic	Allemand::Genres	Noms de bateaux	Féminin				
+Basic	Allemand::Genres	Noms de motos	Féminin				
+Basic	Allemand::Genres	Nombres substantivés	Féminin				
+Basic	Allemand::Genres	Collectifs précédés de Ge-	Neutre				
+Basic	Allemand::Genres	Noms de villes, pays ou continents non précédés d'un article	Neutre				
+Basic	Allemand::Genres	Lettres substantivées	Neutre				
+Basic	Allemand::Genres	Pronoms substantivés	Neutre				
+Basic	Allemand::Divers	Déclinaison du nom	Au génitif masculin et neutre : -s avec e intercalaire après s, ß, z ou tz Au datif pluriel : -n sauf si pluriel déja en n, ou mot étranger au pluriel en s ou a				
+Basic	Allemand::Pronoms personnels	ich A	mich				
+Basic	Allemand::Pronoms personnels	ich D	mir				
+Basic	Allemand::Pronoms personnels	ich G	meiner				
+Basic	Allemand::Pronoms personnels	du A	dich				
+Basic	Allemand::Pronoms personnels	du D	dir				
+Basic	Allemand::Pronoms personnels	du G	deiner				
+Basic	Allemand::Pronoms personnels	er A	ihn				
+Basic	Allemand::Pronoms personnels	er D	ihm				
+Basic	Allemand::Pronoms personnels	er G	seiner				
+Basic	Allemand::Pronoms personnels	sie A	sie				
+Basic	Allemand::Pronoms personnels	sie D	ihr				
+Basic	Allemand::Pronoms personnels	sie G	ihrer				
+Basic	Allemand::Pronoms personnels	es A	es				
+Basic	Allemand::Pronoms personnels	es D	ihm				
+Basic	Allemand::Pronoms personnels	es G	seiner				
+Basic	Allemand::Pronoms personnels	wir A	uns				
+Basic	Allemand::Pronoms personnels	wir D	uns				
+Basic	Allemand::Pronoms personnels	wir G	unser				
+Basic	Allemand::Pronoms personnels	ihr A	euch				
+Basic	Allemand::Pronoms personnels	ihr D	euch				
+Basic	Allemand::Pronoms personnels	ihr G	euer				
+Basic	Allemand::Pronoms personnels	sie / Sie A	sie / Sie				
+Basic	Allemand::Pronoms personnels	sie / Sie D	ihnen / Ihnen				
+Basic	Allemand::Pronoms personnels	sie / Sie G	ihrer / Ihrer				
+Basique (et envers de la carte)	Allemand::Divers	Wahr	Vrai				
+Basique (et envers de la carte)	Allemand::Notes de cours	zufrieden sein mit	être satisfait de				
+Basique (et envers de la carte)	Allemand::Notes de cours	d'après	so / laut				
+Basique (et envers de la carte)	Allemand::Notes de cours	publier	veröffentlichen				
+Basique (et envers de la carte)	Allemand::Notes de cours	endiguer / enrayer	ein|dämmen				
+Basique (et envers de la carte)	Allemand::Notes de cours	Das Gesetz	La loi				
+Basique (et envers de la carte)	Allemand::Notes de cours	Ein Gesetz entwerfen	Élaborer une loi				
+Basique (et envers de la carte)	Allemand::Notes de cours	Ein Gesetz verabschieden	Voter une loi				
+Basique (et envers de la carte)	Allemand::Notes de cours	Der Mindestlohn	Le salaire minimum				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die erneuerbare Energien	Les énergies renouvelables				
+Basique (et envers de la carte)	Allemand::Notes de cours	Das grundgesetz	La loi fondamentale (allemande)				
+Basique (et envers de la carte)	Allemand::Notes de cours	Das Wahlalter	L'âge du vote				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Kinderrechte	Les droits de l'enfant				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Bewaffnung	L'armement				
+Basique (et envers de la carte)	Allemand::Notes de cours	zu|stimmen	approuver				
+Basique (et envers de la carte)	Allemand::Notes de cours	aufgeben	abandonner				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die Ablehnung	Le refus				
+Basique	Allemand::Divers	Déjà	Schon				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Schuld	la faute (morale) / dette				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Steuer	l'impôt				
+Basique (et envers de la carte)	Allemand::Notes de cours	begleichen	régler (une note / facture)				
+Basique (et envers de la carte)	Allemand::Notes de cours	verbrauchen	consommer				
+Basique (et envers de la carte)	Allemand::Notes de cours	der Haushalt	le foyer / ménage				
+Basique (et envers de la carte)	Allemand::Notes de cours	bedrohen	menacer				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Mehrwehrsteuer	la TVA				
+Basique (et envers de la carte)	Allemand::Notes de cours	abschaffen	supprimer				
+Basique (et envers de la carte)	Allemand::Notes de cours	der Zuschuss	la subvention / l'aide financière				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Sperre	le blockage				
+Basique (et envers de la carte)	Allemand::Notes de cours	entwickeln	développer				
+Basique (et envers de la carte)	Allemand::Notes de cours	unweltfeindlich	Dangereux pour l'environnement				
+Basique (et envers de la carte)	Allemand::Notes de cours	Die fossilen Energien	Les énergies fossiles				
+Basique (et envers de la carte)	Allemand::Notes de cours	ehrgeizig	ambitieux				
+Basique (et envers de la carte)	Allemand::Notes de cours	adapté	angepasst				
+Basique (et envers de la carte)	Allemand::Notes de cours	zuverlässig	fiable				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Decke	le plafond				
+Basique (et envers de la carte)	Allemand::Notes de cours	der Verbrauch	la consommation				
+Basique (et envers de la carte)	Allemand::Notes de cours	der Boden	le plancher				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Schwelle	le seuil				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Abhängigkeit	la dépendance				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Umweltschmutzung	la pollution				
+Basique (et envers de la carte)	Allemand::Notes de cours	In Rahmen von	Dans le cadre de				
+Basique (et envers de la carte)	Allemand::Notes de cours	der Ausbau	le développement				
+Basique (et envers de la carte)	Allemand::Notes de cours	Zunächst möchte ich den Artikel zusammenfassen	Je souhaiterais tout d'abord résumer l'article				
+Basique (et envers de la carte)	Allemand::Notes de cours	Zunächst	Tout d'abord				
+Basique (et envers de la carte)	Allemand::Notes de cours	Zunächst einmal	Déja / D'abord				
+Basique (et envers de la carte)	Allemand::Notes de cours	in dieser Hinsicht	à cet égard				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Behörde	l'administration / l'autorité				
+Basique (et envers de la carte)	Allemand::Notes de cours	davon ausgehen, dass ...	partir du principe que				
+Basique (et envers de la carte)	Allemand::Notes de cours	die Ausgangssperre	le confinement				
+Rection verbe utile	Allemand::Rection verbes	einhergehen	mit + D	S'accompagner de	Die ausgangssperre geht mit dem Homeoffice einher.		
+Basique (et envers de la carte)	Allemand::Notes de cours	verteilen	distribuer				
+Basique (et envers de la carte)	Allemand::Notes de cours	wiederum	de nouveau				
+Basique (et envers de la carte)	Allemand::Notes de cours	darüber hinaus	de surcroît				
+Basique (et envers de la carte)	Allemand::Notes de cours	beabsichtigen	envisager				
+Basique (et envers de la carte)	Allemand::Notes de cours	nun	maintenant / désormais				
+Basique (et envers de la carte)	Allemand::Notes de cours	beleuchten	éclairer / mettre en lumière				
+Basique (et envers de la carte)	Allemand::Notes de cours	versichern	assurer				
+Rection verbe utile	Allemand::Rection verbes	sich erweisen	als + A	se révéler être	Kapitalismus erweist sich als gewalttätiger als Kommunismus.		
+Basique (et envers de la carte)	Allemand::Notes de cours	Das Windrad	L'éolienne				
+Basique (et envers de la carte)	Allemand::Notes de cours	der Sonnenkollektor	le panneau solaire				
+Basique (et envers de la carte)	Allemand::Notes de cours	der Akkumulator	la batterie				
+Basique (et envers de la carte)	Allemand::Notes de cours	etw in Gang setzen	mettre qc en route				
+Basique (et envers de la carte)	Allemand::Notes de cours	der Schrottplatz	la déchetterie / décharge				
+Basique (et envers de la carte)	Allemand::Notes de cours	eigen	propre (à soi)				
+Basique (et envers de la carte)	Allemand::Notes de cours	der GAU	l'accident de grande ampleur / accident maximal hypothétique				
+Basique (et envers de la carte)	Allemand::Notes de cours	heuchlerisch	hypocrite				
+Basique (et envers de la carte)	Allemand::Notes de cours	abschliessend	en conclusion				
+Basique (et envers de la carte)	Allemand::Notes de cours	das Allheilmittel	la panacée				
+Basique (et envers de la carte)	Allemand::Notes de cours	der(die) Vorfahr(in)	l'ancêtre				
+Basique (et envers de la carte)	Allemand::Prépositions	in	à l'intérieur, avec contact				
+Basique (et envers de la carte)	Allemand::Prépositions	an	à proximité, avec contact				
+Basique (et envers de la carte)	Allemand::Prépositions	auf	sur, avec contact				
+Basique (et envers de la carte)	Allemand::Prépositions	über	sur, sans contact				
+Basique (et envers de la carte)	Allemand::Prépositions	unter	en dessous				
+Basique (et envers de la carte)	Allemand::Prépositions	vor	devant				
+Basique (et envers de la carte)	Allemand::Prépositions	hinter	derrière				
+Basique (et envers de la carte)	Allemand::Prépositions	neben	à proximité				
+Basique (et envers de la carte)	Allemand::Prépositions	zwischen	entre				

@@ -1,0 +1,15 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	e^x	\frac{z^n}{n!}	+\infty
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\sin x	(-1)^n\frac{x^{2n+1}}{(2n+1)!}	+\infty
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\cos x	(-1)^n\frac{x^{2n}}{(2n!)}	+\infty
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\text{sh } x	\frac{x^{2n+1}}{(2n+1)!}	+\infty
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\text{ch } x	\frac{x^{2n}}{(2n)!}	+\infty
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	(1+x)^\alpha	\frac{\alpha (\alpha - 1) \dots (\alpha - n + 1)}{n!}x^n	\begin{array}{ll} 1 \text{ pour } \alpha \notin \mathbb N \\ +\infty \text{ pour } \alpha \in \mathbb N \end{array}
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\frac{1}{1 - z}	z^n	1
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\frac{1}{1+x}	(-1)^nx^n	1
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\frac{1}{1 + x^2}	(-1)^nx^{2n}	1
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\ln(1+x)	(-1)^n\frac{x^{n+1}}{n+1}	1
+Développement en série entière	Seconde année::Mathématiques::Développements en série entière usuels	\arctan x	(-1)^n\frac{x^{2n+1}}{2n+1}	1
