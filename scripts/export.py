@@ -7,6 +7,8 @@ from sys import argv
 
 dry_run = False
 
+avoid_exporting = ["Card Types", "Advanced English Vocabulary"]
+
 if "-d" in argv or "--dry-run" in argv:
     dry_run = True
 
@@ -77,6 +79,10 @@ def main():
 
             tokens = dname.split("::")
             filename = tokens.pop()
+            
+            if filename in avoid_exporting:
+            	print("Avoiding marked deck {}".format(filename))
+            	continue
 
             path = getcwd()
             exists_or_create(path)
