@@ -1,0 +1,17 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Espace \(L^p\)	On pose \((X, \mathcal A, \mu)\) un espace mesuré. Alors: - \(\mathcal L^p(\mu) = \mathcal L^p(x, \mathcal A, \mu) = \{f : X \to \R \text{ mesurable} | \int|f|^pd\mu  < +\infty\}\) - \(\mathcal L^\infty(\mu) = \mathcal L^\infty(x, \mathcal A, \mu) = \{f : X \to \R \text{ mesurable} | \text {f bornée}\}\)
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Relation d'équivalence sur \(\mathcal L^p\)	On définit une relation d'équivalence par \(f \sim g \Leftrightarrow f=g\) \(\mu\) presque-partout.
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Définition de \(\mathcal L^p\) comme quotient	On considère \(\mathcal L^p\) comme quotient par la relation d'équivalence. On identifie une fonction à sa classe d'équivalence.s
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Mesure sur \(\mathcal L^p\)	On définit la mesure \(||f||_ p = (\int|f|^pd\mu)^\frac1p\) sur \(\mathcal L^p\). Cette mesure passe au quotient.
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Fonction convexe	\(\varphi : I \to \R\) est convexe ssi elle est en dessous de ses cordes.
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Convexes et tangentes	Si \(\varphi : I \to \R\) est convexe et \(I\) est ouvert, alors \(\varphi\) est l'enveloppe supérieure de ses tangentes.
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Inégalité de Jensen intégrale	Soit \(\mu\) une mesure de probabilité (\(\mu(X)=  1\)), \(\phi : I \to \R\) convexe et \(f : X \to I\) intégrable telle que \(\phi \circ f \) soit positive ou intégrable. Alors \(\phi(\int fd\mu) \le \int \phi \circ f d\mu\).
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Lemme de l'inégalité de Hölder	Soit \(p \in [1, +\infty]\). On note \(p' = \frac p{p-1}\in [1, +\infty]\) l'exposant conjugué de \(p\). Alors  \(\forall a,b \ge 0, ab \le \frac{a^p}{p} + \frac{b^{p'}}{p'}\).
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Inégalité de Hölder	Pour \(p \in [1, +\infty]\), \(f ,g : X\to \R\) mesurables, alors \(||fg||_{L^p} \le ||f||_{L^p}||g||_{L^{p'}}\)
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Inégalité de Minkowski	Soit \(p \in [1, +\infty]\) et \(f,g : X \to \R\) mesurables. Alors \(||f+g||_{L^p} = ||f||_{L^p} + ||g||_{L^p}\).
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Complétude de \(\mathcal L^p\)	\((\mathcal L^p, ||\cdot||_p)\) est un espace de Banach (complet normé).
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Approximation	Soit \(f \in \mathcal L^p\) positive. Alors il existe une suite de fonctions étagées \(f_n\) telle que \(f_n \to f\).
+Basique Maths	L3::Intégration et théorie de la mesure::Espaces Lp	Lipschitz-continuité	\(f : X \to \R\) est Lipschitz-continue s'il existe \(C \ge 0\), \(\forall (x,y) \in X^2, |f(x)-f(y)| \le Cd(x,y)\).

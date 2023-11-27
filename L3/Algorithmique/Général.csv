@@ -6,7 +6,6 @@ Basique Maths	L3::Algorithmique::Général	Types de problèmes	3 types de probl�
 Basique Maths	L3::Algorithmique::Général	"""Efficace"" en algorithmique"	"Un algorithme est ""efficace"" s'il est en temps polynomial sur une machine de Turing déterministe."
 Basique Maths	L3::Algorithmique::Général	Quelques paradigmes d'algorithmique	- Diviser pour régner - Gloutons - Programmation dynamique - Recherche locale - Optimisation linéaire - Randomisés
 Basique Maths	L3::Algorithmique::Général	Stratégies de réduction en NP-Complétude	- Approximation - Algos exponentiels exacts - Algos paramétrés
-Basique Maths	L3::Algorithmique	Complexité / Algorithme paramétré	Complexité / Algorithme avec des conditions supplémentaires sur les entrées et sorties.
 Basique Maths	L3::Algorithmique::Général	Exemples à vérifier sur tout problème	Petite valeurs et petites dimensions.
 Basique Maths	L3::Algorithmique::Général	Nombre de noeuds interne d'un arbre binaire strict à \(n\) feuilles	Un arbre binaire strict à \(n\) feuilles a \(n - 1\) noeuds internes (y compris racine).
 Basique Maths	L3::Algorithmique::Général	Nombre minimal de comparaisons pour un tri	Il faut au minimum \(\lceil \log_2n!\rceil\) comparaisons pour trier un tableau à \(n!\) éléments dans le pire cas. En effet il y a \(n!\) permutations possibles à départager.
@@ -25,8 +24,3 @@ Basique Maths	L3::Algorithmique::Général	Indépendant dans un graphe	Un indép
 Basique Maths	L3::Algorithmique::Général	Algorithme de Floyd-Warshall	- Pour \(k, i, j\) de \(1\) à \(n\) (itérés dans cet ordre)   - \(d_{ij} = \min(d_{ij}, d_{ik} + d_{kj})\) Retourne la matrice des plus courtes distances (sauf cycle de poids nég), \(\mathcal O(n^3)\).
 Basique Maths	L3::Algorithmique::Général	Classe NP	Classe de problèmes de décision; 2 définitions équivalentes: - Certificat polynomial en la taille de l'entrée et vérifiable en temps polynomial en la taille de l'entrée - Décidable par une machine de Turing non déterministe en temps polynomial.
 Basique Maths	L3::Algorithmique::Général	Quelques problèmes NP	- PREMIER et NON PREMIER - SOMME (Un nombre est une somme d'éléments d'un tableau) - 3-COLORIABLE
-Basique Maths	L3::Algorithmique::Optimisation	Problème de décision associé	Le problème de décision associé à un problème d'optimisation est: - Pour la minimisation : est-ce que la valeur de mon problème est inférieure ou égale à \(k\)? - Pour la maximisation : est-ce que la valeur de mon problème est supérieure ou égale à \(k\)?
-Basique Maths	L3::Algorithmique::Optimisation	Problème d'optimisation NP-difficile	Un problème d'optimisation est NP-difficile si le problème de décision associé l'est.
-Basique Maths	L3::Algorithmique::Optimisation	Algorithme de \(C\)-approximation	Pour \(C > 1\), un algorithme de \(C\)-approximation (\(C\)-opt) d'un problème d'optimisation retourne une solution au plus \(C\) fois supérieure à l'optimum.
-Basique Maths	L3::Algorithmique::Optimisation	APX-difficile	Un problème est APX-difficile s'il est NP-difficile de calculer une \(C\)-approximation (\(C\)-apx) pour \(C\) fixé.
-Basique Maths	L3::Algorithmique::Optimisation	PTAS	Un PTAS est un algorithme d'approximation qui est polynomial pour tout \(\varepsilon > 0\).

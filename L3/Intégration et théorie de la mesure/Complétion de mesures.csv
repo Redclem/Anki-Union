@@ -1,0 +1,7 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Intégration et théorie de la mesure::Complétion de mesures	Écriture explicite de la tribu complétée	La tribu complétée est \(\bar{\mathcal A} = \{A \subseteq X | \exists B,B' \in \mathcal A, B\subseteq A \subseteq B', \mu(B' \setminus B)= 0\}\).
+Basique Maths	L3::Intégration et théorie de la mesure::Complétion de mesures	Tribu de Lebesgue	La tribu de Lebesgue est la tribu complétée de \(\mathcal B(\R^d)\): \(\mathcal M(\mu^*_i) = \overline{\mathcal B(\R^d)}\).
+Basique Maths	L3::Intégration et théorie de la mesure::Complétion de mesures	Propriétés de la mesure de Lebesgue	- Invariance par translation - Régularité : La mesure de \(A\) est la borne inférieure des mesures des fermés le contenant et la borne supérieure des mesures des ouvertes inclus dedans.

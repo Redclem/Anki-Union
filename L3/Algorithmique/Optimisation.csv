@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algorithmique::Optimisation	Problème de décision associé	Le problème de décision associé à un problème d'optimisation est: - Pour la minimisation : est-ce que la valeur de mon problème est inférieure ou égale à \(k\)? - Pour la maximisation : est-ce que la valeur de mon problème est supérieure ou égale à \(k\)?
+Basique Maths	L3::Algorithmique::Optimisation	Problème d'optimisation NP-difficile	Un problème d'optimisation est NP-difficile si le problème de décision associé l'est.
+Basique Maths	L3::Algorithmique::Optimisation	Algorithme de \(C\)-approximation	Pour \(C > 1\), un algorithme de \(C\)-approximation (\(C\)-opt) d'un problème d'optimisation retourne une solution au plus \(C\) fois supérieure à l'optimum.
+Basique Maths	L3::Algorithmique::Optimisation	APX-difficile	Un problème est APX-difficile s'il est NP-difficile de calculer une \(C\)-approximation (\(C\)-apx) pour \(C\) fixé.
+Basique Maths	L3::Algorithmique::Optimisation	PTAS	Un PTAS est un algorithme d'approximation qui est polynomial pour tout \(\varepsilon > 0\).

@@ -1,0 +1,18 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Tribu produit	Avec \((X, \mathcal A)\) et \((Y, \mathcal B)\) mesurables, la tribu produit est \(\mathcal A\otimes\mathcal B = \sigma(\mathcal {A \times B})\).
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Tribu produit et projections	La tribu produit est la plus petite tribu qui rend mesurables les projections.
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Base dénombrables, boréliens produits	Si \(X, Y\) sont séparables (à base d'ouverts dénombrable) alors \(\mathcal B(X,Y) = \mathcal B(X) \otimes \mathcal B(Y)\).
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Espace mesuré \(\sigma\)-fini	\((X, \mathcal A, \mu)\) est \(\sigma\)-fini ssi il existe \((X_k)\) croissante telle que: \(X = \bigcup\limits_{k \in \N}X_k\) et \(\mu(X_k) < +\infty\).
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Mesure produit	Soient \((X, \mathcal A, \mu)\) et \((X, \mathcal A, \nu)\) des espaces mesurés \(\sigma\)-finis. Il existe une mesure \(\mu \otimes \nu\) sur \((X\times Y, \mathcal A \otimes \mathcal B)\) telle que \((\mu \times \nu)(A \times B) = \mu(A) \nu(B)\).
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Unicité de la mesure produit	La mesure produit est unique.
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Sections	Pour \(C \in X\times Y, x \in X,  y \in Y\), les sections de \(C\) correspondantes sont: \(C_x = \{y \in Y | (x,y) \in C\}\) \(C_y = \{x \in X | (x,y) \in C\}\)
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Mesurabilité des sections	Les sections d'un ensemble mesurable sont mesurables. Les sections d'une fonction sont mesurables.
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Mesure produit et sections	Pour \(C \in \mathcal{A \otimes B}\), \((\mu \otimes \nu)(C) = \int_X\nu(C_x)\mu(dx) = \int_Y\mu(C_y)\nu(dy)\).
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Théorème de Fubini-Tonelli : mesurabilités	Soit \(f:X \times Y \to \bar \R_+\) mesurable pour \(\mathcal{A\otimes B}\). Alors: \(x \mapsto \int_Yf(x,y)\nu(dy)\) et \(y \mapsto \int_Xf(x,y)\mu(dx)\) sont mesurables.
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Théorème de Fubini-Tonelli : intégrales	\(\int\int_{X,Y}f(x,y)(\mu \otimes \nu)(dx,dy)=\int_X(\int_Y f(x,y)\nu(dy))\mu(dx) = \int_Y(\int_X f(x,y)\mu(dx))\nu(dy)\)
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Théorème de Fubini-Lebesgue	Soit \(f \in \mathcal L^1(X \times Y, \mu \otimes \nu)\). Alors: \(f_x \in\mathcal L^1(Y, \nu), f_y \in\mathcal L^1(X, \mu)\), et \(x \mapsto \in_Yf_x\nu, y \to \int_Xf_y\mu\) sont intégrables, et l'égalité de Fubini-Tonelli reste vraie.
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Convolution	Soient \(f,g\) et \(x\). Si \(y \mapsto f(x-y)g(y)\) est intégrable, alors on définit \((f*g)(x) = \int f(x-y)g(y)dy\).
+Basique Maths	L3::Intégration et théorie de la mesure::Mesures produits et changements de variables	Norme de la convolution d'intégrables	Si \(f,g\) sont intégrables, alors \(f*g\) est intégrable et \(||f*g|| \le ||f||_{L^1}||g||_{L^1}\).

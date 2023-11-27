@@ -1,0 +1,6 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Théorie de la programmation::Domaine et points fixes	Ordre partiel complet	Un ordre partiel \((E, \sqsubseteq)\) est complet si pour toute chaîne infinie (\((e_i)_{i \in \N}\) telle que \(\forall i \in \N, e_i \sqsubseteq e_{i + 1}\)), il existe un plus petit majorant des \((e_i)\) noté \(\bigsqcup\limits_{ i \in \N}e_i\).
+Basique Maths	L3::Théorie de la programmation::Domaine et points fixes	Domaine	Un domaine est un ordre partiel complet qui admet un plus petit élément \(\bot\).

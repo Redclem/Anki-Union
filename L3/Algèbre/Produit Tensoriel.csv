@@ -1,0 +1,16 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algèbre::Produit Tensoriel	Cadre d'étude	On utilise des ev de dimension finie.
+Basique Maths	L3::Algèbre::Produit Tensoriel	Application multilinéaire	Avec \(E_1, \dots, E_n\) et \(F\) des ev, \(\phi : E_1 \times \dots \times E_n \to F\) est \(n\)-linéaire ssi les fonctions de la coordonées \(i \in \lii 1 , n\rii\) avec les uatres coordonnées fixées sont linéaires.
+Basique Maths	L3::Algèbre::Produit Tensoriel	Ensemble des application \(n\)-linéaires	On note \(n-Lin(E_1\times \dots \times E_n,F)\) l'ensemble des applications \(n\)-linéaires de \(E_1\times\dots \times E_n\) dans \(F\).
+Basique Maths	L3::Algèbre::Produit Tensoriel	Formes \(n\)-linéaires	Une forme \(n\)-linéaire est une application \(n\)-linéaire dans \(k\).
+Basique Maths	L3::Algèbre::Produit Tensoriel	Isomorphisme d'évaluation	L'application qui à une application \(n\)-linéaire sur \(E_1\times \dots \times E_n\) associe ses images sur les produits des éléments des bases \(E_1, \dots ,E_n\) est un isomorphisme.
+Basique Maths	L3::Algèbre::Produit Tensoriel	Dimension de \(n-Lin\)	\(\dim n-Lin(E_1 \times \dots \times E_n) = \prod\limits_{i = 1}^nE_i\).
+Basique Maths	L3::Algèbre::Produit Tensoriel	Produit tensoriel	Pour \(E_1, \dots,E_n, F\) ev, il existe un unique couple \((E_1 \otimes \dots \otimes E_n, \Pi : E_1 \times \dots\times E_n \to E_1\otimes\dots\otimes E_n)\) d'un \(k\)-ev et d'une application linéaire tels que pour toute \(\phi \in n-Lin(E_1,\dots,E_n, F)\), il existe \(\bar\phi\in \mathcal L(E_1\otimes\dots\otimes E_n, F)\) telle que \(\phi = \bar\phi \circ \Pi\).
+Basique Maths	L3::Algèbre::Produit Tensoriel	Tenseurs simples	Les tenseurs simples sont les \(e_1 \otimes\dots\otimes e_n = \Pi(e_1, \dots,e_n)\) pour \(e_1 \in E_1,\dots,e_n \in E_n\).
+Basique Maths	L3::Algèbre::Produit Tensoriel	Tenseur	Un tenseur est un élément de \(E_1 \otimes \dots \otimes E_n\).
+Basique Maths	L3::Algèbre::Produit Tensoriel	Tenseurs purs comme base	Les tenseurs purs des éléments d'un ensemble de bases de \(E_1, \dots E_n\) sont une base de l'espace tensoriel associé.
+Basique Maths	L3::Algèbre::Produit Tensoriel	Rang d'un tenseur	Le rang d'un tenseur est le nombre minimal de tenseurs purs nécéssaires pour l'écrire.
+Basique Maths	L3::Algèbre::Produit Tensoriel	Morphismes et tenseurs	Pour \(E, E', F, F'\), il y a un isomorphisme: \(\begin{array}{ll}Hom(E\otimes E') \simeq Hom(F, F') \\ u \otimes v \mapsto (x\otimes y \mapsto u(x) \otimes u(y))\end{array}\). On définit ainsi la notation \(u \otimes v\) pour les morphismes.

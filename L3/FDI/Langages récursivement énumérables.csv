@@ -4,9 +4,9 @@
 #deck column:2
 Basique Maths	L3::FDI::Langages récursivement énumérables	Énumérateur	"Un énumérateur \(E\) est une machine à 2 rubans : rubans de travail et de sortie. - Sur le ruban de sortie, \(E\) écrit les mots du langage énuméré séparés par \(\# \notin \Sigma\). - La tête sur le ruban de sortie va vers la droite quand elle écrit un caractère et reste immobile sinon."
 Basique Maths	L3::FDI::Langages récursivement énumérables	Langage récursivement énumérable	Un langage est récursivement énumérable si et seulement si il est énuméré par un certain énumérateur.
-Basique Maths	L3::FDI::Langages récursivement énumérables	Caractérisation des langages récursivement reconaissables	Un langage est récursivement énumérable si et seulement si il est reconaissable (par machine de Turing).
+Basique Maths	L3::FDI::Langages récursivement énumérables	Caractérisation des langages récursivement énumérables	Un langage est récursivement énumérable si et seulement si il est reconaissable (par machine de Turing).
 Basique Maths	L3::FDI::Langages récursivement énumérables	Machine de Turing universelle	Notée \(\sqcup\), c'est une machine de Turing qui prend en entrée un couple \(\langle M, w\rangle\) où \(M\) est une machine de Turing et \(w\) est une entrée de \(M\). Le calcul de \(\sqcup\) sur \(\langle M, w \rangle\): - Accepte si \(M\) accepte \(w\) - Rejette si \(M\) rejette \(w\) - Sinon, ne termine pas
-Basique Maths	L3::FDI::Langages récursivement énumérables	Langage reconnu par \(\sqcup\)	\(\sqcup\) reconnaît \(A = \{\langle M, x\rangle | M \text{ reconnaît }x\}\) \(A\) est reconnaissable par définition.
+Basique Maths	L3::FDI::Langages récursivement énumérables	Langage reconnu par \(\sqcup\), reconnaissabilité	\(\sqcup\) reconnaît \(A = \{\langle M, x\rangle | M \text{ reconnaît }x\}\) \(A\) est reconnaissable par définition.
 Basique Maths	L3::FDI::Langages récursivement énumérables	Théorème de l'arrêt	Le langage \(A\) reconnu par \(\sqcup\) est indécidable.
 Basique Maths	L3::FDI::Langages récursivement énumérables	Problèmes du tout et du rien	Il s'agit d'étudier les langages: \(V_{CFG}\): ensemble des CFG reconnaissant le langage vide \(T_{CFG}\): ensemble des CFG reconnaissant \(\Sigma^*\).
 Basique Maths	L3::FDI::Langages récursivement énumérables	Décidabilité du rien	\(V_{CFG}\) est décidable.

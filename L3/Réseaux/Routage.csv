@@ -1,0 +1,12 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Réseaux::Routage	Deux familles de méthodes de routage	- Distance Vector : Chaque noeud maintient une table \((dest,dst,next)\), chaque noeud envoie périodiquement ses couples à ses voisins. - Link State Routing (LSR) : Chaque noeud diffuse son état vers tous les autres noeuds, chaque noeud calcule les plus courts chemins à partir de l'état global
+Basique Maths	L3::Réseaux::Routage	Bouncing effet	Problèmes en DV où un chemin \(A \to B\) contient \(A\), e.g. \(A\to C \to A \to B\). À chaque mise à jour, le coût augmente jusqu'à stabilisation éventuelle.
+Basique Maths	L3::Réseaux::Routage	Méthode d'évitement du bouncing effect et protocoles associés	Protocoles BGP / IDRP: Les noeuds transmettent les chemins complets. Protocoles RIP / RIP2: Une limite est imposée sur le nombre de noeuds dans un chemin. Si un chemin disparaît, il est rendu invalide en mettant le nombre de rebonds au maximum.
+Basique Maths	L3::Réseaux::Routage	Link State Routing (LSR)	Protocoles où chaque noeud connaît l'état des liens avec ses voisins, et: - Chaque noeud diffuse son état à tous les noeuds - Chaque noeud calcule localement les plus courts chemins vers tous les autres noeuds à partir de l'état global
+Basique Maths	L3::Réseaux::Routage	Link state packet (LSP)	Un Link state packet contient: - Node ID - Voisins avec distance - Numéro de séquence - TTL
+Basique Maths	L3::Réseaux::Routage	Traitement d'un LSP	- Si le numéro de séquence est strictement supérieur à celui connu, mettre à jour et retransmettre - Sinon jeter
+Basique Maths	L3::Réseaux::Routage	Algorithme LSR utilisé en pratique	En pratique, OSPF est le plus couramment utilisé sur internet.
+Basique Maths	L3::Réseaux::Routage	LSP Aging, utilité	Méthode où l'age des LSP stockés est périodiquement décrémenté, et les paquets trop vieux sont jetés. Utile si un routeur perd le numéro de séquence.
