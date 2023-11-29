@@ -40,11 +40,11 @@ Notamment, dans le répertoire cloné:
 
 - Naviguer vers le fichier qui vous intéresse
 
-![](https://github.com/Redclem/Anki-Union/blob/edit_readme/README_data/download_screen_0.png?raw=true)
+![](https://github.com/Redclem/Anki-Union/blob/main/README_data/download_screen_0.png?raw=true)
 
 - Télécharger avec "download raw file"
 
-![](https://github.com/Redclem/Anki-Union/blob/edit_readme/README_data/download_screen_1.png?raw=true)
+![](https://github.com/Redclem/Anki-Union/blob/main/README_data/download_screen_1.png?raw=true)
 
 ## Importer dans Anki
 
