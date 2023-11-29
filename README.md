@@ -82,11 +82,11 @@ Utilisez les apkg fournis en release
 
 ### Télécharger les paquets
 
-Ils sont disponibles dans "Releases" sur la page du git (celle où vous êtes probablement). Télécharger le zip et extrayez les paquets qu'il vous faut.
+Ils sont disponibles dans "Releases" sur la page du git (celle où vous êtes probablement). Téléchargez le zip et extrayez les paquets qu'il vous faut.
 
 ## Importer
 
-L'importation devraît se faire facilement sur ordinateur et Ankidroir
+L'importation devraît se faire facilement sur ordinateur et Ankidroid
 
 - Sur ordi : Fichier > Importer
 - Ankidroid : Les trois points en haut à droite > Importer
