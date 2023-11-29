@@ -17,9 +17,16 @@ Si vous avez besoin d'aide, envoyez un message sur discord : redclem (le renard)
 
 # Importer les paquets
 
-## Récupérer les fichiers
+2 OPTIONS : Les fichiers csv ou apkg
 
-### Avec git : cloner le répertoire
+- Les fichiers csv contiennent toutes les dernières mises à jour mais doivent être importés avec anki sur ordinateur.
+- Les paquets apkg sont plus simples à utiliser mais seront mis à jour moins souvent
+
+
+
+## Fichiers .csv
+
+### Récupérer les fichiers avec git : cloner le répertoire
 
 Si vous voulez suivre les mises à jour des paquets plus facilement, et pour contribuer,  vous pouvez le cloner avec git installé: dans un terminal, dans le dossier où vous voulez le cloner:
 
@@ -36,31 +43,54 @@ Notamment, dans le répertoire cloné:
 
 `git diff --name-only HEAD@{1}`
 
-#### Sans git
+### Récupérer les fichiers sans git
 
 - Naviguer vers le fichier qui vous intéresse
 
-![](https://github.com/Redclem/Anki-Union/blob/edit_readme/README_data/download_screen_0.png?raw=true)
+![](https://github.com/Redclem/Anki-Union/blob/main/README_data/download_screen_0.png?raw=true)
 
 - Télécharger avec "download raw file"
 
-![](https://github.com/Redclem/Anki-Union/blob/edit_readme/README_data/download_screen_1.png?raw=true)
+![](https://github.com/Redclem/Anki-Union/blob/main/README_data/download_screen_1.png?raw=true)
 
 ## Importer dans Anki
 
 #### Première fois
 
-Si vous importez des paquets pour la première fois, vous devez importer les types de notes spéciaux utilisés. En plus des decks que vous voulez, vous devez importer le paquet "card_types.apkg"
+Si vous importez des paquets pour la première fois en .csv, vous devez importer les types de notes spéciaux utilisés. En plus des decks que vous voulez, vous devez importer le paquet "card_types.apkg"
+
+Si vous avez déja importé des notes de ce type en paquets apkg, pas besoin!
+
+Dans le doute, importez le petit paquet card_types.
 
 ### Anki sur ordinateur
 
 - Fichier > Importer
-- Naviguer jusqu'au fichiers à importer
+- Sélectionner les fichiers à importer
+
+
+- Ne rien toucher ! Sauf si vous savez ce que vous faites. Appuyez juste sur le bouton "Importer" tout mignon
+![](https://github.com/Redclem/Anki-Union/blob/main/README_data/import_screen.png?raw=true)
 
 ### Ankidroid
 
 Pas possible d'importer des csv sur Ankidroid pour l'instant. Je recommande de créer un compte ankiweb et de synchroniser Anki entre votre ordinateur et votre téléphone.
 
+Utilisez les apkg fournis en release
 
+## Paquets apkg
 
+### Télécharger les paquets
 
+Ils sont disponibles dans "Releases" sur la page du git (celle où vous êtes probablement). Télécharger le zip et extrayez les paquets qu'il vous faut.
+
+## Importer
+
+L'importation devraît se faire facilement sur ordinateur et Ankidroir
+
+- Sur ordi : Fichier > Importer
+- Ankidroid : Les trois points en haut à droite > Importer
+
+# Bon Courage !
+
+Vous devez désormais être armés pour réviser ! Soyez réguliers et restez motivés !
