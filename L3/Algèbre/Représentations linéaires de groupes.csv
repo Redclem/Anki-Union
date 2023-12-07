@@ -1,0 +1,11 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algèbre::Représentations linéaires de groupes	Représentation linéaire, vision comme action	Une représentation linéaire de \(G\) sur \(k\) est la donnée de: - Un \(k\)-ev \(V\) de dimension finie - Un morphisme de groupes \(\rho :  G \to GL(V)\). C'est donc une action de \(G\) sur \(V\) par automorphisme linéaires.
+Basique Maths	L3::Algèbre::Représentations linéaires de groupes	Notation d'une représentation linéaire	On note \((\rho, V)\) la représentation sur l'ev \(V\) par \(\rho\), souvent abrégé \(V\).
+Basique Maths	L3::Algèbre::Représentations linéaires de groupes	Degré d'une représentation, représentation fidèle	- Le degré d'une représentation \(V\) est la dimension de \(V\). - La représentation est fidèle si et seulemetn si \(\rho\) est injective.
+Basique Maths	L3::Algèbre::Représentations linéaires de groupes	Sous-représentation	Soit \((\rho, V)\) une représentation linéaire de \(G\). Une sous-représentation de \(V\) est la donnée de \(W\le V\) sev stable sous l'action de \(G\) : \(\forall g \in G, g.W \subseteq W\).
+Basique Maths	L3::Algèbre::Représentations linéaires de groupes	Représentation irréductible	Une représentation linéaire \((\rho, V)\) est irréductible si et seulement si elle n'admet pas de sous-représentation non-triviale, i.e. différente de \(\{0\}\) ou \(V\).
+Basique Maths	L3::Algèbre::Représentations linéaires de groupes	Morphisme de représentation linéaires	Avec \((\rho, V),(\sigma,W)\) deux représentations linéaires de \(G\), un morphisme de représentation de \(V\) vers \(W\) est la donnée de \(l : V \to W\) linéaire telle que: \(\forall g \in G, f(g\cdot v) = g.f(v)\). On dit que \(f\) est \(G\)-équivalente.
+Basique Maths	L3::Algèbre::Représentations linéaires de groupes	Ensemble des morphismes de groupes, structure	On note \(Hom_G(V,W)\) l'ensemble des morphismes de représentation linéaire de \(V\) vers \(W\). C'est un \(k\)-ev.

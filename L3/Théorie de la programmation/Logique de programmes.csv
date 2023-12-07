@@ -1,0 +1,12 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Théorie de la programmation::Logique de programmes	Préassertion, satisfaction	"Les préassertions sont définies comme les expressions booléennes de IMP. On note \(\sigma \vDash A\), ""\(\sigma\) satisfait \(A\)"" si et seulement si \(A,\sigma \Downarrow true\)"
+Basique Maths	L3::Théorie de la programmation::Logique de programmes	Triplet de Hoare	Un triplet de Hoare est un triplet \(\{A\}c\{A'\}\) avec \(c\) une commande et \(A, A'\) des assertions.
+Basique Maths	L3::Théorie de la programmation::Logique de programmes	Triplet de Hoare valide, notation	Un triplet de Hoare \(\{A\}c\{A'\}\) est valide, noté \(\vDash \{A\}c\{A'\}\) si et seulement si : \(\forall \sigma, \sigma', \sigma \vDash A \wedge c,\sigma \Downarrow\sigma'\implies \sigma'\vDash A'\).
+Basique Maths	L3::Théorie de la programmation::Logique de programmes	Assertion valide	Une assertion \(A\) est valide si et seulement si: \(\forall \sigma \in \mathcal M, Vars(A) \subseteq dom(\sigma) \implies \sigma \vDash A\), où \(Vars(a)\) est l'ensemble des variables mentionnées par \(A\).
+Basique Maths	L3::Théorie de la programmation::Logique de programmes	Relation \(\vdash\) sur les triplets de Hoare	On définit une relation terminant \(\vdash\) sur les triplets de Hoare notée \(\vdash \{A\}c\{A'\}\) ou simplement \(\{A\}c\{A'\}\), dans le but de caractériser des triplets valides.
+Basique Maths	L3::Théorie de la programmation::Logique de programmes	Règles d'inférence de \(\vdash\), seq et skip	\(H_{seq}\frac{\vdash \{A\}c_1\{A'\}\quad\vdash \{A'\}c_2\{A''\}}{\vdash \{A\}c_1,c_2\{A''\}}\), \(H_{skip}\frac{}{\vdash \{A\}skip\{A\}}\)
+Basique Maths	L3::Théorie de la programmation::Logique de programmes	Règles d'inférence de \(\vdash\), ife et while	\(H_{ife}\frac{\vdash\{A\wedge b\}c_1\{A'\}\quad \vdash \{A\wedge \neg b\}c_2\{A'\}}{\{A\}\text{ if }b \text{ then } c_1 \text{ else } c_2\{A'\}}\), \(H_{wd}\frac{\vdash \{A \wedge b\}c\{A\}}{\vdash \{A\} \text{ while } b \text{ do }c\{A \wedge \neg b\}}\) (\(A\) est l'invariant)
+Basique Maths	L3::Théorie de la programmation::Logique de programmes	Règles d'inférence de \(\vdash\), affectation	\(H_{aff}\frac{}{\{A[\frac aX]\}X=a\{A\}}\)
