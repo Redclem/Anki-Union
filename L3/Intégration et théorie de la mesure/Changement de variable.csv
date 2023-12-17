@@ -1,0 +1,12 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Intégration et théorie de la mesure::Changement de variable	Changement de variable par un difféomorphisme	Si \(\varphi : U \to V\) est un difféomorphisme entre deux ouverts et \(f : V  \to \R\) est borélienne, alors \(\int_Vf(x)dx = \int_U f(\varphi(y))J_\phi(y)dy\) où \(J_\phi(y) = |\det(\nabla\varphi)(y)|\) (jacobien de \(\varphi\)) et \(\nabla \varphi = (\frac{\partial \varphi_i}{\partial x_j} )\)
+Basique Maths	L3::Intégration et théorie de la mesure::Changement de variable	Seconde écrite du changement de variable par difféomorphisme	On peut aussi écrire: \(\int_Vf(\varphi(y))dy = \int_V\frac{f(x)}{J_\varphi(\varphi^{-1}(x))}dx\)
+Basique Maths	L3::Intégration et théorie de la mesure::Changement de variable	Changement de mesure par une affine	Pour \(\varphi : x \mapsto Mx + b\) affine, avec \(M \in GL_d(\R)\), alors pour \(A \in \mathcal B(\R^d), \) \(\mu_L(\varphi(A)) = |\det|M\mu_L(A)\).
+Basique Maths	L3::Intégration et théorie de la mesure::Changement de variable	Lemme de continuité du changement de variable	Pour \(\varphi\) un difféomorphisme, \(\varepsilon > 0\), il existe \(\delta > 0\) tel que pour tout cube \(C\) de centre \(y_0\), de côté au plus \(\delta\), \((1 - \varepsilon)J_\varphi(y_0)\mu_L(C) \le \mu_L(\varphi(C)) \le (1 + \varepsilon) J_\varphi(y_0) \mu_L(C)\).
+Basique Maths	L3::Intégration et théorie de la mesure::Changement de variable	Mesure de Lebesgue sur la boule unité	\(\mu_L(\mathcal B(0, 1)) = \frac{\pi^\frac{d}{2}}{\Gamma(\frac d2 + 1)}\), avec \(\Gamma (x) = \int_0^{+\infty}t^{x - 1}e^{-t}dt\)
+Basique Maths	L3::Intégration et théorie de la mesure::Changement de variable	Mesure euclidienne de surface	La mesure euclidienne de surface \(\sigma\) est définie par: \(\sigma(A) = \mu_L(\Gamma(A))\), avec \(\Gamma : A \mapsto \{rx : r \in [0, 1], x \in A\}\).
+Basique Maths	L3::Intégration et théorie de la mesure::Changement de variable	Propriété de la mesure euclidienne de surface	- \(\sigma\) est invariante par \(\mathcal O(\R^d)\) - \(\sigma(\mathbb S^{d - 1})\)
+Basique Maths	L3::Intégration et théorie de la mesure::Changement de variable	Changement de variable sur la sphère, fonction radiale	Si \(f : \R^d \to \R_+\) est mesurable, alors \(\int_{\R^d}f = \int_0^{+\infty}(\int_{\mathbb S^{d-1}}f(ru)\sigma(du))r^{d-1}dr\). Si \(f(x) = g(|x|)\), \(\int_{\R^d}f= \sigma(\mathbb S^{d - 1})\int_0^{+\infty}g(r)r^{d - 1}dr\).

@@ -1,0 +1,11 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Licence Maths UCBL::Algèbre linéaire et bilinéaire, Analyse matricielle	Base antéduale	Pour \(E\) de dimension finie, pour toute base \((d_1, \dots, d_n) \) de \(E^*\), la base \((e_1, \dots, e_n)\) de \(E\) telle que \(\forall i \in \lii 1, n \rii, d_i = e_i^*\) est appelée base antéduale de \(E\).
+Basique Maths	L3::Licence Maths UCBL::Algèbre linéaire et bilinéaire, Analyse matricielle	Éléments orthogonaux par rapport à une forme bilinéaire	\(x, y \in E\) sont orthogonaux par rapport à \(\phi \in Bil(E)\), noté \(x \perp_\phi y\) si et seulement si \(\phi(x,y) = 0\)
+Basique Maths	L3::Licence Maths UCBL::Algèbre linéaire et bilinéaire, Analyse matricielle	Élément isotrope pour une forme bilinéaire	\(x \in E\) est isotrope pour \(\phi \in Bil(E)\) si et seulement si \(\phi(x,x)=0\).
+Basique Maths	L3::Licence Maths UCBL::Algèbre linéaire et bilinéaire, Analyse matricielle	Dimension d'un sev et de l'orthogonal	Pour \(\phi\) symétrique, \(\dim E = \dim F+ \dim F^\perp - \dim(E^\perp\cap F)\)On peut observer le cas particulier où \(\phi\) est non dégénérée.
+Basique Maths	L3::Licence Maths UCBL::Algèbre linéaire et bilinéaire, Analyse matricielle	Caractérisation de l'orthogonalité par la forme quadratique	Avec \(q \in Q(E)\) associée à \(\phi\) symétrique, \(x\perp_\phi y\) si et seulement si \(q(x) + q(y) = q(x+y)\).
+Basique Maths	L3::Licence Maths UCBL::Algèbre linéaire et bilinéaire, Analyse matricielle	Diagonalisation d'une forme quadratique	Dans une base \(\mathcal B = (e_i)_{i \in I}\) othogonale pour \(q \in Q(E)\), \(q\) peut s'écrire comme: \(q(x) = \sum\limits_{i \in I}d_ie_i^*(x)^2\).
+Basique Maths	L3::Licence Maths UCBL::Algèbre linéaire et bilinéaire, Analyse matricielle	Caractérisation de la congruence par la signature	Deux formes quadratiques sur \(\R\) sont congruentes si et seulement si elles ont la même signature.
