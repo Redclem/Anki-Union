@@ -1,0 +1,18 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::FDI::P et NP	Langage \(P\)	Un langage \(A \subseteq \Sigma^*\) est dans la classe \(P\) s'il existe une machine de Turing déterministe qui le reconnaît en temps polynomial, c'est à dire que pour tout \(x \in \Sigma^*\), - \(M\) accepte \(x\) si et seulement si \(x \in A\)  - \(M\) s'arrête en temps \(\mathcal O(n^k)\) sur toute entrée de taille \(n\), avec la constante indépendante de \(x\).
+Basique Maths	L3::FDI::P et NP	Fonction calculable en temps polynomial	Une fonction \(f : \Sigma^* \to \Sigma^*\) est calculable en temps polynomial si elle est calculable par une machine de Turing déterministe en temps polynomial.
+Basique Maths	L3::FDI::P et NP	Composition de fonctions calculables en temps polynomial	La composition de fonctions calculables en temps polynomial est calculable en temps polynomial.
+Basique Maths	L3::FDI::P et NP	Définition de \(NP\) par certificats	\(A \subseteq \Sigma^*\) est dans \(NP\) si et seulement si il existe \(B \in P\) et un polynome \(p(n)\) tel que pour tout \(x \in \Sigma^n\): \(x \in A\iff\exists y \in \Sigma^{\le p(n)}, \langle x,y\rangle \in B\). \(y\) est le certificat.
+Basique Maths	L3::FDI::P et NP	Réduction polynomiale	Soient \(A, B \subseteq \Sigma^*\) deux problèmes. \(A\) se réduit à \(B\) en temps polynomial s'il existe \(f : \Sigma^* \to \Sigma^*\) calculable en temps polynomial telle que: \(\forall x \in \Sigma^*, x \in A \iff f(x) \in B\).
+Basique Maths	L3::FDI::P et NP	Problème \(NP\)-complet	Un problème est \(NP\)-complet si il est \(NP\) et tout problème \(NP\) se réduit à lui.
+Basique Maths	L3::FDI::P et NP	Problèmes \(NP\)-complets et \(P\)	Soit \(A\) \(NP\)-complet. Alors \(A \in P\) si et seulement si \(P = NP\).
+Basique Maths	L3::FDI::P et NP	Relation \(P, NP\)	\(P\subseteq NP\)
+Basique Maths	L3::FDI::P et NP	Problème \(NP\) se réduisant à un \(NP\)-complet	Si un problème est \(NP\) et se réduit à un problème \(NP\)-complet, alors il est \(NP\)-complet.
+Basique Maths	L3::FDI::P et NP	Circuit booléen	Un circuit booléen est un DAG dont les sommets sont de degré entrant: - 0 pour les constantes et les variables - 1 pour un sommet \(\neg\) - 2 pour les sommets \(\wedge\) et \(\vee\) Avec une unique porte de degré sortant 0 : la porte de sortie.
+Basique Maths	L3::FDI::P et NP	Valeur d'une porte, valeur d'un circuit	La valeur d'une porte est la valeur de l'opération booléenne étant donnée la valeur de ses entrées. La valeur d'un circuit est la valeur de la porte de sortie.
+Basique Maths	L3::FDI::P et NP	Calcul de la valeur d'un circuit	La valeur \(Val(C)\) d'un circuit se calcule en temps polynomial étant donnés \(C\) et l'entrée \(\alpha\).
+Basique Maths	L3::FDI::P et NP	Problème reconnaissable par machine de Turing et circuits booléens	Si \(A \subseteq \{0, 1\}^*\) peut être résolu en temps \(t(n)\) sur des entrées de taille \(n\) par une machine de Turing, alors \(A\) est reconnu par une famille \((c_n)\) de circuits de taille \(\mathcal O(t(n))\).
+Basique Maths	L3::FDI::P et NP	Théorème de Cook-Lewis	Le problème \(SAT\) de satisfaisabilité d'un circuit booléen est \(NP\)-complet.

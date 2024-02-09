@@ -573,7 +573,7 @@ Basique Maths	Seconde année::Mathématiques::Séries entières	Comparaison asym
 Basique Maths	Seconde année::Mathématiques::Séries entières	Règle de d'Alembert pour les séries entières	Si \( \seq {a_n} \) ne s'annule pas et \( |\frac{a_{n+1}}{a_n}| \ntoinf l \in [0, +\infty] \) , alors \( R = \frac{1}{l}\)					
 Basique Maths	Seconde année::Mathématiques::Séries entières	Rayon d'une somme de séries entières	\( R_{a+b} \ge \min(R_a, R_b) \) . Si \( R_a\ne R_b \) , \( R_{a+b} = \min(R_a, R_b)\).					
 Basique Maths	Seconde année::Mathématiques::Séries entières	Produit de Cauchy de séries entières	Pour \( (a_n, b_n) \in \C^\N \) , le produit de Cauchy des séries entières \( \Sigma a_nz^n \) et \( \Sigma b_nz^n \) est la série entière \( \Sigma c_nz^n \) où \( \forall n\in \N, c_n = \sum\limits_{k = 0}^n a_kb_{n - k}\).					
-Basique Maths	Seconde année::Mathématiques::Séries entières	Rayon du produit de chauchy	Avec \( a_n, b_n \in \C^\N \) et \( c_n \in \C^\N \) la suite associée au produit de Cauchy, \( R_c \ge \min(R_a, R_b)\).					
+Basique Maths	Seconde année::Mathématiques::Séries entières	Rayon du produit de Cauchy	Avec \( a_n, b_n \in \C^\N \) et \( c_n \in \C^\N \) la suite associée au produit de Cauchy, \( R_c \ge \min(R_a, R_b)\).					
 Basique Maths	Seconde année::Mathématiques::Séries entières	Série entière dérivée	Pour \( (a_n) \in \C^\N \) , la série dérivée de \( \Sigma a_nz^n \) est \( \Sigma(n+1)a_{n+1}z^n\).					
 Basique Maths	Seconde année::Mathématiques::Séries entières	Rayon de la série pseudo-dérivée	 \( R(a_nz^n) = R(na_nz^n)\)					
 Basique Maths	Seconde année::Mathématiques::Séries entières	Rayon de la série dérivée	 \( \Sigma a_nz^n \) et \( \Sigma(n+1)a_{n+1}z^n\) ont même rayon.					

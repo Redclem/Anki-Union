@@ -1,0 +1,45 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Relation d'équivalence par un sev	Avec \(F\) sev de \(E\), on peut définir la relation d'équivalence sur \(E\): \(x \sim y \Leftrightarrow x-y \in F\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Propriétés de la relation d'équivalence d'un sev	- La relation passe à la congruence. - Le quotient est muni d'une structure d'ev. - La projection canonique est une application linéaire.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Dimension du quotient	\(\dim \frac EF = \dim E - \dim F\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Supplémentaire et relation d'un sev	Le supplémentaire \(S\) du sev \(F \subseteq E\) est un système de représentants pour la relation d'équivalence définie par \(F\): Il y a un isomorphisme \(\pi_{|S} : S \to \frac EF\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Théorème de factorisation	Pour \(f:E \to V\) linéaire, il y a équivalence entre: - \(F \subseteq \ker f\) - \(f\) se factorise de manière unique par le projecteur canonique \(\pi : E \to \frac EF\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Forme linéaire	Une forme linéaire sur \(E\) est une application linéaire \(E \to k\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Espace dual	L'espace dual noté \(E^*\) est le \(k\)-ev des formes linéaires sur \(E\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Codimension	La codimension d'un sev est la dimension de son supplémentaire.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Hyperplan	Un hyperplan \(H\) est un sev de codimension 1, i.e. \(E = H \oplus kx\) pour tout \(x \in E \setminus H\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Caractérisation des hyperplans	Les hyperplans sont exactement les noyaux des formes linéaires non nulles.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Formes linéaires définissant un même hyperplan	Deux formes linéaires définissent le même hyperplan si et seulement si elles sont colinéaires.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Application d'évaluation et isomorphisme	Avec \((e_i)_{i \in I}\) base de \(E\), l'application \(\begin{array}{ll} E^*\to k^I\\ l \mapsto (l(e_i))_{i \in I}\end{array}\) est un isomorphisme.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Dimension de l'espace dual	Avec \(E\) de dimension finie, \(\dim E^* = \dim E\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Première forme condensée	Dans une base \((e_i)_{i \in I}\), on appelle première forme condensée dans cette base l'unique famille de formes linéaires notées \(e_i^*\) telle que \(\forall i,j \in I, e_i^*(e_j) = \delta_{i,j}\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Propriétés de la première forme condensée	- \((e_i^*)\) est une base de \(E^*\) - \(\forall l \in E^*, l = \sum_{i \in I}l(e_i)e^*_i\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Autre nom de la première forme condensée	On l'appelle désormais base duale.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Bidual	Le bidual de \(E\) noté \(E^{**}\) est le dual de \(E^*\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Application d'évaluation canonique sur le bidual, bijectivité.	C'est l'application \(\tau : \begin{array}{ll}E \to E^{**} \\ x \mapsto ev_x\end{array}\), où \(ev_x\) est la fonction d'évaluation en \(x\). C'est un isomorphisme si \(E\) est de dimension finie.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Base du dual comme base duale	En dimension finie, toute base de \(E^*\) est une base duale d'une base de \(E\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Interprétation du produit en termes de propriétés universelles	\(\prod\limits_{i \in I}E_i\) est l'unique (à isomorphisme près) \(k\)-ev \(E\) muni d'applications linéaires \(E \xrightarrow{ \pi_i}E_i\) telles que pour tout \(k\)-ev \(F\) de \(E\) et pour tout \(\rho_i : F \to E_i\) linéaires, Il existe une unique \(\rho : F \to E\) linéaire telle que \(\rho_i = \pi_i \circ \rho\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Interprétation de la somme en termes de propriétés universelles	\(\bigoplus\limits_{i \in I}E_i\) est l'unique (à isomorphisme près) \(k\)-ev \(E\) muni d'applications linéaires \(E_i \xrightarrow{ u_i}E\) telles que pour tout \(k\)-ev \(F\) de \(E\) et pour tout \(f_i : E_i \to F\) linéaires, Il existe une unique \(f : E \to F\) linéaire telle que \(f_i = f \circ u_i\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Isomorphisme espaces / duals, somme / produit	Pour toute famille \((E_i)_{i \in \N}\) de \(k\)-ev, on a un isomorphisme canonique: \((\bigoplus\limits_{i \in I} E_i)^* \simeq\prod\limits_{i \in I}E_i^*\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Transposée	Avec \(E,F\) \(k\)-ev et \(u \in \mathcal L(E,F)\), la transposée de \(u\) notée \(^tu\) est l'application linéaire \(^tu : \begin{array}{ll} F^* \to E^* \\ l \mapsto l \circ u\end{array}\)
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Transposée et composition	\(^t\) renverse la composition : \(^t(u \circ v) = ^tv\circ ^t u\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Matrice de la transposée	Pour \(u \in \mathcal L(E,F)\), \(B_E, B_F\) bases respectives de \(E,F\), avec \(A = Mat(u, B_E, B_F)\), \(^tA = Mat(^tu, B_F^*, B_E^*)\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Transposée et application de bidualité	Pour \(u \in \mathcal L(E,F)\), \(^t(^tu) \circ \tau = \tau \circ u\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Transposition comme isomorphisme	L'application \(^t :  \begin{array}{ll}  \mathcal L(E,F) \to \mathcal L(F^*, E^*) \\ u \mapsto ^tu \end{array}\) est un isomorphisme si \(E,F\) sont de dimension finie.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Crochet de dualité	Le crochet de dualité sur \(E\) est l'application bilinéaire: \(\scal \cdot \cdot : \begin{array}{ll} E^*, E \to k \\ (u,x) \mapsto u(x)\end{array}\)
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Identification crochet sur le dual	Si \(E\) en dimension finie, il y a identification entre les crochets sur \(E\) et \(E^*\) en appliquant \(\tau\) sur la second coordonée.
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Application de bidualité	Autre nom de l'application d'évaluation canonique sur le bidual \(\tau : E \to E^{**}\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Orthogonal d'un sous-ensemble de \(E\)	L'orthogonal de \(A \subseteq E\) est l'ensemble \(A^\bot = \{l \in E^* |\forall a \in A,  \langle l,a\rangle = 0 \} \subseteq E\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Orthogonal d'une partie d'un sev	Pour \(A \subseteq E\), l'orthogonal de \(A\) est \(A^\bot := \{l \in E^*|\forall a \in A, \langle l,a\rangle = 0\}\)
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Propriétés de l'orthogonal	- \(A \subset B \implies B^\bot \subset A^\bot\) - \(A^\bot\) est un sev de \(E^*\) - \(A ^\bot = Vect(A)^\bot\)
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Première propriété de calcul	Pour \(F, G\) sev de \(E\); alors \((F + G)^\bot = F^\bot \cap G^\bot\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Isomorphisme orthogonal quotient	Pour \(F\) sev de \(E\), \(F^\bot \simeq (\frac EF)^*\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Dimension de l'orthogonal	En dimension finie, pour \(F\) sev, \(\dim E = \dim F + \dim F^\bot\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Orthogonal d'un sev du dual	On définit l'orthogonal d'un sev \(V\) du dual de \(E\): \(V^\top :=\{x \in E |\forall l \in V, l(x) = 0\}\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Identification entre \(V^\bot\) et \(V^\top\)	En dimension finie, \(V^\bot = \tau (V^ \top)\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Seconde propriété de calcul	Pour \(E\) ev de dimension finie, \(F, G \subseteq E\) sev : - \((F^\bot)^\bot = F\) - \((F \cap G) ^\bot = F^\bot + G^\bot\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Correspondance \(F,F^\bot\)	En dimension finie, on a, par le morphisme de bidualité, un correspondance entre les sev de \(E\) et \(E^*\): \(\begin{array}{ll} F \mapsto F^\bot\\  \end{array}\) de réciproque \(F^\bot \mapsto (F^\bot)^\bot\).
+Basique Maths	L3::Algèbre 1::Algèbre multilinéaire	Noyau, Image, Transposition, Orthogonal	Pour \(u : E \to F\) avec \(E,F\) de dimension finie: \(Ker(u)^\bot = Im(^tu)\) \(Im(u)^\bot = Ker(^tu)\).

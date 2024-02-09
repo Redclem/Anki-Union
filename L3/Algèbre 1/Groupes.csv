@@ -1,0 +1,33 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algèbre 1::Groupes	Notation sous-groupe	On note \( H \le G \) , \( H \) est un sous-groupe de \( G\).
+Basique Maths	L3::Algèbre 1::Groupes	Propriété des images et images réciproques de morphismes de groupes	Soit \( f : G \to G' \) un morphisme de groupe, \( H \le G, H' \le G' \) ; Alors:  \( f(H) \le G' \) et \( f^{-1}(H') \le G\).
+Basique Maths	L3::Algèbre 1::Groupes	Automorphisme intérieur	L'automorphisme intérieur de \( G \) associé à \( g \in G \) est:  \( \Phi(g) : x \mapsto gxg^{-1}\).
+Basique Maths	L3::Algèbre 1::Groupes	Morphisme canonique	C'est le morphisme \( \Phi \) qui à un élément associe son automorphisme intérieur:  \( \Phi : \begin{array}{ll} G \to (Aut(G), \circ) \\ g \mapsto \lparen \begin{array}{ll} G \to G \\ x\mapsto gxg^{-1} \end{array} \rparen\end{array}\)
+Basique Maths	L3::Algèbre 1::Groupes	Relation d'équivalence définie par un sous-groupe	La relation d'équivalence induite par \( H \le G \) sur \( G \) est:  \( x \sim y \Leftrightarrow y^{-1}x \in H\).
+Basique Maths	L3::Algèbre 1::Groupes	Ensemble quotient par un sous-groupe et classes d'équivalence	On note \( \frac{G}{H} \) l'ensemble quotient. Pour \( x\in G \) , la classe de \( x \) est \( \bar x = xH\).
+Basique Maths	L3::Algèbre 1::Groupes	Sous-groupe d'indice fini	On dit que \( H\le G \) est d'indice fini dans \( G \) ssi \( |\frac{G}{H}| < \infty \) ; on note \( [G: H]= |\frac{G}{H}| \) . Sinon, on dit que \( G \) est d'indice \( \infty\).
+Basique Maths	L3::Algèbre 1::Groupes	Propriété virtuelle	Une propriété  \( P \)  de  \( G \)  est virtuelle s'il existe  \( H \le G \)  d'indice fini tel que  \( H \)  vérifie  \( P\).
+Basique Maths	L3::Algèbre 1::Groupes	Théorème de Gromov	Tout groupe finiment engendré à croissance polynomiale est virtuellement abélien.
+Basique Maths	L3::Algèbre 1::Groupes	Cardinal des classes d'un sous-groupe et cardinal du groupe	Toutes les classes à gauche sont de cardinal  \( |H | \) , et  \( |G| = [G:H]\times |H|.\)
+Basique Maths	L3::Algèbre 1::Groupes	Théorème de Lagrange	Pour  \( G \)  groupe fini et  \( H \le G \) ,  \( |H| \)  divise  \( |G|\). Aussi l'ordre de tout élément divise l'ordre du groupe.
+Basique Maths	L3::Algèbre 1::Groupes	Sous-groupe distingué	\( H\le G \)  est un sous-groupe distingué ou normal noté  \( H \triangleleft G \)  si  \( H\) est stable par tous les automorphismes intérieurs.
+Basique Maths	L3::Algèbre 1::Groupes	Noyau d'un morphisme	Le noyau de  \( f \)  est  \( Ker(f) = f^{-1}(\{e\})\). C'est un sous-groupe distingué.
+Basique Maths	L3::Algèbre 1::Groupes	Structure du quotient par un groupe distingué	Le quotient  \( \frac{G}{H} \)  avec  \( H\triangleleft G \)  est muni d'une structure de groupe telle que  \( \pi\) est un morphisme de groupes.
+Basique Maths	L3::Algèbre 1::Groupes	Suite exacte courte	Une suite exacte courte de groupe est la donnée de morphismes  \( i : H \to G \)  et  \( p : G \to Q \)  tels que  \( i \)  est injectif,  \( p \)  surjectif et  \( Im(i) = Ker(p) \) . On note  \( 1 \to H \to G \to Q\to 1\).
+Basique Maths	L3::Algèbre 1::Groupes	Suite exacte courte du quotient	Avec  \( H \triangleleft G \) , on a la suite exacte courte (de groupes)  \( 1 \to H \to G \to \frac{G}{H} \to 1\).
+Basique Maths	L3::Algèbre 1::Groupes	Groupe simple	Un groupe est simple si et seulement si il ne possède pas de sous-groupes distingués non-triviaux.
+Basique Maths	L3::Algèbre 1::Groupes	Factorisant par le quotient	Avec  \( H \triangleleft G \) ,  \( f : G \to G' \)  un morphisme de groupes, on a le factoriant  \( G \xrightarrow{\pi} \frac{G}{H} \xrightarrow{\bar f} G' \)  si et seulement si  \( H \subseteq Ker(f) \) . Dans ce cas,  \( \bar f\) est unique.
+Basique Maths	L3::Algèbre 1::Groupes	Centre, propriétés	Le centre d'un groupe  \( G \)  est l'ensemble  \( Z(G) \)  des éléments commutant avec tous les autres:  \( Z(G) = \lbrace y \in G | \forall x \in G, yx = xy \rbrace \) . C'est un sous-groupe distingué de  \( G\).
+Basique Maths	L3::Algèbre 1::Groupes	Commutateur	Pour  \( x,y \in G \) , le commutateur de  \( x \)  et  \( y \)  est  \( [x,y] = xyx^{-1}y^{-1}\).
+Basique Maths	L3::Algèbre 1::Groupes	Groupe dérivé, propriétés	Le groupe dérivé noté  \( D(G) \)  est le groupe engendré par les commutateurs de  \( G \) :  \( D(G) = \langle[x\space y]; x,y \in G \rangle \) . C'est un sous-groupe distingué de  \( G\).
+Basique Maths	L3::Algèbre 1::Groupes	Propriétés du quotient par le groupe dérivé	\( \frac{G}{D(G)} \) est abélien.
+Basique Maths	L3::Algèbre 1::Groupes	Élément normalisant un groupe, normalisateur	Soit  \( H \le G \)  -  \( x \in G \)  normalise  \( H \)  si  \( xH = Hx \) . - Le normalisateur de  \( H \)  dans  \( G \)  est par définition:  \( N_G(H) = \lbrace x \in G | xH = Hx (i.e. \space xHx^{-1} = H) \rbrace\).
+Basique Maths	L3::Algèbre 1::Groupes	Propriété du normalisateur	\( N_G(H) \)  est le plus gros sous-groupe de  \( G \)  contenant  \( H \)  dans lequel  \( H\) est normal.
+Basique Maths	L3::Algèbre 1::Groupes	Sous-groupe normal	Autre nom d'un sous-groupe distingué.
+Basique Maths	L3::Algèbre 1::Groupes	Premier théorème d'isomorphisme	Pour  \( f : G \to G' \)  un morphisme de groupes,  \( f(G) \cong \frac{G}{Ker(f)}\).
+Basique Maths	L3::Algèbre 1::Groupes	Propriétés d'un produit de sous-groupes	En général, pour  \( H, K \le G \) ,  \( HK \)  n'est pas un sous-groupe de  \( G\).
+Basique Maths	L3::Algèbre 1::Groupes	2ème théorème d'isomorphisme	Soit  \( G \)  un groupe, et  \( H \le G, K \triangleleft G \) . Alors  \( HK \)  est un sous-groupe, et  \( \begin{array}{ll} \frac{HK}{K}\xrightarrow{\sim} \frac{H}{H \cap K} \\ hkK \mapsto hH\cap K\end{array}\)
+Basique Maths	L3::Algèbre 1::Groupes	3ème théorème d'isomorphisme	Soit  \( G \)  un groupe et  \( H \triangleleft K \triangleleft G \)  des sous-groupes distingués de  \( G \) . Alors: -  \( \frac{K}{H} \triangleleft \frac{G}{H} \) . -  \( \frac{G/H}{K/H} \cong \frac{G}{K}\)

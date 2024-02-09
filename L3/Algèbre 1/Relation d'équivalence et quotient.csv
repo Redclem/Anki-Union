@@ -1,0 +1,8 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algèbre 1::Relation d'équivalence et quotient	Système de représentants	Un système de représentants pour une relation \( \sim \) est le choix pour chaque classe d'un élément dedans, i.e. une application \( \frac{E}{\sim} \to E\).
+Basique Maths	L3::Algèbre 1::Relation d'équivalence et quotient	Projection canonique	Application \( \pi : \begin{array}{ll}E \to \frac{E}{\sim}\\ x \mapsto \bar x\end{array}\)qui a un élément associe sa classe.
+Basique Maths	L3::Algèbre 1::Relation d'équivalence et quotient	Forme normale	Système de représentant canonique / optimale.
+Basique Maths	L3::Algèbre 1::Relation d'équivalence et quotient	Invariant	Un invariant est une application \( i : E \to Y \) qui passe au quotient, i.e. telle qu'il existe \( \bar i \) telle que \( i = \bar i \circ \pi\).

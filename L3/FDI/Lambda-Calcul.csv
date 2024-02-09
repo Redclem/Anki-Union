@@ -1,0 +1,17 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::FDI::Lambda-Calcul	\(\lambda\)-terme	Un \(\lambda\)-terme est défini par induction: - Les variables sont des \(\lambda\)-termes - Si \(u,v\) sont des \(\lambda\)-termes, \((u v)\) (application de \(u \) à \(v\) est un \(\lambda\)-terme - Si \(x\) est une variable et \(t\) est un terme, \(\lambda x. t\) est un \(\lambda\)-terme
+Basique Maths	L3::FDI::Lambda-Calcul	Notation pour plusieurs applications	On note \(uvw = (uv)w\).
+Basique Maths	L3::FDI::Lambda-Calcul	Entiers de Church	On représente les entiers par les termes: \(\bar 0 = \lambda f \lambda x . x\), \(f\mapsto Id = f^0\) \(\bar 1 = \lambda f .\lambda x. fx\), \(f \mapsto f\) \(\bar n = \lambda f .\lambda x.f^nx\), \(f \mapsto f^n\).
+Basique Maths	L3::FDI::Lambda-Calcul	Renommage des variables libres	On peut renommer les variables libres dans un terme. Cela définit une relation d'équivalence entre termes notée \(t \equiv_\alpha t'\).
+Basique Maths	L3::FDI::Lambda-Calcul	Substitution	La substitution de \(t\) à \(x\) dans \(u\), notée \(u[\frac tx]\) est obtenue de manière suivante: - Renommer les variables liées de \(u\) pour obtenir un terme \(u'\) tel qu'aucune variable liée de \(u'\) n'est libre dans \(t\). - Remplacer chaque occurence libre de \(x\) dans \(u'\) par \(t\).
+Basique Maths	L3::FDI::Lambda-Calcul	\(\beta\)-réduction	Étant donné un \(\lambda\)-terme \(v\), on choisit un sous-terme de la forme \(((\lambda x .u)t)\), auquel on applique l'opération de substitution. On note \(v \to_\beta v'\) si \(v'\) peut s'obtenir à partir de \(v\) par une suite de telles substitutions. One note \(v \to v'\) si \(v'\) peut s'obtenir à partir de \(v\) par une suite finie d'\(\alpha\) et \(\beta\)-réductions.
+Basique Maths	L3::FDI::Lambda-Calcul	Propriété de Church-Rosser en lambda-calcul	Si \(v \to v_1\) et \(v \to v_2\), alors il existe \(v'\) tel que: \(v_1 \to v'\) et \(v_2 \to v'\).
+Basique Maths	L3::FDI::Lambda-Calcul	Terme normal, unicité	Un terme normal est un terme qui ne peut être \(\beta\)-réduit. Si un terme admet une forme normale, elle est unique à \(\alpha\)-équivalence près.
+Basique Maths	L3::FDI::Lambda-Calcul	Obtention d'une forme normale	Si une forme normale existe, on peut l'obtenir par \(\beta\)-réduction le plus à gauche.
+Basique Maths	L3::FDI::Lambda-Calcul	Représentation des fonctions primitives récursives	Pour toute fonction primitive récursive \(f : \N^n \to \N\), il existe un \(\lambda\)-terme \(F\) tel que pour tout \((a_1, \dots, a_n) \in \N^n\), \(F \bar a_1\dots \bar a_n\) a pour forme normale \(\overline{f(a_1, \dots, a_n)}\).
+Basique Maths	L3::FDI::Lambda-Calcul	Représentation des fonctions \(\mu\)-récursives	Pour toute fonction partielle \(\mu\)-récursive \(f : \N^n \to \N\), il existe un \(\lambda\)-terme \(F\) tel que pour tout \((a_1, \dots, a_n) \in \N^n\) - si \(f(a_1, \dots, a_n)\) est définie, \(F \bar a_1 \dots \bar a_n\) a pour forme normale \(\overline {f(a_1, \dots, a_n)}\).  - si \(f(a_1, \dots, a_n)\) n'est pas définie, \(F \bar a_1 \dots \bar a_n\) n'est pas normalisable.
+Basique Maths	L3::FDI::Lambda-Calcul	Constructeur de point fixe	Un constructeur de point fixe est un terme clos \(M\) tel que pour tout terme \(F\), \((M F ) = F ( M F)\).
+Basique Maths	L3::FDI::Lambda-Calcul	Combinateur de Curry	Le combinateur de Curry \(Y = \lambda f .(\lambda x.f(x x))(\lambda x.f(xx))\) est un combinateur de point fixe.

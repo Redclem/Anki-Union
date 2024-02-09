@@ -1,0 +1,30 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Groupe symétrique	C'est le groupe  \( \mathcal S_n \)  des permutations de  \( \lii 1, n\rii \)  muni de la loi  \( \circ\) de composition.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Action et cardinal du groupe symétrique	Le groupe symétrique agit sur  \( \lii1, n \rii \)  :  \( \sigma .n = \sigma(n) \) ., et  \( |\mathcal S_n| = n!\)
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Cycle	Une cucle de longueur  \( r \)  est un permutation  \( \sigma \)  de la forme:  \( \sigma(i_j) = i_{j+1} \)  pour  \( j \in \lii 1, r - 1\rii \)  et  \( \sigma(i_r) = i_1 \) , et  \( \sigma \)  est l'identité sur les autres éléments. On note  \( \sigma = [i_1, \dots, i_r]\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Transposition	C'est un cycle de longueur 2.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Support d'un cycle	Le support du cycle  \( \sigma = [i_1, \dots, i_r] \)  est  \( \{i_1, \dots, i_r\} = \overline{Fix(\sigma)}\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Cycles disjoints	Deux cycles sont disjoints si leurs supports le sont.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Commutation de cycles	Deux cycles à supports disjoints commutent.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Propriété élémentaire de structure sur \(\mathcal S_n\)	Toute permutation  \( \sigma \in \mathcal S_n\) s'écrit comme composition de cycles à supports disjoints, avec unicité de la décomposition à l'ordre des cycles près.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Support d'une permutation	Le support d'une permutation est l'union du support de ses cyles dans sa decomposition en cycles à supports disjoints.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Décomposition en transpositions	- Les transpositions engendrent  \( \mathcal S_n \)  - Toute permutation peut s'écrire comme produit d'au plus  \( n-1\) transpositions
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Ordre d'une permutation	L'ordre d'une permutation des le ppcm des longueurs des cycles de sa décomposition en cycles à supports disjoints.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Conjugaison d'un cycle	Pour  \( \tau \in \mathcal S_n \)  et  \(  \sigma = [i_1, \dots, i_r] \) , alors  \( \tau \circ \sigma \circ \tau^{-1} =  [\tau(i_1), \dots, \tau(i_r)]\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Ensembles engendrant \(\mathcal S_n\)	Le groupe  \( \mathcal S_n \)  est engendré par: -  \( \{[1,i], 2 \le i \le n\} \)  -  \( \{[i, i+1], 1 \le i \le n - 1\} \)  -  \( \{[1, 2], [1, 2, \dots, n]\}\)
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Commutativité de \(\mathcal S_n\)	\( \mathcal S_n \)  est commutatif si et seulement si  \( n \le 2\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Partition de \(n\)	Une partition de  \( n \)  est une liste décroissante d'entiers strictements positifs  \( k_1 \ge \dots \ge k_n > 0 \)  telle que  \( k_1 + \dots + k_n = n \) . On note  \( P(n) \)  l'ensemble des partitions de  \( n\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Bijection \(\mathcal S_n \to P(n)\)	On a l'application naturelle  \( \phi :\begin{array}{ll} \mathcal S_n \to P(n)\\ \sigma = \sigma_1 \circ \dots \circ \sigma _i \mapsto l(\sigma_1) \ge \dots \ge l(\sigma_i)\end{array} \)  où on a décomposé  \( \sigma \)  en cycles à supports disjoints - En considérant les cycles de longueur 1 - En ordonnant les cycles par longueur décroissante Cette application induit une bijection entre les classes de conjugaison de  \( \mathcal S_n \)  et  \( P(n)\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Signature d'une permutation 	On appelle signature d'une permutation  \( \sigma \in \mathcal S_n \)  le nombre  \( \varepsilon(\sigma) = \prod\limits_{1 \le i < j \le n}\frac{\sigma(j) - \sigma(i)}{j-i}\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Parité du nombre d'inversions et signature	La signature donne la parité du nombre d'inversions de  \( \sigma\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Inversion	Une inversion de  \( \sigma \)  est un couple  \( i  < j \)  tel que  \( \sigma(i) > \sigma(j)\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Signature, morphisme	La signature est un morphisme de groupes de  \( \mathcal S_n \to \{\pm 1\} \) . C'est le seul morphisme non trivial de  \( \mathcal S_n \)  dans  \( \mathbb C^*\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Parité du nombre de transpositions dans permutation	La parité de nombre de transpositions nécéssaire pour écrire une permutation est bien définie.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Groupe alterné	Le groupe alterné est le noyau de la signature, noté  \( \mathcal A_n\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Nature d'un sous-groupe d'indice 2	Soit  \( H \le G \)  avec  \( H \)  d'indice  \( 2 \)  dans  \( G \) . Alors  \( H \triangleleft G\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Nature et unicité de \(\mathcal A_n\)	\( \mathcal A_n \)  est l'unique sous-groupe distingué d'indice 2 de  \( \mathcal S_n\).
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Construction de \(\mathcal A_n\)	\( \mathcal A_n \)  est engendré par les  \( 3\)-cycles.
+Basique Maths	L3::Algèbre 1::Groupe Symétrique	Simplicité de \(\mathcal A_n\)	\( \mathcal A_n \)  est simple pour  \( n \ge 5\).

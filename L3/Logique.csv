@@ -1,0 +1,13 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Logique	Définition des formules par le haut et par le bas	On peut définir les formules de calcul propositionnel: - Par le haut comme plus petit ensemble stable par les opérations de construction contentant les variables propositionnel - Par le bas comme union des formules obtenues après \(n\) opérations de construction pour tout \(n \in \N\).
+Basique Maths	L3::Logique	Théorème de lecture unique	Toute formule \(F \in \mathcal F\) vérifie une et une seule de ces propriétés: - \(F\)  est une variables propositionnelle - \(F\) est la négation d'une variable propositionnelle - \(F\) est la conjonction / disjonction / implication / équivalence de deux formules.
+Basique Maths	L3::Logique	Bijection formules-arbres	Il y a une bijection entre les formules et les arbres dont: - Les feuilles sont étiquetées par des variables - Les noeuds internes sont étiquetés par des connecteurs - Les noeuds ont le nombre de fils correspondant au connecteur
+Basique Maths	L3::Logique	Lemme d'extension des valuations	Toute fonction \( \nu\) de \(\mathcal P\) (ensemble des variables propositionnelles) dans \(\{0, 1\}\) appelée valuation. Alors \(\nu\) s'étend de manière unique en une fonction \(\bar\nu\) de \(\mathcal F\) (ensemble des formules propositionnelles) dans \(\{0, 1\}\) dont la valeur sur les formules est cohérente avec les opérateurs.
+Basique Maths	L3::Logique	Ensemble finiment satisfiable	Un ensemble \(\mathcal E\) de formules est finiment satisfiable si tout sous-ensemble fini de \(\mathcal E\) est satisfiable.
+Basique Maths	L3::Logique	Conséquence sémantique	Une formule \(F\) est conséquence sémantique d'un ensemble de formules \(\mathcal E\) si toute valuation qui satisfait \(\mathcal E\) satisfait \(F\).
+Basique Maths	L3::Logique	Ensemble contradictoire	Un ensemble de formules est contradictoire s'il n'est pas satisfiable.
+Basique Maths	L3::Logique	Ensemble finiment contradictoire	Un ensemble de formules est finiment contradictoire s'il admet un sous-ensemble fini contradictoire.
+Basique Maths	L3::Logique	Théorème de compacité du calcul propositionnel (3 versions)	- Un ensemble de formules du calcul propositionnel est satisfiable si et seulement si il est finiment satisfiable - Un ensemble de formules du calcul propositionnel est finiment contradictoire si et seulement s'il est contradictoire - Pour tout ensemble \(\mathcal E\) de formules du calcul propositionnel et pour toute formule \(F\), \(F\) est conséquence sémantique de \(\mathcal E\) si et seulement si elle est conséquence sémantique d'un sous-ensemble fini de \(\mathcal E\).

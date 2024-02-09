@@ -1,7 +1,0 @@
-#separator:tab
-#html:false
-#notetype column:1
-#deck column:2
-Basique Maths	L3::Algèbre::Groupes de Sylow	Groupe \(p\)-Sylow	Soit  \( G \)  un groupe fini et  \( p \)  un facteur premier de  \( |G| \)  :  \( |G| = p^nm, n \ge 1, m\not \equiv 0 [p] \) . Un sous-groupe  \( H \)  de  \( G \)  est dit  \( p \) -Sylow si et seulement si  \( |H| = p^n\).
-Basique Maths	L3::Algèbre::Groupes de Sylow	Lemme fondalental sur les groupes de Sylow	Soit  \( G \)  un groupe fini et  \( p \)  un facteur premier de  \( |G| \) . Avec  \( P \subseteq G \)  un  \( p \) -groupe de Sylow et  \( H \le G \)  un sous-groupe tel que  \( p \)  divise  \( |H| \) . Alors  \( H \)  possède un  \( p \) -sous-groupe de Sylow de la forme  \( H \cap gPg^{-1} \)  pour un certain  \( g \in G\).
-Basique Maths	L3::Algèbre::Groupes de Sylow	Théorèmes de Sylow	Soit  \( G \)  un groupe fini et  \( p \)  facteur premier de  \( |G| \)  =  \( p^nm, m\wedge p = 1 \) . Alors: 1)  \( G \)  a un  \( p \) -sous-groupe de Sylow 2) Deux  \( p \) -Sylows sont conjugués 3) Tout  \( p \) -groupe est inclus dans un  \( p \) -sylow 4) Le nombre de  \( p \) -Sylows est congru à  \( 1 \)  modulo  \( p \)  et divise  \( m\).
