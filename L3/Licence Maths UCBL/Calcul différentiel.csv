@@ -1,0 +1,7 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Licence Maths UCBL::Calcul différentiel	Fonction différentiable	Soit \(f : U \subseteq\R^n \to \R^n\) avec \(U\) ouvert. Soit \(a \in U\). On dit que \(f\) est différentiable en \(a\) s'il existe \(l : \R^n \to \R^n\) linéaire telle que: \(f(a+h) = f(a) + l(h) + o(||h||)\).
+Basique Maths	L3::Licence Maths UCBL::Calcul différentiel	Notation différentielle	On note \(l = df_a\) la fonction telle que \(f(a+h) = f(a) + l(h) + o(||h||)\).
+Basique Maths	L3::Licence Maths UCBL::Calcul différentiel	Caractérisation d'une fonction linéaire par la différentielle	\(f\) est linéaire si et seulement si \(df_a = f\).

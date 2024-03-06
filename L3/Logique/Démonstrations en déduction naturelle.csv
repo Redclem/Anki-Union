@@ -1,0 +1,7 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Logique::Démonstrations en déduction naturelle	Séquent	Un séquent est un couple noté \(P \vdash F\) tel que \(P\) est un ensemble de formules appelé contexte et \(F\) une formule est la conclusion du séquent.
+Basique Maths	L3::Logique::Démonstrations en déduction naturelle	Séquent prouvable	Un séquent \(P \vdash F\) est prouvable, démontrable ou dérivable s'il peut être obtenu par une suite finie de règles.
+Basique Maths	L3::Logique::Démonstrations en déduction naturelle	Formule prouvable	Une formule \(F\) est prouvable si \(\varnothing \vdash F\) l'est.

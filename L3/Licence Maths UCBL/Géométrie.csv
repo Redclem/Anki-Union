@@ -1,0 +1,14 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Espace affine	Un espace affine est un triplet \((\mathcal E, E , +)\) où \(\mathcal E\) est un ensemble, \(E\) un \(K\)-espace vectoriel, \(+ : \mathcal E \times E \to \mathcal E\), \((x,y) \mapsto x + u\) une action simplement transitive du groupe \((E, +)\) sur l'ensemble \(\mathcal E\).
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Notation vecteur dans un espace affine	Pour \(x, y\in \mathcal E\), on note \(\vec{xy}\) l'élément de \(E\) tel que \(x + \vec{xy} = y\).
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Opérations sur les éléments de \(E\) par rapport à l'espace affine	Pour \(x, y, z\in E, \vec{xz} = \vec{xy} + \vec{yz}\) et \(\vec{xy} = -\vec{yx}\).
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Dimension d'un espace affine	Pour \((\mathcal E, E, +)\) un espace affine non vide, la dimension de \(\mathcal E\) est la dimension de \(E\).
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Sous-espace affine	\(\mathcal F\) est un sous-espace affine de \((\mathcal E, E , +)\) si \(\mathcal F = 0\) ou il existe \(F \le E\) et \(x \in \mathcal E\) tels que \(\mathcal F = x + F\).
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Direction d'un espace affine.	La direction de \((\mathcal E, E, +)\) est \(E\).
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Application affine, partie linéaire	Soient \((\mathcal E, E, +)\), \((\mathcal F, F, +)\) deux espaces affines. Une application affine est une fonction \(f : \mathcal E \to \mathcal F\) telle que \(\exists \vec f \in \mathcal L(E,F), \forall x,y \in \mathcal E, \overrightarrow{f(x)f(y)} = \vec f (\overrightarrow{xy})\). L'application linéaire \(\vec f \space\) est la partie linéaire de \(f\).
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Théorème de Thalès	Soient \(O, A,B\) trois points affinements indépendants d'un \(K\)-espace affine. On suppose que \(A' \in (OA)\) et \(B'=(OB)\). Les psse: - \(\frac{\vec{OA'}}{\vec{OA}} = \frac{\vec{OB'}}{\vec{OB}}\) - Il existe une homothétie \(h\) de centre \(O\) telle que \(h(A) = A'\) et \(h(B) = B'\) - \((AB) \parallel (A'B')\)
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Théorème de Desargues	Soient \(A,B,C\) et \(A',B',C'\) deux triangles dans un plan affine. On suppose que les arêtes sont parallèles deux à deux. Alors \((AA'), (BB'), (CC')\) sont concourrantes (s'intersectent au même point 2 à 2) ou parallèles.
+Basique Maths	L3::Licence Maths UCBL::Géométrie	Fonction dérivable et dérivée dans une direction	Si \(f : U \subseteq \R^n \to \R^m\), \(U\) ouvert, \(f\) est dérivable en \(a \in U\) dans la direction de \(v\) si \(t \mapsto f(a + tv)\) est dérivable en \(0\) comme fonction \(\R \to \R^m\). On note alors \(\partial_vf(a)\) cette dérivée.

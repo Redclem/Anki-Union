@@ -1,0 +1,7 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Logique::Sémantique de la logique du premier ordre	Interprétation d'un langage	Soit \(\mathcal L\) un langage de la logique du premier ordre. On appelle interprétation du langage \(\mathcal L\) (ou modèle ou structure) l'ensemble \(\mathcal M\) des données suivantes: - Un ensemble non vide \(|\mathcal M|\) appelée domaine ou ensemble de base de \(\mathcal M\). - Pour chaque symbole \(c\) de constante de \(\mathcal L\), un élément \(c_\mathcal M\) de \(|\mathcal M|\) - Pour chaque symbole \(f\) de fonction \(n\)-aire de \(\mathcal L\), une fonction \(f_\mathcal M : |\mathcal M|^n \to |\mathcal M|\) - Pour chaque symbole \(R\) de relation \(n\)-aire de \(\mathcal L\), une relation \(f_\mathcal M\) de \(|\mathcal M|^n\).
+Basique Maths	L3::Logique::Sémantique de la logique du premier ordre	Environnement	- Un environnement est une fonction de l'ensemble des variables dans \(|\mathcal M|\) - Si \(e\) un environnement et \(a \in |\mathcal M|\), on note \(e[x:=a]\) l'environnement \(e'\) tel que \(e'(x) = a\) et \(e' = e\) autre part.
+Basique Maths	L3::Logique::Sémantique de la logique du premier ordre	Valeur d'un terme dans une interprétation	La valeur du terme \(t\) dans l'environnement noté \(Val_\mathcal M(t, e)\) est défini par induction sur l'ensemble des termes: - \(Val_\mathcal M(c,e) = c_\mathcal M\) - \(Val_\mathcal M(x, e)= e(x)\) - \(Val_\mathcal M(f(t_1, \dots, t_n),e) = f_\mathcal M(Val_\mathcal M(t_1, e), \dots, Val_\mathcal M(t_n, e))\).

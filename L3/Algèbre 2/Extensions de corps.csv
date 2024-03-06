@@ -1,0 +1,38 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Algèbre 2::Extensions de corps	Extension de corps	Si \(L, K\) sont des corps, et \(\rho : K \to L\) est un morphisme, \(L\) est une extension de corps de \(K\). On note \(L-\rho(K)\) ou \(\begin{array}{ll}L\\|\\\rho(K)\end{array}\), ou\(L-K\) et \(\begin{array}{ll}L\\|\\K\end{array}\)s'il n'y a pas d'ambiguité.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Élément transcendant, algébrique	Avec \(L-K\), un élément \(a\in L\) est transcendant sur \(K\) si et seulement si \(eval_a:K[X] \to L\) est injective. \(a\) est algébrique sur \(K\) sinon.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Polynôme minimal d'un élément algébrique	Pour \(a \in L\) algébrique sur \(K\), le polynôme minimal de \(a\) sur \(K\) est le polynôme \(P_a\) unitaire de \(K[X]\) tel que \(\ker(eval_a) = (P_a)\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Degré d'un élément algébrique	Le degré de \(a \in L-K\) sur \(K\) est \(\deg(P_a)\). C'est le degré minimal d'un polynôme de \(K[X]\) qui annule \(a\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Réductibilité du polynôme minimal	Pour \(a \in L\setminus\{0\}\) algébrique, \(P_a\) est irréductible.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Degré d'une extension	Pour \(L-K\), \(L\) est un \(K\)-ev, et le degré de l'extension \(L-K\) est \([L, K] = \dim_KL\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Théorème de la base télescopique	Si \(L-K, M-L\) des extensions, alors \(M-K\) est une extension de degré \([M,K] = [M,L][L, K]\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Extension finie	Une extension est finie si et seulement si elle est de degré fini.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Chaîne d'extension finie	Si \(M-L, L-K\) sont des extensions finies, \(M-K\) est une extension finie.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Caractérisation des éléments algébriques par des extensions	Avec \(L-K\) une extension et \(a \in L\), les psse: 1) \(a\) est algébrique sur \(K\) 2) \([K(a), K]\) est finie 3) \(K[a] = K(a)\) dans \(L\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Degré d'un élément algébrique, du polynôme et de l'extension associée	Si \(a \in L-K\) est algébrique, \([K(a), K] = \deg a = \deg P_a\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Extension algébrique	\(L-K\) est une extension algébrique si tous ses éléments sont algébriques sur \(K\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Extensions algébriques et finies	Toute extension finie est algébrique. La réciproque est fausse.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Ensemble des éléments algébriques d'une extension	Pour \(M-K\) une extension, alors l'ensemble \(L\) des éléments de \(M\) algébriques sur \(K\) est un corps et une extension de \(K\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Corps algébriquement clos	On dit que \(K\) est algébriquement clos si \(\forall P \in K[X]\), avec \(\deg P \ge 1\), \(P\) a une racine dans \(K\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Caractérisation des corps algébriquement clos par les extensions	\(K\) est algébriquement clos si et seulement si \(\forall L-K\) algébrique, \([L, K] = 1\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Théorème d'Alembert-Gauss	\(\bar C\) est algébriquement clos.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Clôture algébrique	La clôture algébrique de \(K\) est la plus petite (au sens de l'inclusion) extension de \(K\) algébriquement close.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Corps de rupture	Soit \(P \in K[X]\) irréductible. \(L-K\) est un corps de rupture pour \(P\) si \(\exists a \in L, P(a) = 0 \wedge L = K(a)\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Existence d'un corps de rupture	Pour \(P \in K[X]\) irréductible, il existe un corps de rupture (sur \(K\)) unique à isomorphisme près.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Corps de décomposition	Pour \(P \in K[X]\), un corps de décomposition pour \(P\) sur \(K\) est une extension \(D_K(P) - K\) dans laquelle \(P\) est scindé, et qui est algébrique pour \(K\) et engendré par les racines de \(P\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Existence et unicité du corps de décomposition	Pour tout polynôme \(P \in K[X]\) de degré au moins \(1\), il existe une extension \(L-K\) où \(L\) est un corps de décomposition de \(P\) sur \(K\), unique à isomorphisme près. On le note parfois \(L = D_K(P)\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Sous-corps premier	Le sous-corps premier d'un corps est l'intersection de tous ses sous-corps.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Description explicite du sous-corps premier	C'est le sous-corps engendré par \(0\) et \(1\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Morphisme dans le corps depuis \(\Z\)	Il y a toujours un morphisme d'anneaux \(\Z \to K\) dans le corps \(K\) tel que \(0_\Z \mapsto 0_K\) et \(1_\Z \mapsto 1_K\). Cet isomorphisme est unique.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Noyau du morphisme \(\Z \to K\)	Le noyau de ce morphisme est soit trivial, soit un idéal premier car \(K\) est intègre.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Noyau du morphisme depuis \(\Z\), caractéristique	On note \(\varphi : \Z \to K\). - Si \(\ker \varphi = \{0\}\), \(K\) est infini et son sous-corps premier est isomorphe à \(\Q\). \(K\) est de caractéristique nulle. - Si \(\ker \varphi \ne \{0\}\), il existe \(p\) premier tel que \(\ker \varphi = (p)\), le sous-corps premier de \(K\) est isomorphe à \(\Z/p\Z\) : \(\varphi(\Z) \simeq \Z/p\Z\). \(K\) est de caractéristique \(p\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Caractéristique et taille d'un corps	- Un corps de caractéristique nulle est infini. - Un corps de caractéristique non nulle peut être infini!
+Basique Maths	L3::Algèbre 2::Extensions de corps	Endomorphisme puissance caractéristique	Pour \(K\) corps de caractéristique \(p > 0\), \(F : \begin{array}{ll}K \to K \\ x \mapsto x^p\end{array}\) est un endomorphisme de corps. - Si \(K\) est fini, c'est un endomorphisme de corps. - Avec \(K_0\) le corps premier de \(K\), \(F_{\vert K_0} = Id_{K_0}\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Théorème d'existence et d'unicité des corps finis	Pour tout nombre premier \(p\) et entier \(n \ge 1\), il existe un corps de cardinal \(p^n\) unique à isomorphisme près; tout corps fini a cardinal une puissance d'un nombre premier.
+Basique Maths	L3::Algèbre 2::Extensions de corps	Notation du corps fini de cardinal \(p^n\)	On note \(\mathbb F_{p^n}\) le corps fini de cardinal \(p^n\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Extensions de corps finis	Les extensions de corps finis sont exactement les \(\mathbb F_{p^k}-\mathbb F_{p^r}\) où \(r | k\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Propriété des inversibles d'un corps fini	Pour \(q\) puissance d'un nombre premier, \(\mathbb F_q^\times\) est un groupe cyclique d'ordre \(q - 1\).
+Basique Maths	L3::Algèbre 2::Extensions de corps	Somme des indicatrices d'euler des diviseurs d'un nombre	Pour \(n\) entier, \(n = \sum\limits_{d | n}\varphi(d)\).

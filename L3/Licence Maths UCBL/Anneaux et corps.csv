@@ -1,0 +1,9 @@
+#separator:tab
+#html:false
+#notetype column:1
+#deck column:2
+Basique Maths	L3::Licence Maths UCBL::Anneaux et corps	Quotient d'un anneau par un idéal, morphisme canonique	Le quotient d'un anneau \(A\) par un de ses idéaux propres \(I\) est un anneau noté \(A/I\). Le morphisme canonique \(x \mapsto \bar x\) est un morphisme d'anneaux.
+Basique Maths	L3::Licence Maths UCBL::Anneaux et corps	Premier théorème d'isomorphisme sur les anneaux	Pour \(\phi :A \to B\) morphisme d'anneaux, \(\begin{array}{ll}A/\ker(\phi) \to B \\ \bar x \mapsto \phi(x)\end{array}\) est un isomorphisme d'anneaux.
+Basique Maths	L3::Licence Maths UCBL::Anneaux et corps	Lien idéaux maximaux et premier	Un idéal maximal est premier.
+Basique Maths	L3::Licence Maths UCBL::Anneaux et corps	Idéal premier, maximal (définition par l'idéal)	Un idéal propre \(I\le A\) est: - Premier si \(\forall x,y \in A, xy \in I \implies x\in I \vee y \in I\). - Maximal si pour \(J\) idéal, \(I \subseteq J \subseteq A \implies J \in \{I, A\}\).
+Basique Maths	L3::Licence Maths UCBL::Anneaux et corps	Caractérisation des irréductibles et premiers dans un anneau principal	Si \(A\) principal, pour \(a \in A\setminus 0\) non inversible, les psse: - \(a\) est irréductible - \(a\) est premier - \((a)\) maximal
